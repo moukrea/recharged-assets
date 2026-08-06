@@ -19,7 +19,7 @@ ARG ETCPAK_COMMIT=9110365ba6916c9554c231c5cdcac77b2618cb89
 RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates curl unzip bzip2 xz-utils \
         python3 python3-pip python3-venv \
-        build-essential git git-lfs libpng-dev gh \
+        build-essential pkg-config git git-lfs libpng-dev gh \
     && rm -rf /var/lib/apt/lists/*
 
 # cmake/ninja from pip: etcpak's cmake_minimum_required is newer than what
