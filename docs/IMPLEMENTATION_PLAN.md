@@ -244,7 +244,7 @@ fail with diagnostic.
 |---|---|---|
 | 1. Contracts | 4 schemas + RPACK spec + Python/C++ parsers + tests | starts now |
 | 2. Toolchain | Dockerfile + encoder bake-off + pinned image | |
-| 3. Vertical prototype | 7 village1 materials (they're in our masters) end-to-end: 3 profiles, loaded by a libktx harness AND by an M1 spike in the fork on a throwaway branch; side-by-side vs bundled PNGs | proves stats/normal-XY/gamma decisions on the real renderer |
+| 3. Vertical prototype | the 7 bundled village1 materials end-to-end: 3 profiles, loaded by a libktx harness AND by an M1 spike in the fork on a throwaway branch; side-by-side vs bundled PNGs | 4 of the 7 are already repo masters; the other 3 (`vil-wallplaster`, `vil1-jng-leafyground`, `vil-hut-roof-tile-01`) must first be imported from the owner's first-party set (decision #1 below) — proves stats/normal-XY/gamma on the real renderer |
 | 4. Metadata fill | derive_metadata + wrap modes + esrgan_dims + original dims/keys | placements already imported |
 | 5. Full pipeline + CI | incremental PR flow, release flow, `assets-v0.1.0` | |
 | 6. Engine M1 | PR onto a fresh branch off android-port | rebase discipline |
@@ -254,9 +254,11 @@ fail with diagnostic.
 ## 8. Open decisions for the owner
 
 1. **Reconcile the 7 bundled village1 materials with this repo's masters**
-   — same material names exist in both; which pixels are canonical (the
-   repo masters are the corrected chain; the APK set includes JPEG-in-png
-   defects), and does the bundled tier stay at all after M3?
+   — 4 exist in both (repo masters = corrected chain; the APK set includes
+   the JPEG-in-png `vil-beach-01` defect), 3 exist only in the fork
+   (`vil-wallplaster`, `vil1-jng-leafyground`, `vil-hut-roof-tile-01`).
+   Import those 3 as repo masters? Which pixels are canonical for the 4
+   duplicates? Does the bundled APK tier stay at all after M3?
 2. **Precedence of the managed pack vs the user drop dir** — plan says
    user > managed (modders override packs). Confirm.
 3. **Level-cluster granularity** for shards — decide with real size data at
