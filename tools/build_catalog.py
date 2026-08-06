@@ -239,37 +239,41 @@ def main() -> int:
                                         "override_proposal": proposal})
 
     # ---- shard assembly (unless suppressed) -------------------------------
+    # One family at a time: payloads are only resident for the shard being
+    # written (the full catalog is several GB — holding everything OOMs).
     if not args.no_shards:
         cache_dir = Path(args.cache).resolve()
         by_family: dict = {}
         for r in all_results:
-            mat, sem = r["mat"], r["sem"]
-            tpage = mat.split("/")[0]
-            fam = shards.shard_family("jak1", r["profile"], r["preset"], sem, tpage)
-            key = r["cache_key"]
-            ktx = cache_dir / key[:2] / f"{key}.ktx2"
-            gates = json.loads(ktx.with_suffix(".gates.json").read_text())
-            e = rpack.Entry(
-                id=f"jak1/{mat}", key=mat, map=sem,
-                format="VK_FORMAT_" + encode_ktx2.FORMATS[r["format"]].vk,
-                width=r["dims"][0], height=r["dims"][1],
-                mip_levels=gates["mip_levels"], colorspace=COLORSPACE[sem],
-                channels=PROFILES[r["profile"]][sem][1],
-                wrap_mode=metas[mat].get("wrap_mode", "repeat"),
-                payload=ktx.read_bytes(),
-                stats=gates["stats"] or None)
-            by_family.setdefault(fam, []).append(e)
-        for fam, entries in sorted(by_family.items()):
+            tpage = r["mat"].split("/")[0]
+            fam = shards.shard_family("jak1", r["profile"], r["preset"], r["sem"], tpage)
+            by_family.setdefault(fam, []).append(r)
+        for fam, recs in sorted(by_family.items()):
             game, prof, preset, group, cluster = fam
+            entries = []
+            for r in recs:
+                key = r["cache_key"]
+                ktx = cache_dir / key[:2] / f"{key}.ktx2"
+                gates = json.loads(ktx.with_suffix(".gates.json").read_text())
+                entries.append(rpack.Entry(
+                    id=f"jak1/{r['mat']}", key=r["mat"], map=r["sem"],
+                    format="VK_FORMAT_" + encode_ktx2.FORMATS[r["format"]].vk,
+                    width=r["dims"][0], height=r["dims"][1],
+                    mip_levels=gates["mip_levels"], colorspace=COLORSPACE[r["sem"]],
+                    channels=PROFILES[r["profile"]][r["sem"]][1],
+                    wrap_mode=metas[r["mat"]].get("wrap_mode", "repeat"),
+                    payload=ktx.read_bytes(),
+                    stats=gates["stats"] or None))
             meta = rpack.PackMeta(game, prof, preset, group, cluster)
             tmp = out / f"tmp-{prof}-{preset}-{group}-{cluster}.rpack"
             sha = rpack.write(tmp, meta, entries)
+            del entries
             final = out / shards.shard_name(fam, sha)
             tmp.rename(final)
             report["shards"].append({"name": final.name, "family": list(fam),
-                                     "entries": len(entries), "sha256": sha,
+                                     "entries": len(recs), "sha256": sha,
                                      "size": final.stat().st_size})
-        print(f"{len(report['shards'])} shards written to {out}")
+        print(f"{len(report['shards'])} shards written to {out}", flush=True)
 
     (out / "build-report.json").write_text(json.dumps(report, indent=1))
     if failures:
