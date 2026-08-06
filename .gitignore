@@ -1,0 +1,10 @@
+# Generated outputs are never committed — they are rebuilt by CI and
+# published as release assets (KTX2, RPACK shards, manifests with hashes).
+/build/
+/out/
+/dist/
+*.ktx2
+*.rpack
+__pycache__/
+*.pyc
+.venv/

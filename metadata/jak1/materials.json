@@ -1,0 +1,1672 @@
+{
+ "beach-vis-pris/crab-shell-01": {
+  "canonical_id": "beach-vis-pris/crab-shell-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "4b25d7034d8d15a87d731b7bd4fee63efaec10c2954dca56cf5dabe468d28aee",
+  "placements": [
+   "beach-vis-pris/crab-shell-01.png"
+  ]
+ },
+ "beach-vis-pris/crab-shell-02": {
+  "canonical_id": "beach-vis-pris/crab-shell-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "5235e76cf85fd7481bd67ed78f24c40fb3f725ce5e40036017689b6a442a9079",
+  "placements": [
+   "beach-vis-pris/crab-shell-02.png"
+  ]
+ },
+ "beach-vis-pris/mayor-pants": {
+  "canonical_id": "beach-vis-pris/mayor-pants",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "30aa39d0324cef74e84178326fabbfabebb66635db0db31eeffdfdf825093499",
+  "placements": [
+   "beach-vis-pris/mayor-pants.png"
+  ]
+ },
+ "beach-vis-pris/worm-body": {
+  "canonical_id": "beach-vis-pris/worm-body",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "558a9e352099ac0bf4e6dff6d555b0ad0823f1f5e6786f7e8d54b2be5d7ea160",
+  "placements": [
+   "beach-vis-pris/worm-body.png"
+  ]
+ },
+ "beach-vis-shrub/bch-hut-wood-01endcap": {
+  "canonical_id": "beach-vis-shrub/bch-hut-wood-01endcap",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "71c82f87b9203030adf2ed601f15f3a0293f46417b00bb485115b2a2d3fda749",
+  "placements": [
+   "beach-vis-shrub/bch-hut-wood-01endcap.png",
+   "beach-vis-tfrag/bch-hut-wood-01endcap.png",
+   "jungle-vis-tfrag/jng-hut-wood-01endcap.png",
+   "training-vis-tfrag/vil-hut-wood-01endcap.png",
+   "village1-vis-tfrag/vil-hut-wood-01endcap.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-ecovalve-grate": {
+  "canonical_id": "beach-vis-tfrag/bch-ecovalve-grate",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "0105e95b680902f41e1b0eb36d110d4223223364382dc892ea1bacb2ced5e03f",
+  "placements": [
+   "beach-vis-tfrag/bch-ecovalve-grate.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-egg": {
+  "canonical_id": "beach-vis-tfrag/bch-egg",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "eb86e6ab0e6cc669f7bc7c0d070e1f48b89e479c437d8372050728d82f65b7d9",
+  "placements": [
+   "beach-vis-tfrag/bch-egg.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-grottopole-end-01": {
+  "canonical_id": "beach-vis-tfrag/bch-grottopole-end-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "06eba0b3879321ff0a1388b23f6ec3cc78b10d70aa373cecfe31602fad4f8fbb",
+  "placements": [
+   "beach-vis-tfrag/bch-grottopole-end-01.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-huttoprim-hitweak": {
+  "canonical_id": "beach-vis-tfrag/bch-huttoprim-hitweak",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "ea6580f62f1785aaa3be4e537d5883c0431dcea710625e0f0f9499d28564b47f",
+  "placements": [
+   "beach-vis-tfrag/bch-huttoprim-hitweak.png",
+   "beach-vis-tfrag/bch-huttoprim.png",
+   "citadel-vis-tfrag/vil-huttoprim.png",
+   "training-vis-tfrag/vil-huttoprim.png",
+   "village1-vis-pris/vil-boathull.png",
+   "village1-vis-tfrag/vil-huttoprim.png",
+   "village2-vis-tfrag/vil-huttoprim.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-hvstr-baloon": {
+  "canonical_id": "beach-vis-tfrag/bch-hvstr-baloon",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "04c5458cf939e3f509139fa139c5207ebebf12d8e85e567cbb88caeb7cb6447d",
+  "placements": [
+   "beach-vis-tfrag/bch-hvstr-baloon.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-hvstr-cap": {
+  "canonical_id": "beach-vis-tfrag/bch-hvstr-cap",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "2cc03cbcf470875d1a1b50567083dbb6cad3c66c36502000e33096d45e6ebd0d",
+  "placements": [
+   "beach-vis-tfrag/bch-hvstr-cap.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-idol-broken": {
+  "canonical_id": "beach-vis-tfrag/bch-idol-broken",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "019fa4329689629cd2689abace3b1e44323f7e244f04b05ca76cf94c38249701",
+  "placements": [
+   "beach-vis-tfrag/bch-idol-broken.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-outpostwall": {
+  "canonical_id": "beach-vis-tfrag/bch-outpostwall",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "8146939a5fde780d0ce8f9b4721c14ae4604f8a2937a843fb4c797f3619cb638",
+  "placements": [
+   "beach-vis-tfrag/bch-outpostwall.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-path-01": {
+  "canonical_id": "beach-vis-tfrag/bch-path-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "6bc321097be29b971f5d26558cf5d60e9c59d8f4609dcc19a6d2af1f9f9e2b57",
+  "placements": [
+   "beach-vis-tfrag/bch-path-01.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-sages-strawroof-01": {
+  "canonical_id": "beach-vis-tfrag/bch-sages-strawroof-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "2e5e0bcd7f3f6a66eb2e8be43f876221998863df5785b991f095937e59464692",
+  "placements": [
+   "beach-vis-tfrag/bch-sages-strawroof-01.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-statue-rock-round": {
+  "canonical_id": "beach-vis-tfrag/bch-statue-rock-round",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "7deb7263a25f05a7ddf9f3002aace7a0520b146684d2bb6026f1244aa5a8633a",
+  "placements": [
+   "beach-vis-tfrag/bch-statue-rock-round.png"
+  ]
+ },
+ "beach-vis-tfrag/bch-windmill-wood-01": {
+  "canonical_id": "beach-vis-tfrag/bch-windmill-wood-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "a9b784bce8d0c35a20f701667958789307705290e1597a2ceb16652b87d5513e",
+  "placements": [
+   "beach-vis-tfrag/bch-windmill-wood-01.png"
+  ]
+ },
+ "beach-vis-tfrag/mis-metalrivets": {
+  "canonical_id": "beach-vis-tfrag/mis-metalrivets",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "422d477b4510791dbe3a8c25b0ae988dad8dd791501b2499be2b177cdeb1ef94",
+  "placements": [
+   "beach-vis-tfrag/mis-metalrivets.png",
+   "misty-vis-tfrag/mis-metalrivets.png"
+  ]
+ },
+ "beach-vis-tfrag/mis-woodpoletop": {
+  "canonical_id": "beach-vis-tfrag/mis-woodpoletop",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "4d8e11a76272b103b3721f50c86c37840805895fe70e400c289308225ba2fa2c",
+  "placements": [
+   "beach-vis-tfrag/mis-woodpoletop.png",
+   "misty-vis-pris/mis-woodpoletop.png",
+   "misty-vis-tfrag/mis-woodpoletop.png"
+  ]
+ },
+ "citadel-vis-pris/citbun-body": {
+  "canonical_id": "citadel-vis-pris/citbun-body",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "d2658d0d0ed2527a67c99d57c04605169c347be605918cb268d70ad6cb1ede44",
+  "placements": [
+   "citadel-vis-pris/citbun-body.png"
+  ]
+ },
+ "citadel-vis-pris/citbun-head": {
+  "canonical_id": "citadel-vis-pris/citbun-head",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f223e1187090c32a8f7b4ccdb314996d8604a704c9e627c0c72593bc70ed2164",
+  "placements": [
+   "citadel-vis-pris/citbun-head.png"
+  ]
+ },
+ "citadel-vis-pris/redsage-dial": {
+  "canonical_id": "citadel-vis-pris/redsage-dial",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "c35203cb7ee854fd03eb45fd931e909e60b7504d444a75069fd61cd63f136c86",
+  "placements": [
+   "citadel-vis-pris/redsage-dial.png"
+  ]
+ },
+ "citadel-vis-pris/roboss-cit-metalplates-01": {
+  "canonical_id": "citadel-vis-pris/roboss-cit-metalplates-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "2a57db1c3de9d16a06b8ea1a62851bef45122ab22cab3428b49f629852be408c",
+  "placements": [
+   "citadel-vis-pris/roboss-cit-metalplates-01.png"
+  ]
+ },
+ "citadel-vis-tfrag/cit-blueroom-metal-01": {
+  "canonical_id": "citadel-vis-tfrag/cit-blueroom-metal-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "ed63fe504d5fa88a8b0f2d0c2a36bf7ddcd768f274db39e0c2a62cd0964c34fa",
+  "placements": [
+   "citadel-vis-tfrag/cit-blueroom-metal-01.png"
+  ]
+ },
+ "citadel-vis-tfrag/cit-hose": {
+  "canonical_id": "citadel-vis-tfrag/cit-hose",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "52dc803a421f2268f5c95a858e63f0988fe2b074a31c714d9c86b2701e17a348",
+  "placements": [
+   "citadel-vis-tfrag/cit-hose.png"
+  ]
+ },
+ "citadel-vis-tfrag/cit-pre-lip": {
+  "canonical_id": "citadel-vis-tfrag/cit-pre-lip",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "7ed8b2fe7cb6e9088d865c80f61bb083d8e0335adeb1b308a2c6114795465e4d",
+  "placements": [
+   "citadel-vis-tfrag/cit-pre-lip.png"
+  ]
+ },
+ "citadel-vis-tfrag/cit-precursor-circuitpattern-andwall-01-hitweak": {
+  "canonical_id": "citadel-vis-tfrag/cit-precursor-circuitpattern-andwall-01-hitweak",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b88e70dc4561f41455dc5547b9df80d51aa2404e747836382fd6e03a248d671f",
+  "placements": [
+   "citadel-vis-tfrag/cit-precursor-circuitpattern-andwall-01-hitweak.png",
+   "citadel-vis-tfrag/cit-precursor-circuitpattern-andwall-01.png",
+   "sunken-vis-tfrag/sun-precursor-circuitpattern-andwall-01.png",
+   "sunkenb-vis-pris/sun-precursor-circuitpattern-andwall-01.png",
+   "sunkenb-vis-tfrag/sun-precursor-circuitpattern-andwall-01.png"
+  ]
+ },
+ "citadel-vis-tfrag/cit-precursor-largewall": {
+  "canonical_id": "citadel-vis-tfrag/cit-precursor-largewall",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "e34c610ce3c39d09eae5cff4c9f5a9ddd8379a7a2e318dbe853a9432d02d57aa",
+  "placements": [
+   "citadel-vis-tfrag/cit-precursor-largewall.png"
+  ]
+ },
+ "citadel-vis-tfrag/cit-temp-precursor-plain": {
+  "canonical_id": "citadel-vis-tfrag/cit-temp-precursor-plain",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "57f18af5aae7388a412f46d354d4a1e7e5ef1d12c487f71e99e070508e8e65cc",
+  "placements": [
+   "citadel-vis-tfrag/cit-temp-precursor-plain.png",
+   "finalboss-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "jungle-vis-tfrag/cmn-precursor-metal-plain-01-hitweak.png",
+   "jungle-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "jungle-vis-tfrag/jng-precursor-metal-plain-01.png",
+   "jungleb-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "misty-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "ogre-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "robocave-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "rolling-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "rolling-vis-tfrag/rol-precursor-metal-plain-01.png",
+   "sunken-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "sunkenb-vis-tfrag/jng-precursor-metal-plain-01.png",
+   "training-vis-tfrag/cmn-precursor-metal-plain-01.png",
+   "village1-vis-tfrag/precursor-metal-plain-01.png",
+   "village2-vis-tfrag/precursor-metal-plain-01.png",
+   "village3-vis-tfrag/precursor-metal-plain-01.png"
+  ]
+ },
+ "citadel-vis-tfrag/cit-wires-lotweak": {
+  "canonical_id": "citadel-vis-tfrag/cit-wires-lotweak",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "94da6fce41c311e33cd54604829e327c35f6b3853949f0843e695c2dd76c50a2",
+  "placements": [
+   "citadel-vis-tfrag/cit-wires-lotweak.png",
+   "citadel-vis-tfrag/cit-wires.png"
+  ]
+ },
+ "citadel-vis-tfrag/citb-metal-brown": {
+  "canonical_id": "citadel-vis-tfrag/citb-metal-brown",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "45108db1a3569debff73ea1917244747b84e2f287049ff06f62012990a63141f",
+  "placements": [
+   "citadel-vis-tfrag/citb-metal-brown.png"
+  ]
+ },
+ "citadel-vis-tfrag/citb-metal-green": {
+  "canonical_id": "citadel-vis-tfrag/citb-metal-green",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f9024d678d0f3445fff34123d74588a9cd8b7f79d84b7392817b8e7133091871",
+  "placements": [
+   "citadel-vis-tfrag/citb-metal-green.png"
+  ]
+ },
+ "citadel-vis-tfrag/citb-metal-panes-hitweak": {
+  "canonical_id": "citadel-vis-tfrag/citb-metal-panes-hitweak",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "9902898a204796904c3f56d7227bc5405b6f50dff326d51d4bc0264f1d2b61dd",
+  "placements": [
+   "citadel-vis-tfrag/citb-metal-panes-hitweak.png",
+   "citadel-vis-tfrag/citb-metal-panes.png"
+  ]
+ },
+ "citadel-vis-tfrag/citb-metal-plates-lotweak": {
+  "canonical_id": "citadel-vis-tfrag/citb-metal-plates-lotweak",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f2613ec9335581fafd176ca563db49425a3316feba881a45083ca40b00e46077",
+  "placements": [
+   "citadel-vis-tfrag/citb-metal-plates-lotweak.png",
+   "citadel-vis-tfrag/citb-metal-plates.png"
+  ]
+ },
+ "citadel-vis-tfrag/citb-metal-wallplating-hitweak": {
+  "canonical_id": "citadel-vis-tfrag/citb-metal-wallplating-hitweak",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "48dc7ce2360bb8e0ff9c334ed5f10f46060eb87e866d0e2a7b3f6420a8fb4070",
+  "placements": [
+   "citadel-vis-tfrag/citb-metal-wallplating-hitweak.png",
+   "citadel-vis-tfrag/citb-metal-wallplating.png"
+  ]
+ },
+ "darkcave-vis-pris/spideregg-01": {
+  "canonical_id": "darkcave-vis-pris/spideregg-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f4d2227a28d01d663a4cfa3b1581b44d5357bf4cb0c7c8da628343f9c18b1153",
+  "placements": [
+   "darkcave-vis-pris/spideregg-01.png",
+   "maincave-vis-pris/spideregg-01.png",
+   "robocave-vis-pris/spideregg-01.png"
+  ]
+ },
+ "darkcave-vis-shrub/cv-villagepole-new-wood": {
+  "canonical_id": "darkcave-vis-shrub/cv-villagepole-new-wood",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "fd2d70f342dfbf205dc717ef4f8c520d6b7b1d91385e424673a5dc73c3da0985",
+  "placements": [
+   "darkcave-vis-shrub/cv-villagepole-new-wood.png",
+   "darkcave-vis-tfrag/cv-villagepole-new-wood.png",
+   "maincave-vis-tfrag/cv-villagepole-new-wood.png",
+   "robocave-vis-shrub/cv-villagepole-new-wood.png",
+   "robocave-vis-tfrag/cv-villagepole-new-wood.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-cavefloor-01-2x2": {
+  "canonical_id": "darkcave-vis-tfrag/cv-cavefloor-01-2x2",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f2fc759ff7de41f04caf9a84373459d7643eaebb09a6a7fb32553479bc15dd5b",
+  "placements": [
+   "darkcave-vis-tfrag/cv-cavefloor-01-2x2.png",
+   "maincave-vis-tfrag/cv-cavefloor-01-2x2.png",
+   "robocave-vis-tfrag/cv-cavefloor-01-2x2.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-floorfringe-01-2x2": {
+  "canonical_id": "darkcave-vis-tfrag/cv-floorfringe-01-2x2",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "314de66be6c752f3cfd4d31fb5362225deea54cc04196790acc95fe336cae8ab",
+  "placements": [
+   "darkcave-vis-tfrag/cv-floorfringe-01-2x2.png",
+   "maincave-vis-tfrag/cv-floorfringe-01-2x2.png",
+   "robocave-vis-tfrag/cv-floorfringe-01-2x2.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-prestatue-deco-06": {
+  "canonical_id": "darkcave-vis-tfrag/cv-prestatue-deco-06",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "0546a32383f2744b6430e1ffbdefc4a7c8762d5795c853020ab347868a7ef9ce",
+  "placements": [
+   "darkcave-vis-tfrag/cv-prestatue-deco-06.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-prestatue-stone-01-crack": {
+  "canonical_id": "darkcave-vis-tfrag/cv-prestatue-stone-01-crack",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "65adc081455634060c7b96d66545a792f10fc4046f1e7996eb490f9febe2c1ed",
+  "placements": [
+   "darkcave-vis-tfrag/cv-prestatue-stone-01-crack.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-prestatue-stone-01dk": {
+  "canonical_id": "darkcave-vis-tfrag/cv-prestatue-stone-01dk",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "67ed3cfda3cf56ded518c80bca4f7eb330ffcdb739469593a3132765989ad54a",
+  "placements": [
+   "darkcave-vis-tfrag/cv-prestatue-stone-01dk.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-prestatue-stone-01lt": {
+  "canonical_id": "darkcave-vis-tfrag/cv-prestatue-stone-01lt",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "303c9372137763655b6a0e0d26418b47d22a96b32eeadddac387cf0097dd3a9b",
+  "placements": [
+   "darkcave-vis-tfrag/cv-prestatue-stone-01lt.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-spatula-rim-02": {
+  "canonical_id": "darkcave-vis-tfrag/cv-spatula-rim-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "798b2e6888979bb4230fd92c091371a86a24fd270f0fc74890789e4fb9b20dfa",
+  "placements": [
+   "darkcave-vis-tfrag/cv-spatula-rim-02.png",
+   "robocave-vis-tfrag/cv-spatula-rim-02.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-trapdoor-top-01": {
+  "canonical_id": "darkcave-vis-tfrag/cv-trapdoor-top-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "4a5c1a4b9cae61fead3ab68b7e120fc3d5cf493a713c700d1a0f5a2a428c16c5",
+  "placements": [
+   "darkcave-vis-tfrag/cv-trapdoor-top-01.png",
+   "maincave-vis-tfrag/cv-trapdoor-top-01.png",
+   "robocave-vis-tfrag/cv-trapdoor-top-01.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wall-02-2x2": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wall-02-2x2",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "2386f04f4f4f4a020ff21463e5023cfaab6f5f14408c94f0dcd6a6a799fc09df",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wall-02-2x2.png",
+   "maincave-vis-tfrag/cv-wall-02-2x2.png",
+   "maincave-vis-tfrag/cv-wall-02-special.png",
+   "robocave-vis-shrub/cv-wall-02-2x2.png",
+   "robocave-vis-tfrag/cv-wall-02-2x2.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wall-02-2x2-bumps": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wall-02-2x2-bumps",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "30adb0962ac69f9a0fdde85f69bc974e8908cc2ead5f474bbefaf7918cb81aee",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wall-02-2x2-bumps.png",
+   "maincave-vis-tfrag/cv-wall-02-2x2-bumps.png",
+   "robocave-vis-tfrag/cv-wall-02-2x2-bumps.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wall-02-2x2-high": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wall-02-2x2-high",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "4b994c63d805524307a0d233bb4ad02f72d440443bbf5db5a859daeeace62252",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wall-02-2x2-high.png",
+   "maincave-vis-tfrag/cv-wall-02-2x2-high.png",
+   "robocave-vis-tfrag/cv-wall-02-2x2-high.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wall-bumps-01": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wall-bumps-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "35721fae44f8c4aef0f643aba9f73df9aa4bfa098c10f601bf38fe8262414bfe",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wall-bumps-01.png",
+   "maincave-vis-tfrag/cv-wall-bumps-01.png",
+   "robocave-vis-tfrag/cv-wall-bumps-01.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wall-bumps-merge-01": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wall-bumps-merge-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "15aa048228801eb6205389281c063d80a1418e76344992c0de55bf193c2a962f",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wall-bumps-merge-01.png",
+   "maincave-vis-tfrag/cv-wall-bumps-merge-01.png",
+   "robocave-vis-tfrag/cv-wall-bumps-merge-01.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wall-stal-stripe-01": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wall-stal-stripe-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "ec332b5ed44b2475892cf7c5010a9bbee08e87a0f19556b17b31424bd811ca94",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wall-stal-stripe-01.png",
+   "maincave-vis-tfrag/cv-wall-stal-stripe-01.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wall-stal-stripe-02": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wall-stal-stripe-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b48560ce104d7645a456139a9a1d8544107025bb4155c89c7d279a71b29fd78a",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wall-stal-stripe-02.png",
+   "maincave-vis-tfrag/cv-wall-stal-stripe-02.png",
+   "robocave-vis-tfrag/cv-wall-stal-stripe-02.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wall-wave-01": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wall-wave-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "2c2e3bcb33c0e43030070c9580857f1d7422a4656d220145afcd28aa594ccdf5",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wall-wave-01.png",
+   "darkcave-vis-tfrag/cv-wall-wave-02.png",
+   "maincave-vis-tfrag/cv-wall-wave-01.png",
+   "maincave-vis-tfrag/cv-wall-wave-02.png",
+   "robocave-vis-tfrag/cv-wall-wave-01.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wallbumps-all": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wallbumps-all",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "632e4ee103afd889750bf1956d8443ec0f6128840d2ec2b5eb1d6ec6a1555622",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wallbumps-all.png",
+   "maincave-vis-tfrag/cv-wallbumps-all.png",
+   "robocave-vis-tfrag/cv-wallbumps-all.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wallbumps-all-02": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wallbumps-all-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b42b069ca63ad4bc8e8f9b3a8d342f6c3f3a3d5c610c6c3443716e939559e60c",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wallbumps-all-02.png",
+   "maincave-vis-tfrag/cv-wallbumps-all-02.png",
+   "robocave-vis-tfrag/cv-wallbumps-all-02.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wallbumps-all-high": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wallbumps-all-high",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "9204bc63d4e542b58a6376d203d4d74373c933bbed48c31a139cf7fe1c774963",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wallbumps-all-high.png",
+   "maincave-vis-tfrag/cv-wallbumps-all-high.png",
+   "robocave-vis-tfrag/cv-wallbumps-all-high.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-wallbumps-all-high02": {
+  "canonical_id": "darkcave-vis-tfrag/cv-wallbumps-all-high02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "0493e999b7cb3299ccbc67a4ca421872f56b3aea994e605bc0a0d9350293f098",
+  "placements": [
+   "darkcave-vis-tfrag/cv-wallbumps-all-high02.png",
+   "maincave-vis-tfrag/cv-wallbumps-all-high02.png",
+   "robocave-vis-tfrag/cv-wallbumps-all-high02.png"
+  ]
+ },
+ "darkcave-vis-tfrag/cv-woodpoles": {
+  "canonical_id": "darkcave-vis-tfrag/cv-woodpoles",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "3bd0b095d0deec3796a0ea64daccc43b19342e2b048d310ed64039998e69d05c",
+  "placements": [
+   "darkcave-vis-tfrag/cv-woodpoles.png",
+   "maincave-vis-tfrag/cv-woodpoles.png",
+   "robocave-vis-tfrag/cv-woodpoles.png"
+  ]
+ },
+ "finalboss-vis-pris/roboss-metalplates-01": {
+  "canonical_id": "citadel-vis-pris/roboss-cit-metalplates-01",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "7546cde2d83a873cd37dd2cb6b036c2ec6498afbb7c1164ab5cc4f6e8f7a9898",
+  "placements": [
+   "finalboss-vis-pris/roboss-metalplates-01.png"
+  ]
+ },
+ "finalboss-vis-tfrag/cmn-precursor-plainstripe": {
+  "canonical_id": "finalboss-vis-tfrag/cmn-precursor-plainstripe",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "36c0e51d7fc97d1edbab8cb25167d5e57c98063a2a2cc2d58db253e7d5e5008b",
+  "placements": [
+   "finalboss-vis-tfrag/cmn-precursor-plainstripe.png",
+   "robocave-vis-tfrag/cv-precursor-plainstripe.png",
+   "sunken-vis-tfrag/sun-precursor-plainstripe.png",
+   "sunkenb-vis-tfrag/sun-precursor-plainstripe.png"
+  ]
+ },
+ "finalboss-vis-tfrag/fin-largerock": {
+  "canonical_id": "finalboss-vis-tfrag/fin-largerock",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f21a124016614d51bfd373f7ee8278c142831fd156b090152cd66dcd86c87e29",
+  "placements": [
+   "finalboss-vis-tfrag/fin-largerock.png"
+  ]
+ },
+ "finalboss-vis-tfrag/fin-leafyground": {
+  "canonical_id": "finalboss-vis-tfrag/fin-leafyground",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "93c6cda63aa04c30da0172368b14200e8d7013a08344d3e4540effff21db2298",
+  "placements": [
+   "finalboss-vis-tfrag/fin-leafyground.png"
+  ]
+ },
+ "finalboss-vis-tfrag/fin-leafygroundBACK": {
+  "canonical_id": "finalboss-vis-tfrag/fin-leafygroundBACK",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "8821237b37116b13cee858e6a084840a765e585c3640cab0b788fa1a5cc42cb1",
+  "placements": [
+   "finalboss-vis-tfrag/fin-leafygroundBACK.png"
+  ]
+ },
+ "finalboss-vis-tfrag/fin-leafygroundBACKdirt": {
+  "canonical_id": "finalboss-vis-tfrag/fin-leafygroundBACKdirt",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "2cc15bae15ffcd9d2c63c3ada709bcb4328d7c396a1f27b56c5dcbe6f8b8be38",
+  "placements": [
+   "finalboss-vis-tfrag/fin-leafygroundBACKdirt.png"
+  ]
+ },
+ "firecanyon-vis-shrub/fcn-crackedfloor": {
+  "canonical_id": "firecanyon-vis-shrub/fcn-crackedfloor",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "e77b6dc835603b097c600986bdcc45167e2ec79d4564b6c78356a28b7b62c2f2",
+  "placements": [
+   "firecanyon-vis-shrub/fcn-crackedfloor.png",
+   "firecanyon-vis-tfrag/fcn-crackedfloor.png",
+   "ogre-vis-shrub/fcn-crackedfloor.png"
+  ]
+ },
+ "firecanyon-vis-tfrag/fcn-bridge": {
+  "canonical_id": "firecanyon-vis-tfrag/fcn-bridge",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "d1f8365b1e38bc30a79cb980360551263345f45554d147993854d6c237592633",
+  "placements": [
+   "firecanyon-vis-tfrag/fcn-bridge.png"
+  ]
+ },
+ "firecanyon-vis-tfrag/fcn-coal": {
+  "canonical_id": "firecanyon-vis-tfrag/fcn-coal",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "6242708600bf190b37d889f6e8fc76e8ca4af14864b6383e3234020d91910df3",
+  "placements": [
+   "firecanyon-vis-tfrag/fcn-coal.png"
+  ]
+ },
+ "firecanyon-vis-tfrag/fcn-ecovalve-grate": {
+  "canonical_id": "beach-vis-tfrag/bch-ecovalve-grate",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "bb226af5c408760bb9db4e4a775dc32a19ac6e50dc25a6a12ad1a1466167cb52",
+  "placements": [
+   "firecanyon-vis-tfrag/fcn-ecovalve-grate.png"
+  ]
+ },
+ "firecanyon-vis-tfrag/fcn-rockblockin": {
+  "canonical_id": "firecanyon-vis-tfrag/fcn-rockblockin",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "72a1376f1e06f9320efe80b21ab49d9bcb3a27c65aa8b6cdffeede10e9d4c890",
+  "placements": [
+   "firecanyon-vis-tfrag/fcn-rockblockin.png"
+  ]
+ },
+ "firecanyon-vis-tfrag/fcn-rockblockin-bottom": {
+  "canonical_id": "firecanyon-vis-tfrag/fcn-rockblockin-bottom",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "e6d2c0014b4b626c23111400c79f95cd72a30d58293c739a99f3457c5b5cba6b",
+  "placements": [
+   "firecanyon-vis-tfrag/fcn-rockblockin-bottom.png"
+  ]
+ },
+ "firecanyon-vis-tfrag/fcn-spikerock": {
+  "canonical_id": "firecanyon-vis-tfrag/fcn-spikerock",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "1b118cc40cebcde6cd280c2e2085349c2b72794711777ef925b4487d67bc910a",
+  "placements": [
+   "firecanyon-vis-tfrag/fcn-spikerock.png"
+  ]
+ },
+ "firecanyon-vis-tfrag/fcn-tree": {
+  "canonical_id": "firecanyon-vis-tfrag/fcn-tree",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "a6707f4c06da4d232c93c5e1882fa8384210804de03707e39b452c31a8127dc8",
+  "placements": [
+   "firecanyon-vis-tfrag/fcn-tree.png"
+  ]
+ },
+ "intro-vis-shrub/mis-tree": {
+  "canonical_id": "intro-vis-shrub/mis-tree",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "721965c0ba802992b8f3aa981a5a66442f79151c69cbc2305c130b72f5c43688",
+  "placements": [
+   "intro-vis-shrub/mis-tree.png",
+   "intro-vis-tfrag/mis-tree.png",
+   "misty-vis-shrub/mis-tree.png",
+   "misty-vis-tfrag/mis-tree.png"
+  ]
+ },
+ "intro-vis-tfrag/mis-ground": {
+  "canonical_id": "intro-vis-tfrag/mis-ground",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "bde0bd7263faf54d2d9c3e86fb1a7758dbbeef917ce489acde462e276ea8b32d",
+  "placements": [
+   "intro-vis-tfrag/mis-ground.png",
+   "misty-vis-tfrag/mis-ground.png"
+  ]
+ },
+ "intro-vis-tfrag/mis-rockwall-trim": {
+  "canonical_id": "intro-vis-tfrag/mis-rockwall-trim",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "dd10d10d297fe237326140abd4e16e7186d27a577b9d3c79f9d987edb516c046",
+  "placements": [
+   "intro-vis-tfrag/mis-rockwall-trim.png",
+   "misty-vis-tfrag/mis-rockwall-trim.png"
+  ]
+ },
+ "jungle-vis-pris/jng-ropebridge-anchor-01": {
+  "canonical_id": "jungle-vis-pris/jng-ropebridge-anchor-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "c4950244f977a90eb3705efb14f4d91794954202e31bbe59eda28d6c4ef62355",
+  "placements": [
+   "jungle-vis-pris/jng-ropebridge-anchor-01.png",
+   "jungle-vis-tfrag/jng-ropebridge-anchor-01.png"
+  ]
+ },
+ "jungle-vis-tfrag/jng-leafyground": {
+  "canonical_id": "jungle-vis-tfrag/jng-leafyground",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "7f4f0622aa8c2ef915d99aa3ec7940e699ca6deeeae6f540dc3098e6d97d8f62",
+  "placements": [
+   "jungle-vis-tfrag/jng-leafyground.png"
+  ]
+ },
+ "jungle-vis-tfrag/jng-lrkr-metal-03": {
+  "canonical_id": "jungle-vis-tfrag/jng-lrkr-metal-03",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "d3c8ca4f810a34f604a8c989f6d7d65e019aaf156f3261bbd7222693d9449e19",
+  "placements": [
+   "jungle-vis-tfrag/jng-lrkr-metal-03.png"
+  ]
+ },
+ "jungle-vis-tfrag/jng-lrkr-metal-07": {
+  "canonical_id": "jungle-vis-tfrag/jng-lrkr-metal-07",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "698a3a8018d92319a83dcab9171ff7a42e2f981447f3aea6ee9f5269961be90d",
+  "placements": [
+   "jungle-vis-tfrag/jng-lrkr-metal-07.png"
+  ]
+ },
+ "jungle-vis-tfrag/jng-path1-4x4": {
+  "canonical_id": "jungle-vis-tfrag/jng-path1-4x4",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "1b51ef525ac5c8e5c07340fd8c3cb9617109e592906aa65155b12f874aa0f5eb",
+  "placements": [
+   "jungle-vis-tfrag/jng-path1-4x4.png"
+  ]
+ },
+ "lavatube-vis-shrub/lava-ground": {
+  "canonical_id": "lavatube-vis-shrub/lava-ground",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "401f5cfdba6a579d7fa92f4d2a00c9affa73df92d2a0291deef2f4704a163053",
+  "placements": [
+   "lavatube-vis-shrub/lava-ground.png",
+   "lavatube-vis-tfrag/lava-ground.png"
+  ]
+ },
+ "lavatube-vis-shrub/lava-ground-floor-blend": {
+  "canonical_id": "lavatube-vis-shrub/lava-ground-floor-blend",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "3a12114b717597bfb2c341ad3f4b0340c6ae358d92290ff78c8fa40604255c77",
+  "placements": [
+   "lavatube-vis-shrub/lava-ground-floor-blend.png",
+   "lavatube-vis-tfrag/lava-ground-floor-blend.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-bottom-structure-blend": {
+  "canonical_id": "lavatube-vis-shrub/lava-ground-floor-blend",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "c4080179e39c8544761ce851d9a401ab349145aef83c648ae682904d6d81d84f",
+  "placements": [
+   "lavatube-vis-tfrag/lava-bottom-structure-blend.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-coping": {
+  "canonical_id": "lavatube-vis-tfrag/lava-coping",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "01b5b6e41ba8243bb1392de6a5f9d840a49f06731c0f6b7486584f4091e56786",
+  "placements": [
+   "lavatube-vis-tfrag/lava-coping.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-floor": {
+  "canonical_id": "lavatube-vis-tfrag/lava-floor",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "40465e46ae7f90301e9626ba76189103fcbb4d6b0c6936b874b41d782d0de303",
+  "placements": [
+   "lavatube-vis-tfrag/lava-floor.png",
+   "village3-vis-pris/lava-floor.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-flow-01": {
+  "canonical_id": "lavatube-vis-tfrag/lava-flow-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "e435373e25d5c12b5a26fb019724676ce51bf3410425902e46ce12704a28bf00",
+  "placements": [
+   "lavatube-vis-tfrag/lava-flow-01.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-ground-hi": {
+  "canonical_id": "lavatube-vis-tfrag/lava-ground-hi",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "5bfcc67139779d50f7ed365e98f99bf4f125a9ae509d6dc4c4a085e1d0124d47",
+  "placements": [
+   "lavatube-vis-tfrag/lava-ground-hi.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-ground-hot": {
+  "canonical_id": "lavatube-vis-tfrag/lava-ground-hot",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f097f2fa2963523b1b527d31fc5f21e0efd99c2cc7c820d1ae1e326718d2f729",
+  "placements": [
+   "lavatube-vis-tfrag/lava-ground-hot.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-ground-hot-blend": {
+  "canonical_id": "lavatube-vis-shrub/lava-ground-floor-blend",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "cdcc187cb118b4534b71b8d6fe1c945db54307fc035f5c6cb03a16ec82131387",
+  "placements": [
+   "lavatube-vis-tfrag/lava-ground-hot-blend.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-ground-hot-corner": {
+  "canonical_id": "lavatube-vis-tfrag/lava-ground-hot-corner",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "9094fab9b4eef96bbe836c24b65844b942097b6b4d78005169d67567e0a6e000",
+  "placements": [
+   "lavatube-vis-tfrag/lava-ground-hot-corner.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-lrkr-metal-06": {
+  "canonical_id": "lavatube-vis-tfrag/lava-lrkr-metal-06",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "07bacae8f42e9d43d882a89cad0c070075ce18bd2a84481648515054635e9054",
+  "placements": [
+   "lavatube-vis-tfrag/lava-lrkr-metal-06.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-metal-plate-01": {
+  "canonical_id": "lavatube-vis-tfrag/lava-metal-plate-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "1f37b052c9f8ee9bf02ab1a3cfb80081576283cc6ae32fe1f973120b52ce89e9",
+  "placements": [
+   "lavatube-vis-tfrag/lava-metal-plate-01.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-metalplates-03": {
+  "canonical_id": "lavatube-vis-tfrag/lava-metalplates-03",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "32092029144c4246e02665ee46ee91078f69e6bc889907738cd5ace316b68348",
+  "placements": [
+   "lavatube-vis-tfrag/lava-metalplates-03.png",
+   "misty-vis-tfrag/mis-barrel.png"
+  ]
+ },
+ "lavatube-vis-tfrag/lava-thicklava": {
+  "canonical_id": "lavatube-vis-tfrag/lava-flow-01",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "a59250c28520e6690d68cd26f87d78f452b2d59834681ef9e2e5abec31e075fc",
+  "placements": [
+   "lavatube-vis-tfrag/lava-thicklava.png"
+  ]
+ },
+ "lavatube-vis-tfrag/vil3-lava-floor": {
+  "canonical_id": "firecanyon-vis-tfrag/fcn-coal",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "43466e6f350893018b67ac6573f203a081e2802f9a239f364c1a817499c3a057",
+  "placements": [
+   "lavatube-vis-tfrag/vil3-lava-floor.png"
+  ]
+ },
+ "maincave-vis-tfrag/cv-rusty-hardware": {
+  "canonical_id": "maincave-vis-tfrag/cv-rusty-hardware",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "3ecd90d284552116147c521d07f9f7b957281623996c3c922750f660abd38676",
+  "placements": [
+   "maincave-vis-tfrag/cv-rusty-hardware.png",
+   "robocave-vis-tfrag/cv-rusty-hardware.png"
+  ]
+ },
+ "maincave-vis-tfrag/cv-webbase": {
+  "canonical_id": "maincave-vis-tfrag/cv-webbase",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "7f72a9befe440333eab663dbc2cf4a4014899aaa95eee1e2a0a6335ed9099fa8",
+  "placements": [
+   "maincave-vis-tfrag/cv-webbase.png",
+   "robocave-vis-tfrag/cv-webbase.png"
+  ]
+ },
+ "misty-vis-shrub/mis-boatwall": {
+  "canonical_id": "citadel-vis-tfrag/citb-metal-panes-hitweak",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "31c7811630d6398e66b32788e8f6dc1e5bf9c584fcb3a3df677970fc7816934f",
+  "placements": [
+   "misty-vis-shrub/mis-boatwall.png"
+  ]
+ },
+ "misty-vis-tfrag/cmn-precursor-metal-edge-01": {
+  "canonical_id": "misty-vis-tfrag/cmn-precursor-metal-edge-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f104403fb7fb455a6bea2de28f8c8034846f7e72c412babfdfae58bc5ec18c72",
+  "placements": [
+   "misty-vis-tfrag/cmn-precursor-metal-edge-01.png",
+   "rolling-vis-tfrag/rol-precursor-metal-edge-01.png",
+   "sunken-vis-tfrag/cmn-precursor-metal-edge-01.png",
+   "training-vis-tfrag/cmn-precursor-metal-edge-01.png",
+   "village1-vis-tfrag/precursor-metal-edge-01.png",
+   "village2-vis-tfrag/precursor-metal-edge-01.png",
+   "village3-vis-tfrag/precursor-metal-edge-01.png"
+  ]
+ },
+ "misty-vis-tfrag/mis-boatwall": {
+  "canonical_id": "citadel-vis-tfrag/citb-metal-panes-hitweak",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "4ab21dc05342d70a035f3828bda2911db42319263fcfe2d6309423f000437508",
+  "placements": [
+   "misty-vis-tfrag/mis-boatwall.png"
+  ]
+ },
+ "misty-vis-tfrag/mis-bone-break": {
+  "canonical_id": "misty-vis-tfrag/mis-bone-break",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "5db33170eea0153c622b17b1967f056bb71fde58a5ed6695eb7dd9c0a8bc4304",
+  "placements": [
+   "misty-vis-tfrag/mis-bone-break.png"
+  ]
+ },
+ "misty-vis-tfrag/mis-bone-generic": {
+  "canonical_id": "misty-vis-tfrag/mis-bone-generic",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "d6f3e42a614fe89af35fcc6b33ca3fd21ab3746ca720df5b76ce25d5833ce1bc",
+  "placements": [
+   "misty-vis-tfrag/mis-bone-generic.png"
+  ]
+ },
+ "misty-vis-tfrag/mis-metalplating": {
+  "canonical_id": "citadel-vis-tfrag/citb-metal-wallplating-hitweak",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "606ee5a3359a8b972932a6683054c19235b9031b5d025957dcfec21baa771c2f",
+  "placements": [
+   "misty-vis-tfrag/mis-metalplating.png"
+  ]
+ },
+ "misty-vis-tfrag/mis-metalshingle": {
+  "canonical_id": "misty-vis-tfrag/mis-metalshingle",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "ee6b9aab14b609cac22132289cfa7aba85dd2f29f35fc925f773d78e1173dff2",
+  "placements": [
+   "misty-vis-tfrag/mis-metalshingle.png"
+  ]
+ },
+ "misty-vis-tfrag/mis-wooddeck": {
+  "canonical_id": "misty-vis-tfrag/mis-wooddeck",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "899833b7efc3e921ad6c84c2d06663ae53d749fda3f25c9e9128a26cdaaa53a7",
+  "placements": [
+   "misty-vis-tfrag/mis-wooddeck.png"
+  ]
+ },
+ "ogre-vis-pris/ogr-rockwall-small": {
+  "canonical_id": "ogre-vis-pris/ogr-rockwall-small",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "e3d02fcb01719cfb0d91fbf67a8b0c81a4fdadd8561a732afefbbe77ef8c9f5c",
+  "placements": [
+   "ogre-vis-pris/ogr-rockwall-small.png",
+   "ogre-vis-tfrag/ogr-rockwall-small.png"
+  ]
+ },
+ "ogre-vis-pris/ogre-boulderfire": {
+  "canonical_id": "ogre-vis-pris/ogre-boulderfire",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "d01f4a50aa72f8b2247e2166f4fcc4fe5e68dc58536dc78eab931f8f23904a16",
+  "placements": [
+   "ogre-vis-pris/ogre-boulderfire.png"
+  ]
+ },
+ "ogre-vis-tfrag/ogr-barrel-side": {
+  "canonical_id": "ogre-vis-tfrag/ogr-barrel-side",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "40206f1207500dfa28bdf334499829ec460bb339746885787a27998666619d49",
+  "placements": [
+   "ogre-vis-tfrag/ogr-barrel-side.png"
+  ]
+ },
+ "ogre-vis-tfrag/ogr-cavefloor": {
+  "canonical_id": "ogre-vis-tfrag/ogr-cavefloor",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "99b0a5818d4b9618a42ba0ebef7962a7fbac25432b42bb9c469044bf557e2c6c",
+  "placements": [
+   "ogre-vis-tfrag/ogr-cavefloor.png"
+  ]
+ },
+ "ogre-vis-tfrag/ogr-cavefloor-01": {
+  "canonical_id": "ogre-vis-tfrag/ogr-cavefloor-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "8d98bf9cdc2d4a8837e2ce2d19a98a145d7b1fe51d6e8e892fbde919761537f7",
+  "placements": [
+   "ogre-vis-tfrag/ogr-cavefloor-01.png"
+  ]
+ },
+ "ogre-vis-tfrag/ogr-crackedfloor": {
+  "canonical_id": "firecanyon-vis-shrub/fcn-crackedfloor",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "4c71698112b25baee13c675d643e5a4f419dc29bbc91a4a3a5046bfb76ea25bb",
+  "placements": [
+   "ogre-vis-tfrag/ogr-crackedfloor.png"
+  ]
+ },
+ "ogre-vis-tfrag/ogr-rockwall-small-trim": {
+  "canonical_id": "ogre-vis-tfrag/ogr-rockwall-small-trim",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "4f3167d3b9825f3e2167f02eff1aeef30f1d5b7ca669c6a8ff3ee6321f55b19c",
+  "placements": [
+   "ogre-vis-tfrag/ogr-rockwall-small-trim.png"
+  ]
+ },
+ "ogre-vis-tfrag/org-pinetree-big-bark": {
+  "canonical_id": "ogre-vis-tfrag/org-pinetree-big-bark",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f2e673ab1e77d0df62811b9e05b3d1c3717188ee2d847797c68142660efe7f7c",
+  "placements": [
+   "ogre-vis-tfrag/org-pinetree-big-bark.png"
+  ]
+ },
+ "robocave-vis-tfrag/cv-stal-01": {
+  "canonical_id": "robocave-vis-tfrag/cv-stal-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "8abb1e51e87dd8cee8aa91866853b170be4504c1cf4e58dec91f1f0f649c897c",
+  "placements": [
+   "robocave-vis-tfrag/cv-stal-01.png"
+  ]
+ },
+ "robocave-vis-tfrag/cv-stal-01-merge": {
+  "canonical_id": "robocave-vis-tfrag/cv-stal-01-merge",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b90c5f185f8078d1eba0579aa08460d49461ed1af66e74d97e3a32adf6b38888",
+  "placements": [
+   "robocave-vis-tfrag/cv-stal-01-merge.png"
+  ]
+ },
+ "robocave-vis-tfrag/cv-wall-roof-01": {
+  "canonical_id": "robocave-vis-tfrag/cv-wall-roof-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b974c0ad95f6ab87ab961aed8ea1c5edcc27f492e870325694e2ce627a95549f",
+  "placements": [
+   "robocave-vis-tfrag/cv-wall-roof-01.png"
+  ]
+ },
+ "robocave-vis-tfrag/cv-wall-roof-02": {
+  "canonical_id": "robocave-vis-tfrag/cv-wall-roof-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "327417bb5864deb0f07fdc2c301a731c83dd5c9b8536920da0bcd5a957a9bee5",
+  "placements": [
+   "robocave-vis-tfrag/cv-wall-roof-02.png"
+  ]
+ },
+ "robocave-vis-tfrag/cv-wall-tube-02": {
+  "canonical_id": "robocave-vis-tfrag/cv-wall-tube-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "4ed920fc2413742bd4918e520b13caa6dc0854dfeb7bae8d2e6203cb8a900fc3",
+  "placements": [
+   "robocave-vis-tfrag/cv-wall-tube-02.png"
+  ]
+ },
+ "rolling-vis-tfrag/rol-dirt": {
+  "canonical_id": "rolling-vis-tfrag/rol-dirt",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "bce776e1adf09b33a44aa4793be34557abd18842a8328fd8298593e67dab1847",
+  "placements": [
+   "rolling-vis-tfrag/rol-dirt.png"
+  ]
+ },
+ "snow-vis-pris/rammer-metal": {
+  "canonical_id": "citadel-vis-tfrag/cit-temp-precursor-plain",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "1b0495e6476468fc8cd925cb4346f930ff649666854d038a637082560bd422e1",
+  "placements": [
+   "snow-vis-pris/rammer-metal.png"
+  ]
+ },
+ "snow-vis-shrub/snow-icewall-01": {
+  "canonical_id": "snow-vis-shrub/snow-icewall-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "954bd85632d7ea00dad3ea576d0cdf961d2af70f59a1f461c44c392329443ee3",
+  "placements": [
+   "snow-vis-shrub/snow-icewall-01.png",
+   "snow-vis-tfrag/snow-icewall-01.png"
+  ]
+ },
+ "snow-vis-tfrag/snow-fortwallbase": {
+  "canonical_id": "snow-vis-tfrag/snow-fortwallbase",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "c487a786b1dab5d36bf4933c2f4e21934c7bd79699237d204e5276107ff468a3",
+  "placements": [
+   "snow-vis-tfrag/snow-fortwallbase.png"
+  ]
+ },
+ "snow-vis-tfrag/snow-icewall-trans-02": {
+  "canonical_id": "snow-vis-tfrag/snow-icewall-trans-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b8fabf008a808eaf4ad50040f7bc35dee1e0ffed0985022201f3b8af4a5a21be",
+  "placements": [
+   "snow-vis-tfrag/snow-icewall-trans-02.png"
+  ]
+ },
+ "snow-vis-tfrag/snow-path-sides": {
+  "canonical_id": "snow-vis-tfrag/snow-path-sides",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "7d5c6c346acfa9aae669285ad6d82aa32f94df3bca929f46fec361e0cff1c92f",
+  "placements": [
+   "snow-vis-tfrag/snow-path-sides.png"
+  ]
+ },
+ "snow-vis-tfrag/snow-rock-trim": {
+  "canonical_id": "snow-vis-tfrag/snow-rock-trim",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "e5b988cdc497f9530d4730d0a4295020ad5ec59403ed97e5b4be7b21e0651211",
+  "placements": [
+   "snow-vis-tfrag/snow-rock-trim.png"
+  ]
+ },
+ "snow-vis-tfrag/snow-woodpanels": {
+  "canonical_id": "snow-vis-tfrag/snow-woodpanels",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "581f78934d0628903101320ea5681e50cbd900986be0074a90c8c8e464ba0e8f",
+  "placements": [
+   "snow-vis-tfrag/snow-woodpanels.png"
+  ]
+ },
+ "snow-vis-tfrag/snw-precursor-metal-plain-02": {
+  "canonical_id": "snow-vis-tfrag/snw-precursor-metal-plain-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "11d4a9ce6479001133900d0ec89de357ed15de1d371d1c24c71e7db8fd48cd2a",
+  "placements": [
+   "snow-vis-tfrag/snw-precursor-metal-plain-02.png"
+  ]
+ },
+ "sunken-vis-alpha/sun-glass": {
+  "canonical_id": "sunken-vis-alpha/sun-glass",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "02123856c7b25a9088d876fa6d91c633663c490f54c75e066ecabc65e220f0ff",
+  "placements": [
+   "sunken-vis-alpha/sun-glass.png",
+   "sunkenb-vis-alpha/sun-glass.png",
+   "village2-vis-alpha/vil2-glass.png"
+  ]
+ },
+ "sunken-vis-alpha/sun-glass-frame-01": {
+  "canonical_id": "sunken-vis-alpha/sun-glass-frame-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "05e71dea2727120c33b0a676079e3aaf621d9152cfc9887b8151cdccd0a00c70",
+  "placements": [
+   "sunken-vis-alpha/sun-glass-frame-01.png",
+   "sunkenb-vis-alpha/sun-glass-frame-01.png"
+  ]
+ },
+ "sunken-vis-shrub/sun-coral-sponge-01": {
+  "canonical_id": "sunken-vis-shrub/sun-coral-sponge-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "7cebf4ac1489e80a12b1dc6f02935f99c99535227aa042d7ecf51f0bfa50d3b3",
+  "placements": [
+   "sunken-vis-shrub/sun-coral-sponge-01.png"
+  ]
+ },
+ "sunken-vis-tfrag/sun-hot-pipe-02": {
+  "canonical_id": "sunken-vis-tfrag/sun-hot-pipe-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "95b1dbe734a0dae133ae68bf5145ebfa1d9dac0be08fe48f0c7ab2b27b939751",
+  "placements": [
+   "sunken-vis-tfrag/sun-hot-pipe-02.png",
+   "sunkenb-vis-tfrag/sun-hot-pipe-02.png"
+  ]
+ },
+ "sunken-vis-tfrag/sun-precursor-circuitpattern-01": {
+  "canonical_id": "sunken-vis-tfrag/sun-precursor-circuitpattern-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "2d90ea728832b5cb68fbcf873e29584cd2d800a9161aad1f9639c1a91a037aa8",
+  "placements": [
+   "sunken-vis-tfrag/sun-precursor-circuitpattern-01.png",
+   "sunkenb-vis-tfrag/sun-precursor-circuitpattern-01.png"
+  ]
+ },
+ "sunken-vis-tfrag/sun-precursor-tube-ring-02": {
+  "canonical_id": "sunken-vis-tfrag/sun-precursor-tube-ring-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "2c65671c0defa13c6f08a710919047ff61bd49fed16ddc6a2511ec9244535787",
+  "placements": [
+   "sunken-vis-tfrag/sun-precursor-tube-ring-02.png",
+   "sunkenb-vis-tfrag/sun-precursor-tube-ring-02.png"
+  ]
+ },
+ "sunken-vis-tfrag/sun-precursor-tube-ring-03": {
+  "canonical_id": "sunken-vis-tfrag/sun-precursor-tube-ring-03",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "a67b98329cd25ee9a0e57bcd2910d988bec9227f9283e09ec89afd3425df1c6d",
+  "placements": [
+   "sunken-vis-tfrag/sun-precursor-tube-ring-03.png",
+   "sunkenb-vis-tfrag/sun-precursor-tube-ring-03.png"
+  ]
+ },
+ "sunken-vis-tfrag/sun-rockwall": {
+  "canonical_id": "sunken-vis-tfrag/sun-rockwall",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "26a7945aec3b0e31ef2956976ff6ac73757596bb328f9ab464f6d8441cc7b625",
+  "placements": [
+   "sunken-vis-tfrag/sun-rockwall.png"
+  ]
+ },
+ "sunken-vis-tfrag/sun-walls-outside-01": {
+  "canonical_id": "sunken-vis-tfrag/sun-walls-outside-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "22252841620e3e22c9888aee49fe5665ab45fb43486474125bc89ebc014236e6",
+  "placements": [
+   "sunken-vis-tfrag/sun-walls-outside-01.png",
+   "sunkenb-vis-tfrag/sun-walls-outside-01.png"
+  ]
+ },
+ "sunken-vis-tfrag/sun-walls-outside-edge-01": {
+  "canonical_id": "sunken-vis-tfrag/sun-walls-outside-edge-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "a60dd7e10702544cfb7789d88e187e2edf619ee1340a7347d4ac7485a91d1371",
+  "placements": [
+   "sunken-vis-tfrag/sun-walls-outside-edge-01.png",
+   "sunkenb-vis-tfrag/sun-walls-outside-edge-01.png"
+  ]
+ },
+ "sunkenb-vis-pris/sun-helix-but-01": {
+  "canonical_id": "sunkenb-vis-pris/sun-helix-but-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b42b5f9d543d9efe3aaeda572ebfdd859b3f5b2821d1b7e55d9d81c3bf857b62",
+  "placements": [
+   "sunkenb-vis-pris/sun-helix-but-01.png"
+  ]
+ },
+ "sunkenb-vis-pris/sun-helix-but-02": {
+  "canonical_id": "sunkenb-vis-pris/sun-helix-but-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "24e3adf47a70c869119660517bd453636c87f06be204a13216c4aab887ba3b23",
+  "placements": [
+   "sunkenb-vis-pris/sun-helix-but-02.png"
+  ]
+ },
+ "swamp-vis-shrub/swp-bark": {
+  "canonical_id": "swamp-vis-shrub/swp-bark",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b17bdac34d5952d97203e23d2c896043d24b4d0c790454368ad817a1da6c8735",
+  "placements": [
+   "swamp-vis-shrub/swp-bark.png",
+   "swamp-vis-tfrag/swp-bark.png"
+  ]
+ },
+ "swamp-vis-shrub/swp-bark-roots": {
+  "canonical_id": "swamp-vis-shrub/swp-bark-roots",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "942ae8402a87444efd8b50ed816e7599ca04e84ebe797039dd874a855f659bf7",
+  "placements": [
+   "swamp-vis-shrub/swp-bark-roots.png",
+   "swamp-vis-tfrag/swp-bark-roots.png"
+  ]
+ },
+ "swamp-vis-tfrag/swp-breakaway-rock-crack": {
+  "canonical_id": "swamp-vis-tfrag/swp-breakaway-rock-crack",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "7839c55a9c9a151e3484595d99d1d7ec4d6b2b900cde5865d5cfa413be2fbd34",
+  "placements": [
+   "swamp-vis-tfrag/swp-breakaway-rock-crack.png",
+   "village2-vis-tfrag/swp-breakaway-rock-crack.png"
+  ]
+ },
+ "swamp-vis-tfrag/swp-ecovalve-grate": {
+  "canonical_id": "beach-vis-tfrag/bch-ecovalve-grate",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "5f1c7913113d2fc62554df8ee94966bd4c069c5ff8f256d29c898c17a16097e3",
+  "placements": [
+   "swamp-vis-tfrag/swp-ecovalve-grate.png"
+  ]
+ },
+ "swamp-vis-tfrag/swp-mud-top": {
+  "canonical_id": "swamp-vis-tfrag/swp-mud-top",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "aece1b89dedce2cde22cc8eaebf01370b977997c105eabe21e7e1da05f204d7c",
+  "placements": [
+   "swamp-vis-tfrag/swp-mud-top.png"
+  ]
+ },
+ "swamp-vis-tfrag/swp-mud-trans": {
+  "canonical_id": "swamp-vis-tfrag/swp-mud-trans",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "e4e63be7cb4d087dfc771c04ae1060b948d945438b48bfce9c610963ef307983",
+  "placements": [
+   "swamp-vis-tfrag/swp-mud-trans.png"
+  ]
+ },
+ "swamp-vis-tfrag/swp-stand-rock": {
+  "canonical_id": "swamp-vis-tfrag/swp-stand-rock",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "d1543f0bd54bc698b67834c86bc4e3c18cbf0ca22985eb9795bb958f93332246",
+  "placements": [
+   "swamp-vis-tfrag/swp-stand-rock.png"
+  ]
+ },
+ "swamp-vis-tfrag/swp-stonewall": {
+  "canonical_id": "swamp-vis-tfrag/swp-stonewall",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "1195d5d47c8a97303e5e566a572e192b417968159514731dc70bb4af3c4026d3",
+  "placements": [
+   "swamp-vis-tfrag/swp-stonewall.png"
+  ]
+ },
+ "training-vis-pris/scarecrow-paintedburlap": {
+  "canonical_id": "training-vis-pris/scarecrow-paintedburlap",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "db57f57782177e10e63312ed2a9c8c46b60c6cd7a31301de8936e0bfa95e9ad1",
+  "placements": [
+   "training-vis-pris/scarecrow-paintedburlap.png"
+  ]
+ },
+ "training-vis-tfrag/pbot-stonehengetop": {
+  "canonical_id": "training-vis-tfrag/pbot-stonehengetop",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f38b15393244a85d82bac326c16415b1770347be8a92c1f18815d7ca5697407c",
+  "placements": [
+   "training-vis-tfrag/pbot-stonehengetop.png"
+  ]
+ },
+ "training-vis-tfrag/tra-grass": {
+  "canonical_id": "training-vis-tfrag/tra-grass",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "04ca3fa0d8d59afd1a0051f16b026c071cf0a291187c8db810de980605f494d8",
+  "placements": [
+   "training-vis-tfrag/tra-grass.png"
+  ]
+ },
+ "training-vis-tfrag/trn-geyser": {
+  "canonical_id": "training-vis-tfrag/trn-geyser",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "b542785e17927666c50fef47369d4dda441756c02aa153bbe74df694752db536",
+  "placements": [
+   "training-vis-tfrag/trn-geyser.png"
+  ]
+ },
+ "training-vis-tfrag/v2-coral-rockbase": {
+  "canonical_id": "training-vis-tfrag/v2-coral-rockbase",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "1e82e38168d48c3ee512e1c1d9bbd6528ff47316f90537257fde22f6449b7b12",
+  "placements": [
+   "training-vis-tfrag/v2-coral-rockbase.png",
+   "village2-vis-tfrag/v2-coral-rockbase.png"
+  ]
+ },
+ "village1-vis-tfrag/vil-beach-01": {
+  "canonical_id": "village1-vis-tfrag/vil-beach-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "4dd03fceff7f279b867c1d39a50b16251306cdeb56a56e52b4a927c68fce0030",
+  "placements": [
+   "village1-vis-alpha/vil-beach-01.png",
+   "village1-vis-tfrag/vil-beach-01.png"
+  ]
+ },
+ "village1-vis-tfrag/vil-beachrock": {
+  "canonical_id": "village1-vis-tfrag/vil-beachrock",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "ca84adf1dc73e657f270a46c46577e4835358762ac0cbb3dd07d39f615707439",
+  "placements": [
+   "village1-vis-tfrag/vil-beachrock.png"
+  ]
+ },
+ "village1-vis-tfrag/vil-haybale": {
+  "canonical_id": "village1-vis-tfrag/vil-haybale",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "0b168c9ed208c0c25ff009ffc7d22610ff7b6c184da7b77c18a792384920c3bb",
+  "placements": [
+   "village1-vis-tfrag/vil-haybale.png"
+  ]
+ },
+ "village1-vis-tfrag/vil-rug-01": {
+  "canonical_id": "village1-vis-tfrag/vil-rug-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "ef6d09fd8295465bac596ba65a61465e5eff3a65984a92cd41c3904bc478675e",
+  "placements": [
+   "village1-vis-tfrag/vil-rug-01.png"
+  ]
+ },
+ "village1-vis-tfrag/vil1-sages-stonewall-01": {
+  "canonical_id": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "847e3e5651e7e3d9c191d450c9b31f659583f7d39ef7d86800734fd89d76a071",
+  "placements": [
+   "beach-vis-tfrag/bch-sages-stonewall-01.png",
+   "village1-vis-tfrag/vil1-sages-stonewall-01.png"
+  ]
+ },
+ "village1-vis-tfrag/vil1-sages-strawroof-01": {
+  "canonical_id": "village1-vis-tfrag/vil1-sages-strawroof-01",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "8b1fcf07e587ae097104dc5318fc12365e7d1df72a923d1d2de0173ede2bbdf6",
+  "placements": [
+   "village1-vis-tfrag/vil1-sages-strawroof-01.png"
+  ]
+ },
+ "village2-vis-pris/swp-lrkr-balloon-patches": {
+  "canonical_id": "village2-vis-pris/swp-lrkr-balloon-patches",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "f21231cce64736ab494fca5f7f6f5bbe6fb9fa6506bd158e202b1eabb3ce2048",
+  "placements": [
+   "village2-vis-pris/swp-lrkr-balloon-patches.png"
+  ]
+ },
+ "village2-vis-tfrag/swp-breakaway-rock": {
+  "canonical_id": "village2-vis-tfrag/swp-breakaway-rock",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "64030a3eb3d8a32a715f770813e2e466facd74941a9ed36632191fd84fc2f611",
+  "placements": [
+   "village2-vis-tfrag/swp-breakaway-rock.png"
+  ]
+ },
+ "village2-vis-tfrag/vil2-metalplating": {
+  "canonical_id": "village2-vis-tfrag/vil2-metalplating",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "739f3f81a4c84af75838344848d0f74e5011aec1ccb3a390c71882c094d83034",
+  "placements": [
+   "village2-vis-tfrag/vil2-metalplating.png"
+  ]
+ },
+ "village2-vis-tfrag/vil2-stoneblock": {
+  "canonical_id": "village2-vis-tfrag/vil2-stoneblock",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "c5f5a3c89775acee8d1ba70a199248be492f3f8d081040871b618bd3f6ccf2da",
+  "placements": [
+   "village2-vis-tfrag/vil2-stoneblock.png"
+  ]
+ },
+ "village2-vis-tfrag/vil2-stonefloor-hitweak": {
+  "canonical_id": "village2-vis-tfrag/vil2-stonefloor-hitweak",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "ea260eec500b051638b4fba0644c0a929089ef1093b1bde896d95cc2d0199beb",
+  "placements": [
+   "village2-vis-tfrag/vil2-stonefloor-hitweak.png",
+   "village2-vis-tfrag/vil2-stonefloor.png"
+  ]
+ },
+ "village3-vis-shrub/vil3-cavewall-02": {
+  "canonical_id": "village3-vis-shrub/vil3-cavewall-02",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "dfc4e72e4100dd8d8425003e5f309392c06a8c05c4c46b5f4ad3c4c819b58fad",
+  "placements": [
+   "village3-vis-shrub/vil3-cavewall-02.png",
+   "village3-vis-tfrag/vil3-cavewall-02-hitweak.png",
+   "village3-vis-tfrag/vil3-cavewall-02.png"
+  ]
+ },
+ "village3-vis-tfrag/vil3-cave-ground": {
+  "canonical_id": "village3-vis-tfrag/vil3-cave-ground",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "78afdafe583f319c6705befb451a7e6186c2374aad8eae4c69505cef6d4d158b",
+  "placements": [
+   "village3-vis-tfrag/vil3-cave-ground.png"
+  ]
+ },
+ "village3-vis-tfrag/vil3-cave-groundcrystal": {
+  "canonical_id": "village3-vis-tfrag/vil3-cave-groundcrystal",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "d98840a35e9399bf6d821d59324d0f515bbb96045c12373623b404232c8709b4",
+  "placements": [
+   "village3-vis-tfrag/vil3-cave-groundcrystal.png"
+  ]
+ },
+ "village3-vis-tfrag/vil3-crackedfloor": {
+  "canonical_id": "firecanyon-vis-shrub/fcn-crackedfloor",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "d55a24be62fa3e7c2ee0ee8e81dc6106bb0749e44043a018e248551c146f1b2c",
+  "placements": [
+   "village3-vis-tfrag/vil3-crackedfloor.png"
+  ]
+ },
+ "village3-vis-tfrag/vil3-hut-tank": {
+  "canonical_id": "village3-vis-tfrag/vil3-hut-tank",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "53296538ddf0a53c9586c4ccc3c105afdbaf8dfe7d7208efa2770bfba05d5e46",
+  "placements": [
+   "village3-vis-tfrag/vil3-hut-tank.png"
+  ]
+ },
+ "village3-vis-tfrag/vil3-hutroof": {
+  "canonical_id": "village3-vis-tfrag/vil3-hutroof",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "5b942192e1ce6c63351dbf27ddc936b28351fb2f935bdb841ee8c97d44fe4649",
+  "placements": [
+   "village3-vis-tfrag/vil3-hutroof.png"
+  ]
+ },
+ "village3-vis-tfrag/vil3-hutwall": {
+  "canonical_id": "village3-vis-tfrag/vil3-hutwall",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "d171d16cd0ac4c44d26b117f1184a9988e9658155d276b5f9304dc4005b17ec4",
+  "placements": [
+   "village3-vis-tfrag/vil3-hutwall.png"
+  ]
+ },
+ "village3-vis-tfrag/vil3-lava-floor": {
+  "canonical_id": "firecanyon-vis-tfrag/fcn-coal",
+  "is_variant": true,
+  "recale": true,
+  "set_sha256": "3cfb025712139d7ccc75b6ad9001a9a8d48bc3e29fe83304756c8ea4ce899ee2",
+  "placements": [
+   "village3-vis-tfrag/vil3-lava-floor.png"
+  ]
+ },
+ "village3-vis-tfrag/vil3-rockwall-upper-merge": {
+  "canonical_id": "village3-vis-tfrag/vil3-rockwall-upper-merge",
+  "is_variant": false,
+  "recale": false,
+  "set_sha256": "bfce9e94d77e01f383adec8e1ad6b6135d736924aae84eb2be5c84e562128d9a",
+  "placements": [
+   "village3-vis-tfrag/vil3-rockwall-upper-merge.png"
+  ]
+ }
+}

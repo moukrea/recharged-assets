@@ -1,0 +1,7 @@
+# Raw texture masters are stored in Git LFS — never as ordinary blobs.
+raw/**/*.png filter=lfs diff=lfs merge=lfs -text
+raw/**/*.tif filter=lfs diff=lfs merge=lfs -text
+raw/**/*.exr filter=lfs diff=lfs merge=lfs -text
+
+# Everything else (metadata, schemas, tools, docs) is plain text in Git.
+* text=auto
