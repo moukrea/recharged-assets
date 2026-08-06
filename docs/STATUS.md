@@ -72,7 +72,7 @@ real Android device.
    owner's game data). First run on an Adreno device is the outstanding check —
    in particular the ASTC upgrade path, which by design only takes effect on the
    *second* launch (the profile is unknown until a GL context exists).
-2. **Retire the bundled 71 MB PNG set** from the APK once (2) is confirmed —
+2. **Retire the bundled 71 MB PNG set** from the APK once (1) is confirmed —
    that is the acceptance criterion "no heavy remastered PNG in the normal APK".
 3. **Source cleanup**: a handful of masters carry noisy/denormalized normals
    (~15.7° worst-case angular error, identical across all three codecs, so it is
