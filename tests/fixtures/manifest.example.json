@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "asset_version": "assets-v0.1.0",
+  "games": ["jak1"],
+  "engine_compat": {
+    "min_recharged_version": "0.1.0",
+    "max_recharged_version": null,
+    "min_loader_version": 1,
+    "required_features": []
+  },
+  "profiles": ["pc-bc", "android-etc2", "android-astc"],
+  "presets": ["default", "bonkers"],
+  "shards": [
+    {
+      "name": "jak1-pc-bc-default-albedo-shard-c1-village1-beach-0123456789ab.rpack",
+      "game": "jak1",
+      "profile": "pc-bc",
+      "preset": "default",
+      "group": "albedo",
+      "cluster": "c1-village1-beach",
+      "sha256": "0123456789ab0123456789ab0123456789ab0123456789ab0123456789ab0123",
+      "size": 52428800,
+      "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-albedo-shard-c1-village1-beach-0123456789ab.rpack",
+      "release_tag": "assets-v0.1.0",
+      "entry_count": 42
+    },
+    {
+      "name": "jak1-pc-bc-default-material-shard-c1-village1-beach-ba9876543210.rpack",
+      "game": "jak1",
+      "profile": "pc-bc",
+      "preset": "default",
+      "group": "material",
+      "cluster": "c1-village1-beach",
+      "sha256": "ba9876543210ba9876543210ba9876543210ba9876543210ba9876543210ba98",
+      "size": 104857600,
+      "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-material-shard-c1-village1-beach-ba9876543210.rpack",
+      "release_tag": "assets-v0.1.0",
+      "entry_count": 126,
+      "requires_features": ["pbr"]
+    }
+  ]
+}

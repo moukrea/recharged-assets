@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/moukrea/recharged-assets/schemas/assets-lock.schema.json",
+  "title": "assets.lock.json (schema v1)",
+  "description": "Committed in the Recharged game repo. Pins every build to one exact, immutable manifest — never the release marked 'latest'.",
+  "type": "object",
+  "required": ["schema_version", "asset_version", "manifest_url", "manifest_sha256", "required"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": 1 },
+    "asset_version": { "type": "string", "pattern": "^assets-v[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "manifest_url": { "type": "string", "format": "uri" },
+    "manifest_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "required": {
+      "type": "boolean",
+      "description": "true = the build refuses to consider assets optional (still never blocks launch when offline with a previously validated install; see spec §15 offline rules)"
+    }
+  }
+}

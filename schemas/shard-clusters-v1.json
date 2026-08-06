@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "comment": "Frozen level-cluster partition for shard assignment (schema v1). A tpage is assigned by matching its level prefix (the part before '-vis-' or '-tpage-'); unknown prefixes land in 'overflow'. This table never rebalances within schema v1; it may be re-cut ONCE before assets-v1.0.0 based on real encode sizes.",
+  "games": {
+    "jak1": {
+      "clusters": {
+        "c1-village1-beach": ["village1", "beach", "training"],
+        "c2-jungle-misty": ["jungle", "jungleb", "misty"],
+        "c3-village2-swamp": ["village2", "swamp", "rolling", "sunken", "sunkenb"],
+        "c4-snow-canyon": ["snow", "firecanyon", "ogre"],
+        "c5-village3-caves": ["village3", "darkcave", "maincave", "robocave", "lavatube"],
+        "c6-citadel-finale": ["citadel", "finalboss", "intro"]
+      },
+      "overflow": "overflow"
+    }
+  }
+}

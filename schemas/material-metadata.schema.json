@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/moukrea/recharged-assets/schemas/material-metadata.schema.json",
+  "title": "Recharged material metadata (schema v1)",
+  "description": "Per-material semantic metadata. Auto-derivation may PROPOSE these values; committed files are authoritative overrides. Ambiguous fields (alpha_mode, map semantics) must never be inferred from PNG channel count alone.",
+  "type": "object",
+  "required": ["schema_version", "id", "game", "maps"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": {
+      "type": "string",
+      "description": "Stable identifier, independent of physical file names: <game>/<tpage>/<name>",
+      "pattern": "^jak[123]/[a-z0-9-]+/[A-Za-z0-9_.-]+$"
+    },
+    "game": { "enum": ["jak1", "jak2", "jak3"] },
+    "original": {
+      "type": "object",
+      "description": "The in-game texture this material replaces.",
+      "additionalProperties": false,
+      "properties": {
+        "tpage_name": { "type": "string" },
+        "texture_name": { "type": "string" },
+        "combo_id": { "type": "integer", "description": "(tpage << 16) | texid, when known from an extraction run" },
+        "dims": { "$ref": "#/$defs/dims" },
+        "has_alpha": { "type": "boolean", "description": "Whether the ORIGINAL texture carries meaningful alpha — guards against shipping an opaque replacement for a transparent original" }
+      }
+    },
+    "esrgan_dims": {
+      "$ref": "#/$defs/dims",
+      "description": "Dimensions of the corresponding texture in the reference ESRGAN pack (metadata only; those PNGs are never imported)"
+    },
+    "master_dims": { "$ref": "#/$defs/dims" },
+    "wrap_mode": { "enum": ["clamp", "repeat_x", "repeat_y", "repeat"], "default": "repeat" },
+    "alpha_mode": { "enum": ["none", "binary", "progressive", "premultiplied"], "default": "none" },
+    "required": {
+      "type": "boolean",
+      "default": false,
+      "description": "Functionally mandatory content (missing it is an error, not a cosmetic downgrade)"
+    },
+    "levels": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "tpage names using this material (derived from placements.json)"
+    },
+    "variant_of": { "type": "string", "description": "Canonical material id when this set is a 'recale' pixel variant" },
+    "recale": { "type": "boolean", "default": false },
+    "maps": {
+      "type": "object",
+      "description": "One entry per shipped map of this material.",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "albedo": { "$ref": "#/$defs/map" },
+        "normal": { "$ref": "#/$defs/map" },
+        "roughness": { "$ref": "#/$defs/map" },
+        "height": { "$ref": "#/$defs/map" },
+        "metallic": { "$ref": "#/$defs/map" },
+        "ao": { "$ref": "#/$defs/map" },
+        "specular": { "$ref": "#/$defs/map" },
+        "emissive": { "$ref": "#/$defs/map" },
+        "mask": { "$ref": "#/$defs/map" }
+      }
+    },
+    "mip_policy": {
+      "type": "object",
+      "description": "Overrides of the semantic defaults (see docs/IMPLEMENTATION_PLAN.md D7).",
+      "additionalProperties": false,
+      "properties": {
+        "height_reduction": { "enum": ["average", "min", "max", "percentile"], "default": "average" },
+        "coverage_threshold": { "type": "number", "minimum": 0, "maximum": 1, "description": "Alpha-coverage target for cutout mips (engine AREF semantics)" },
+        "min_mip_size": { "type": "integer", "minimum": 1, "default": 1 }
+      }
+    },
+    "format_overrides": {
+      "type": "object",
+      "description": "Per-profile format overrides, keyed by profile id then map kind.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": { "type": "string" }
+      }
+    },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "dims": {
+      "type": "array",
+      "prefixItems": [{ "type": "integer", "minimum": 1 }, { "type": "integer", "minimum": 1 }],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "map": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["colorspace"],
+      "properties": {
+        "colorspace": {
+          "enum": ["srgb-encoded", "linear"],
+          "description": "srgb-encoded = filtered in linear light offline, stored as encoded values, decoded by the shader (pow 2.2); linear = data map, filtered and stored linear"
+        },
+        "channels": { "enum": ["rgb", "rgba", "rg", "r"], "description": "Channels carrying real data (normals ship rg = X/Y with Z reconstructed in-shader)" },
+        "source_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+      }
+    }
+  }
+}

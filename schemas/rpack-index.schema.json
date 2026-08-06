@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/moukrea/recharged-assets/schemas/rpack-index.schema.json",
+  "title": "RPACK v1 embedded index",
+  "type": "object",
+  "required": ["schema_version", "game", "profile", "preset", "group", "cluster", "entries"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": 1 },
+    "game": { "enum": ["jak1", "jak2", "jak3"] },
+    "profile": { "enum": ["pc-bc", "pc-bc-legacy", "android-etc2", "android-astc", "rgba8-fallback"] },
+    "preset": { "enum": ["low", "default", "bonkers"] },
+    "group": { "enum": ["albedo", "material"] },
+    "cluster": { "type": "string" },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "key", "map", "format", "width", "height", "mip_levels", "offset", "size", "sha256", "colorspace"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "description": "Stable material id (jak1/<tpage>/<name>)" },
+          "key": { "type": "string", "description": "Engine replacement key: <tpage>/<name> (no suffix; 'map' carries the kind)" },
+          "map": { "enum": ["albedo", "normal", "roughness", "height", "metallic", "ao", "specular", "emissive", "mask"] },
+          "format": {
+            "type": "string",
+            "description": "VkFormat name matching the KTX2 vkFormat field, e.g. VK_FORMAT_BC7_UNORM_BLOCK, VK_FORMAT_ETC2_R8G8B8_UNORM_BLOCK, VK_FORMAT_EAC_R11G11_UNORM_BLOCK, VK_FORMAT_ASTC_6x6_UNORM_BLOCK, VK_FORMAT_R8G8B8A8_UNORM"
+          },
+          "width": { "type": "integer", "minimum": 1 },
+          "height": { "type": "integer", "minimum": 1 },
+          "mip_levels": { "type": "integer", "minimum": 1 },
+          "offset": { "type": "integer", "minimum": 16, "multipleOf": 16 },
+          "size": { "type": "integer", "minimum": 1 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "colorspace": { "enum": ["srgb-encoded", "linear"] },
+          "alpha_mode": { "enum": ["none", "binary", "progressive", "premultiplied"], "default": "none" },
+          "wrap_mode": { "enum": ["clamp", "repeat_x", "repeat_y", "repeat"], "default": "repeat" },
+          "channels": { "enum": ["rgb", "rgba", "rg", "r"], "description": "rg on normals = X/Y, reconstruct Z in-shader" },
+          "stats": {
+            "type": "object",
+            "description": "Precomputed decode-time statistics the Recharged shaders need (measured offline on this entry's level-0 pixels).",
+            "additionalProperties": false,
+            "properties": {
+              "normal_dc_x": { "type": "number" },
+              "normal_dc_y": { "type": "number" },
+              "height_mean": { "type": "number", "minimum": 0, "maximum": 1 },
+              "height_norm": { "type": "number", "minimum": 0.5, "maximum": 16 },
+              "height_lambda_tiles": { "type": "number", "minimum": 0.0009765625, "maximum": 1 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "jak1/village1-vis-tfrag/vil-beach-01",
+  "game": "jak1",
+  "original": {
+    "tpage_name": "village1-vis-tfrag",
+    "texture_name": "vil-beach-01",
+    "dims": [128, 128],
+    "has_alpha": false
+  },
+  "esrgan_dims": [512, 512],
+  "master_dims": [2048, 2048],
+  "wrap_mode": "repeat",
+  "alpha_mode": "none",
+  "required": false,
+  "levels": ["village1-vis-tfrag"],
+  "recale": false,
+  "maps": {
+    "albedo": { "colorspace": "srgb-encoded", "channels": "rgb" },
+    "normal": { "colorspace": "linear", "channels": "rg" },
+    "roughness": { "colorspace": "linear", "channels": "r" },
+    "height": { "colorspace": "linear", "channels": "r" }
+  },
+  "mip_policy": {
+    "height_reduction": "average",
+    "min_mip_size": 1
+  }
+}

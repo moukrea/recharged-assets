@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "asset_version": "assets-v0.1.0",
+  "manifest_url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/manifest.json",
+  "manifest_sha256": "0123456789ab0123456789ab0123456789ab0123456789ab0123456789ab0123",
+  "required": false
+}

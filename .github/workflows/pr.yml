@@ -1,0 +1,40 @@
+name: PR validation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  contracts:
+    name: Schemas, parsers & metadata
+    runs-on: ubuntu-latest
+    env:
+      # Contracts and metadata never need the texture masters.
+      GIT_LFS_SKIP_SMUDGE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install test dependencies
+        run: pip install pytest jsonschema
+      - name: Run test suite
+        run: pytest tests/ -q
+      - name: Validate committed metadata against schemas
+        run: |
+          python - <<'EOF'
+          import json, pathlib
+          import jsonschema
+          repo = pathlib.Path(".")
+          # cluster table sanity
+          table = json.loads((repo / "schemas/shard-clusters-v1.json").read_text())
+          assert table["schema_version"] == 1
+          # placements/materials structural check (no LFS needed)
+          placements = json.loads((repo / "metadata/jak1/placements.json").read_text())
+          materials = json.loads((repo / "metadata/jak1/materials.json").read_text())
+          assert set(placements["placements"].values()) == set(materials)
+          print(f"OK: {len(placements['placements'])} placements, {len(materials)} materials")
+          EOF
