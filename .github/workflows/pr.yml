@@ -23,6 +23,11 @@ jobs:
         run: pip install pytest jsonschema
       - name: Run test suite
         run: pytest tests/ -q
+      - name: Compute affected materials
+        id: affected
+        run: |
+          git fetch origin main --depth=50 || true
+          echo "json=$(python tools/affected.py origin/main 2>/dev/null || echo '{}')" >> "$GITHUB_OUTPUT"
       - name: Validate committed metadata against schemas
         run: |
           python - <<'EOF'
@@ -38,3 +43,57 @@ jobs:
           assert set(placements["placements"].values()) == set(materials)
           print(f"OK: {len(placements['placements'])} placements, {len(materials)} materials")
           EOF
+
+  encode-affected:
+    name: Incremental encode & gates
+    needs: contracts
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/moukrea/recharged-assets-toolchain:tc1
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+          fetch-depth: 0
+      - name: Determine affected materials
+        id: affected
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git fetch origin main
+          echo "json=$(python3 tools/affected.py origin/main)" >> "$GITHUB_OUTPUT"
+      - name: Pull only affected LFS objects
+        run: |
+          git lfs install --local
+          MATS=$(echo '${{ steps.affected.outputs.json }}' | python3 -c \
+            "import json,sys; print(','.join('raw/jak1/'+m+'/**' for m in json.load(sys.stdin)['materials']))")
+          if [ -z "$MATS" ]; then echo "no affected materials"; exit 0; fi
+          git lfs pull --include="$MATS"
+      - name: Build affected (default preset, 2 profiles, fast ASTC)
+        run: |
+          MATS=$(echo '${{ steps.affected.outputs.json }}' | python3 -c \
+            "import json,sys; print(','.join(json.load(sys.stdin)['materials']))")
+          if [ -z "$MATS" ]; then echo "nothing to encode"; exit 0; fi
+          python3 tools/build_catalog.py --repo . --out out/pr1 --cache out/cache \
+            --materials "$MATS" --presets default \
+            --profiles pc-bc,android-etc2 --astc-quality -medium
+      - name: Determinism double-build
+        run: |
+          MATS=$(echo '${{ steps.affected.outputs.json }}' | python3 -c \
+            "import json,sys; print(','.join(json.load(sys.stdin)['materials']))")
+          if [ -z "$MATS" ]; then exit 0; fi
+          rm -rf out/cache2
+          python3 tools/build_catalog.py --repo . --out out/pr2 --cache out/cache2 \
+            --materials "$MATS" --presets default \
+            --profiles pc-bc,android-etc2 --astc-quality -medium
+          cd out/pr1 && for f in *.rpack; do
+            cmp "$f" "../pr2/$f" || { echo "NON-DETERMINISTIC: $f"; exit 1; }
+          done
+          echo "determinism OK"
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-build-report
+          path: out/pr1/build-report.json
+          if-no-files-found: ignore

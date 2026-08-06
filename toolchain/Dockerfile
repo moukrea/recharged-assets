@@ -19,7 +19,7 @@ ARG ETCPAK_COMMIT=9110365ba6916c9554c231c5cdcac77b2618cb89
 RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates curl unzip bzip2 xz-utils \
         python3 python3-pip python3-venv \
-        build-essential cmake ninja-build git libpng-dev \
+        build-essential cmake ninja-build git git-lfs libpng-dev gh \
     && rm -rf /var/lib/apt/lists/*
 
 # --- KTX-Software (ktx create/validate, libktx) -----------------------------

@@ -91,21 +91,31 @@ def expected_size(fmt: Fmt, w: int, h: int) -> int:
     return bw * bh * fmt.block_bytes
 
 
-def _encode_level_png(png: Path, fmt: Fmt, work: Path, astc_quality: str) -> bytes:
+def _encode_level_png(png: Path, fmt: Fmt, work: Path, astc_quality: str,
+                      decode_to: Path | None = None) -> bytes:
+    """Encode one level; when decode_to is set, also produce the decoded
+    round-trip image there (used for the level-0 quality gates)."""
     if fmt.encoder == "bc7enc":
         dds = work / (png.stem + ".dds")
-        args = ["bc7enc", "-q", "-g"]
+        args = ["bc7enc", "-q"]
+        if decode_to is None:
+            args.append("-g")
         if fmt.encoder_arg:
             args.append(fmt.encoder_arg)
-        _run(args + [png, dds], cwd=work)
+        tail = [png, dds] + ([decode_to] if decode_to is not None else [])
+        _run(args + tail, cwd=work)
         return strip_dds(dds)
     if fmt.encoder == "etcpak":
         pvr = work / (png.stem + ".pvr")
         _run(["etcpak", "-c", fmt.encoder_arg, "--linear", png, pvr])
+        if decode_to is not None:
+            _run(["etcpak", "-v", pvr, decode_to])
         return strip_pvr(pvr)
     if fmt.encoder == "astcenc":
         astc = work / (png.stem + ".astc")
         _run(["astcenc", "-cl", png, astc, fmt.encoder_arg, astc_quality, "-j", "8", "-silent"])
+        if decode_to is not None:
+            _run(["astcenc", "-dl", astc, decode_to, "-silent"])
         return strip_astc(astc)
     raise EncodeError(f"unknown encoder {fmt.encoder}")
 
@@ -141,18 +151,26 @@ def _level_png(level01: np.ndarray, channels: str, fmt: Fmt, path: Path) -> tupl
 
 def encode_map(levels01: list[np.ndarray], channels: str, fmt_name: str,
                out_ktx2: Path, astc_quality: str = "-thorough",
-               validate: bool = True) -> None:
-    """levels01: semantic mip chain (level 0 first), floats in [0,1]."""
+               validate: bool = True,
+               capture_level0: bool = False) -> np.ndarray | None:
+    """levels01: semantic mip chain (level 0 first), floats in [0,1].
+    With capture_level0, returns the decoded round-trip of level 0 as an
+    RGBA uint8 array (cropped to the true dims) for quality gating."""
     fmt = FORMATS[fmt_name]
     w0 = levels01[0].shape[1]
     h0 = levels01[0].shape[0]
+    decoded0 = None
     with tempfile.TemporaryDirectory(prefix="rchg-enc-") as td:
         work = Path(td)
         raw_files = []
         for i, lvl in enumerate(levels01):
             png = work / f"m{i}.png"
             w, h = _level_png(lvl, channels, fmt, png)
-            blob = _encode_level_png(png, fmt, work, astc_quality)
+            dec_path = work / f"m{i}.dec.png" if (capture_level0 and i == 0) else None
+            blob = _encode_level_png(png, fmt, work, astc_quality, decode_to=dec_path)
+            if dec_path is not None:
+                arr = np.asarray(Image.open(dec_path).convert("RGBA"), dtype=np.uint8)
+                decoded0 = arr[:h, :w]  # crop any block padding
             want = expected_size(fmt, w, h)
             if len(blob) != want:
                 raise EncodeError(
@@ -168,6 +186,7 @@ def encode_map(levels01: list[np.ndarray], channels: str, fmt_name: str,
               *raw_files, out_ktx2])
         if validate:
             _run(["ktx", "validate", out_ktx2])
+    return decoded0
 
 
 def have_tools() -> list[str]:

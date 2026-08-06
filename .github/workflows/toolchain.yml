@@ -1,0 +1,34 @@
+name: Toolchain image
+
+on:
+  push:
+    branches: [main]
+    paths: ["toolchain/**"]
+  workflow_dispatch:
+
+jobs:
+  build-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: toolchain
+          push: true
+          tags: |
+            ghcr.io/moukrea/recharged-assets-toolchain:tc1
+            ghcr.io/moukrea/recharged-assets-toolchain:${{ github.sha }}
+      - name: Verify tools inside the image
+        run: |
+          docker run --rm ghcr.io/moukrea/recharged-assets-toolchain:tc1 bash -c \
+            "ktx --version && astcenc -help >/dev/null && bc7enc >/dev/null 2>&1; etcpak --help >/dev/null 2>&1; echo tools-ok"

@@ -1,0 +1,26 @@
+{
+  "comment": "Per-semantic quality gates (spec §10), applied to the decoded level-0 of every built KTX2. Initial values = bake-off measurements + margin (docs/ENCODER_BAKEOFF.md). A texture failing a gate is reported with a format_overrides proposal; the build exits non-zero — never a silent downgrade.",
+  "albedo": {
+    "metric": "psnr_db",
+    "min": { "bc7": 45.0, "bc1": 38.0, "etc2_rgb": 35.0, "astc_6x6": 40.0, "astc_4x4": 44.0 }
+  },
+  "normal": {
+    "metric": "ang_mean_deg",
+    "max": { "bc5": 2.5, "eac_rg11": 2.5, "astc_4x4": 1.5 },
+    "p99_max": { "bc5": 15.0, "eac_rg11": 15.0, "astc_4x4": 8.0 }
+  },
+  "roughness": {
+    "metric": "mae",
+    "max": { "bc4": 1.0, "eac_r11": 1.5, "astc_4x4": 0.5, "astc_6x6": 1.2 }
+  },
+  "height": {
+    "metric": "mae",
+    "max": { "bc4": 1.0, "eac_r11": 1.5, "astc_4x4": 0.5, "astc_6x6": 1.2 }
+  },
+  "ladder": {
+    "comment": "format_overrides proposals emitted on failure, per profile",
+    "android-etc2": { "normal": "astc_4x4", "roughness": "astc_4x4", "height": "astc_4x4", "albedo": "astc_6x6" },
+    "android-astc": { "roughness": "astc_4x4", "height": "astc_4x4", "albedo": "astc_4x4" },
+    "pc-bc": {}
+  }
+}
