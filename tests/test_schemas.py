@@ -59,6 +59,19 @@ def test_cluster_table_shape():
     assert jak1["overflow"] == "overflow"
 
 
+def test_all_committed_material_metadata_validates():
+    schema = load(SCHEMAS / "material-metadata.schema.json")
+    files = sorted((REPO / "metadata" / "jak1" / "materials").rglob("*.json"))
+    assert len(files) == 172
+    validator = jsonschema.Draft202012Validator(schema)
+    for f in files:
+        doc = load(f)
+        validator.validate(doc)
+        # the id must match the file's location
+        tpage, name = f.parent.name, f.stem
+        assert doc["id"] == f"jak1/{tpage}/{name}"
+
+
 def test_real_placements_and_materials_parse():
     placements = load(REPO / "metadata" / "jak1" / "placements.json")
     materials = load(REPO / "metadata" / "jak1" / "materials.json")

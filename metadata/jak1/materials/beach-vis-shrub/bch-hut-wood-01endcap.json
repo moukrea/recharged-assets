@@ -1,0 +1,45 @@
+{
+ "schema_version": 1,
+ "id": "jak1/beach-vis-shrub/bch-hut-wood-01endcap",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "beach-vis-shrub",
+  "texture_name": "bch-hut-wood-01endcap"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "beach-vis-shrub",
+  "beach-vis-tfrag",
+  "jungle-vis-tfrag",
+  "training-vis-tfrag",
+  "village1-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "clamp",
+ "esrgan_dims": [
+  256,
+  256
+ ]
+}

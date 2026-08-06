@@ -1,0 +1,42 @@
+{
+ "schema_version": 1,
+ "id": "jak1/sunken-vis-alpha/sun-glass-frame-01",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "sunken-vis-alpha",
+  "texture_name": "sun-glass-frame-01"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "sunken-vis-alpha",
+  "sunkenb-vis-alpha"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat_x",
+ "esrgan_dims": [
+  1024,
+  1024
+ ]
+}

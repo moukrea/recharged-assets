@@ -1,0 +1,42 @@
+{
+ "schema_version": 1,
+ "id": "jak1/training-vis-tfrag/v2-coral-rockbase",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "training-vis-tfrag",
+  "texture_name": "v2-coral-rockbase"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "training-vis-tfrag",
+  "village2-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat",
+ "esrgan_dims": [
+  512,
+  512
+ ]
+}

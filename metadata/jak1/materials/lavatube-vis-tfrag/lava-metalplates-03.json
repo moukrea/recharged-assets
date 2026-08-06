@@ -1,0 +1,42 @@
+{
+ "schema_version": 1,
+ "id": "jak1/lavatube-vis-tfrag/lava-metalplates-03",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "lavatube-vis-tfrag",
+  "texture_name": "lava-metalplates-03"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "lavatube-vis-tfrag",
+  "misty-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat_x",
+ "esrgan_dims": [
+  512,
+  512
+ ]
+}

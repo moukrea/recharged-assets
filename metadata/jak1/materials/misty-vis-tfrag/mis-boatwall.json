@@ -1,0 +1,42 @@
+{
+ "schema_version": 1,
+ "id": "jak1/misty-vis-tfrag/mis-boatwall",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "misty-vis-tfrag",
+  "texture_name": "mis-boatwall"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "misty-vis-tfrag"
+ ],
+ "recale": true,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat",
+ "esrgan_dims": [
+  512,
+  512
+ ],
+ "variant_of": "jak1/citadel-vis-tfrag/citb-metal-panes-hitweak"
+}

@@ -1,0 +1,41 @@
+{
+ "schema_version": 1,
+ "id": "jak1/robocave-vis-tfrag/cv-wall-roof-02",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "robocave-vis-tfrag",
+  "texture_name": "cv-wall-roof-02"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "robocave-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "clamp",
+ "esrgan_dims": [
+  512,
+  512
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "schema_version": 1,
+ "id": "jak1/swamp-vis-tfrag/swp-stonewall",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "swamp-vis-tfrag",
+  "texture_name": "swp-stonewall"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "swamp-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat",
+ "esrgan_dims": [
+  512,
+  512
+ ]
+}

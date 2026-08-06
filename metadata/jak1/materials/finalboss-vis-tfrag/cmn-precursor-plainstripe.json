@@ -1,0 +1,44 @@
+{
+ "schema_version": 1,
+ "id": "jak1/finalboss-vis-tfrag/cmn-precursor-plainstripe",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "finalboss-vis-tfrag",
+  "texture_name": "cmn-precursor-plainstripe"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "finalboss-vis-tfrag",
+  "robocave-vis-tfrag",
+  "sunken-vis-tfrag",
+  "sunkenb-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat_x",
+ "esrgan_dims": [
+  512,
+  512
+ ]
+}

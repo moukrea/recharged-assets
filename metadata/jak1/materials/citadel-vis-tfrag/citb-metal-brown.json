@@ -1,0 +1,41 @@
+{
+ "schema_version": 1,
+ "id": "jak1/citadel-vis-tfrag/citb-metal-brown",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "citadel-vis-tfrag",
+  "texture_name": "citb-metal-brown"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "citadel-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "clamp",
+ "esrgan_dims": [
+  512,
+  512
+ ]
+}

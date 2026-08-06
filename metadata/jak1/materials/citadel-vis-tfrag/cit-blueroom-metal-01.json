@@ -1,0 +1,41 @@
+{
+ "schema_version": 1,
+ "id": "jak1/citadel-vis-tfrag/cit-blueroom-metal-01",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "citadel-vis-tfrag",
+  "texture_name": "cit-blueroom-metal-01"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "citadel-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat",
+ "esrgan_dims": [
+  1024,
+  1024
+ ]
+}

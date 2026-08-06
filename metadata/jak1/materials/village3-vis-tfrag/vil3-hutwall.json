@@ -1,0 +1,41 @@
+{
+ "schema_version": 1,
+ "id": "jak1/village3-vis-tfrag/vil3-hutwall",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "village3-vis-tfrag",
+  "texture_name": "vil3-hutwall"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "village3-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat",
+ "esrgan_dims": [
+  1024,
+  1024
+ ]
+}

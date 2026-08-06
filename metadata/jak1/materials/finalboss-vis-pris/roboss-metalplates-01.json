@@ -1,0 +1,42 @@
+{
+ "schema_version": 1,
+ "id": "jak1/finalboss-vis-pris/roboss-metalplates-01",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "finalboss-vis-pris",
+  "texture_name": "roboss-metalplates-01"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "finalboss-vis-pris"
+ ],
+ "recale": true,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat",
+ "esrgan_dims": [
+  512,
+  512
+ ],
+ "variant_of": "jak1/citadel-vis-pris/roboss-cit-metalplates-01"
+}

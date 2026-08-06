@@ -1,0 +1,46 @@
+{
+ "schema_version": 1,
+ "id": "jak1/beach-vis-tfrag/bch-huttoprim-hitweak",
+ "game": "jak1",
+ "original": {
+  "tpage_name": "beach-vis-tfrag",
+  "texture_name": "bch-huttoprim-hitweak"
+ },
+ "master_dims": [
+  2048,
+  2048
+ ],
+ "alpha_mode": "none",
+ "levels": [
+  "beach-vis-tfrag",
+  "citadel-vis-tfrag",
+  "training-vis-tfrag",
+  "village1-vis-pris",
+  "village1-vis-tfrag",
+  "village2-vis-tfrag"
+ ],
+ "recale": false,
+ "maps": {
+  "albedo": {
+   "colorspace": "srgb-encoded",
+   "channels": "rgb"
+  },
+  "normal": {
+   "colorspace": "linear",
+   "channels": "rg"
+  },
+  "roughness": {
+   "colorspace": "linear",
+   "channels": "r"
+  },
+  "height": {
+   "colorspace": "linear",
+   "channels": "r"
+  }
+ },
+ "wrap_mode": "repeat_x",
+ "esrgan_dims": [
+  512,
+  512
+ ]
+}
