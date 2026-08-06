@@ -74,6 +74,17 @@ def _normal_ang(ref: np.ndarray, dec: np.ndarray) -> tuple[float, float]:
     return float(np.mean(ang)), float(np.percentile(ang, 99))
 
 
+def _gate_ok_from_metrics(sem: str, fmt: str, metrics: dict,
+                          thresholds: dict) -> bool:
+    t = thresholds[sem]
+    if sem == "albedo":
+        return bool(metrics["psnr_db"] >= t["min"].get(fmt, 0))
+    if sem == "normal":
+        return bool(metrics["ang_mean_deg"] <= t["max"].get(fmt, 99)
+                    and metrics["ang_p99_deg"] <= t["p99_max"].get(fmt, 999))
+    return bool(metrics["mae"] <= t["max"].get(fmt, 255))
+
+
 def _gate(sem: str, fmt: str, ref_rgba: np.ndarray, dec_rgba: np.ndarray,
           thresholds: dict) -> tuple[dict, bool]:
     t = thresholds[sem]
@@ -133,6 +144,10 @@ def build_one(job: dict) -> dict:
                    "format": fmt_name, "dims": pdims, "cache_key": key}
             if cached.exists() and gates_cached.exists():
                 rec.update(json.loads(gates_cached.read_text()))
+                # gate verdicts are re-evaluated against the CURRENT
+                # thresholds — recalibration must not require re-encoding
+                rec["gate_ok"] = _gate_ok_from_metrics(sem, fmt_name,
+                                                       rec["metrics"], thresholds)
                 rec["cache"] = "hit"
             else:
                 if chain is None:
