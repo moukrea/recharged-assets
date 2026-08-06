@@ -1,0 +1,617 @@
+[
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "albedo",
+  "format": "bc7",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 3.62,
+  "psnr_db": 52.19,
+  "max_err": 7
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "albedo",
+  "format": "bc1",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 4.32,
+  "psnr_db": 44.35,
+  "max_err": 14
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "albedo",
+  "format": "etc2_rgb",
+  "encoder": "etcpak",
+  "encode_s": 0.17,
+  "psnr_db": 41.26,
+  "max_err": 19
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "albedo",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 3.24,
+  "psnr_db": 47.48,
+  "max_err": 14
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "albedo",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.24,
+  "psnr_db": 46.64,
+  "max_err": 14
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "normal",
+  "format": "bc5",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 5.13,
+  "ang_mean_deg": 0.601,
+  "ang_p99_deg": 2.629,
+  "ang_max_deg": 70.774
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "normal",
+  "format": "eac_rg11",
+  "encoder": "etcpak",
+  "encode_s": 0.18,
+  "ang_mean_deg": 0.732,
+  "ang_p99_deg": 2.929,
+  "ang_max_deg": 73.048
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "normal",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 6.32,
+  "ang_mean_deg": 0.596,
+  "ang_p99_deg": 2.342,
+  "ang_max_deg": 20.963
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "normal",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 2.9,
+  "ang_mean_deg": 0.613,
+  "ang_p99_deg": 2.361,
+  "ang_max_deg": 20.963
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "roughness",
+  "format": "bc4",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 3.3,
+  "mae": 0.19,
+  "max_err": 5,
+  "psnr_db": 55.07
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "roughness",
+  "format": "eac_r11",
+  "encoder": "etcpak",
+  "encode_s": 0.11,
+  "mae": 0.381,
+  "max_err": 7,
+  "psnr_db": 51.62
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "roughness",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.55,
+  "mae": 0.002,
+  "max_err": 1,
+  "psnr_db": 74.96
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "roughness",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.22,
+  "mae": 0.006,
+  "max_err": 1,
+  "psnr_db": 70.06
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "roughness",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 1.64,
+  "mae": 0.407,
+  "max_err": 8,
+  "psnr_db": 51.07
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "roughness",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.19,
+  "mae": 0.581,
+  "max_err": 8,
+  "psnr_db": 49.15
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "height",
+  "format": "bc4",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 3.25,
+  "mae": 0.025,
+  "max_err": 5,
+  "psnr_db": 63.95
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "height",
+  "format": "eac_r11",
+  "encoder": "etcpak",
+  "encode_s": 0.1,
+  "mae": 0.139,
+  "max_err": 7,
+  "psnr_db": 56.32
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "height",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.26,
+  "mae": 0.0,
+  "max_err": 1,
+  "psnr_db": 85.89
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "height",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.21,
+  "mae": 0.0,
+  "max_err": 2,
+  "psnr_db": 81.79
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "height",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.62,
+  "mae": 0.081,
+  "max_err": 6,
+  "psnr_db": 58.95
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beach-01",
+  "semantic": "height",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.14,
+  "mae": 0.232,
+  "max_err": 5,
+  "psnr_db": 54.29
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "albedo",
+  "format": "bc7",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 3.77,
+  "psnr_db": 49.91,
+  "max_err": 11
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "albedo",
+  "format": "bc1",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 4.18,
+  "psnr_db": 42.32,
+  "max_err": 24
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "albedo",
+  "format": "etc2_rgb",
+  "encoder": "etcpak",
+  "encode_s": 0.18,
+  "psnr_db": 39.73,
+  "max_err": 34
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "albedo",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 4.31,
+  "psnr_db": 44.8,
+  "max_err": 21
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "albedo",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.3,
+  "psnr_db": 44.38,
+  "max_err": 25
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "normal",
+  "format": "bc5",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 4.92,
+  "ang_mean_deg": 1.15,
+  "ang_p99_deg": 15.574,
+  "ang_max_deg": 102.769
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "normal",
+  "format": "eac_rg11",
+  "encoder": "etcpak",
+  "encode_s": 0.17,
+  "ang_mean_deg": 1.198,
+  "ang_p99_deg": 15.218,
+  "ang_max_deg": 106.284
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "normal",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 4.85,
+  "ang_mean_deg": 0.304,
+  "ang_p99_deg": 1.866,
+  "ang_max_deg": 43.784
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "normal",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 1.36,
+  "ang_mean_deg": 0.384,
+  "ang_p99_deg": 2.015,
+  "ang_max_deg": 45.938
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "roughness",
+  "format": "bc4",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 3.25,
+  "mae": 0.053,
+  "max_err": 5,
+  "psnr_db": 60.13
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "roughness",
+  "format": "eac_r11",
+  "encoder": "etcpak",
+  "encode_s": 0.1,
+  "mae": 0.122,
+  "max_err": 7,
+  "psnr_db": 56.32
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "roughness",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.39,
+  "mae": 0.002,
+  "max_err": 1,
+  "psnr_db": 76.15
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "roughness",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.27,
+  "mae": 0.005,
+  "max_err": 2,
+  "psnr_db": 71.3
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "roughness",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.96,
+  "mae": 0.098,
+  "max_err": 8,
+  "psnr_db": 57.72
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "roughness",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.18,
+  "mae": 0.25,
+  "max_err": 7,
+  "psnr_db": 53.48
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "height",
+  "format": "bc4",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 3.14,
+  "mae": 0.044,
+  "max_err": 5,
+  "psnr_db": 60.91
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "height",
+  "format": "eac_r11",
+  "encoder": "etcpak",
+  "encode_s": 0.1,
+  "mae": 0.105,
+  "max_err": 8,
+  "psnr_db": 56.99
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "height",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.35,
+  "mae": 0.005,
+  "max_err": 2,
+  "psnr_db": 70.76
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "height",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.19,
+  "mae": 0.008,
+  "max_err": 2,
+  "psnr_db": 68.86
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "height",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.51,
+  "mae": 0.056,
+  "max_err": 8,
+  "psnr_db": 60.38
+ },
+ {
+  "material": "village1-vis-tfrag/vil1-sages-stonewall-01",
+  "semantic": "height",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.14,
+  "mae": 0.19,
+  "max_err": 6,
+  "psnr_db": 54.78
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "albedo",
+  "format": "bc7",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 1.72,
+  "psnr_db": 48.44,
+  "max_err": 12
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "albedo",
+  "format": "bc1",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 1.69,
+  "psnr_db": 41.06,
+  "max_err": 25
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "albedo",
+  "format": "etc2_rgb",
+  "encoder": "etcpak",
+  "encode_s": 0.06,
+  "psnr_db": 39.21,
+  "max_err": 37
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "albedo",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 3.14,
+  "psnr_db": 43.66,
+  "max_err": 22
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "albedo",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.36,
+  "psnr_db": 42.69,
+  "max_err": 25
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "normal",
+  "format": "bc5",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 2.45,
+  "ang_mean_deg": 1.368,
+  "ang_p99_deg": 12.765,
+  "ang_max_deg": 31.267
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "normal",
+  "format": "eac_rg11",
+  "encoder": "etcpak",
+  "encode_s": 0.08,
+  "ang_mean_deg": 1.432,
+  "ang_p99_deg": 12.959,
+  "ang_max_deg": 36.74
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "normal",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 2.64,
+  "ang_mean_deg": 0.379,
+  "ang_p99_deg": 2.054,
+  "ang_max_deg": 11.402
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "normal",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.62,
+  "ang_mean_deg": 0.461,
+  "ang_p99_deg": 2.475,
+  "ang_max_deg": 10.962
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "roughness",
+  "format": "bc4",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 1.08,
+  "mae": 0.107,
+  "max_err": 6,
+  "psnr_db": 56.62
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "roughness",
+  "format": "eac_r11",
+  "encoder": "etcpak",
+  "encode_s": 0.03,
+  "mae": 0.213,
+  "max_err": 10,
+  "psnr_db": 53.4
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "roughness",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.14,
+  "mae": 0.003,
+  "max_err": 2,
+  "psnr_db": 73.49
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "roughness",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.09,
+  "mae": 0.008,
+  "max_err": 2,
+  "psnr_db": 68.91
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "roughness",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.31,
+  "mae": 0.093,
+  "max_err": 6,
+  "psnr_db": 58.08
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "roughness",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.06,
+  "mae": 0.295,
+  "max_err": 6,
+  "psnr_db": 52.62
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "height",
+  "format": "bc4",
+  "encoder": "bc7enc_rdo",
+  "encode_s": 1.22,
+  "mae": 0.078,
+  "max_err": 6,
+  "psnr_db": 58.22
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "height",
+  "format": "eac_r11",
+  "encoder": "etcpak",
+  "encode_s": 0.05,
+  "mae": 0.189,
+  "max_err": 9,
+  "psnr_db": 54.19
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "height",
+  "format": "astc_4x4",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.15,
+  "mae": 0.002,
+  "max_err": 1,
+  "psnr_db": 74.64
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "height",
+  "format": "astc_4x4",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.08,
+  "mae": 0.006,
+  "max_err": 2,
+  "psnr_db": 70.52
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "height",
+  "format": "astc_6x6",
+  "encoder": "astcenc-thorough",
+  "encode_s": 0.24,
+  "mae": 0.058,
+  "max_err": 5,
+  "psnr_db": 60.38
+ },
+ {
+  "material": "village1-vis-tfrag/vil-beachrock",
+  "semantic": "height",
+  "format": "astc_6x6",
+  "encoder": "astcenc-medium",
+  "encode_s": 0.07,
+  "mae": 0.241,
+  "max_err": 6,
+  "psnr_db": 53.7
+ }
+]
