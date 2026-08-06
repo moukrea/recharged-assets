@@ -244,24 +244,37 @@ fail with diagnostic.
 |---|---|---|
 | 1. Contracts | 4 schemas + RPACK spec + Python/C++ parsers + tests | starts now |
 | 2. Toolchain | Dockerfile + encoder bake-off + pinned image | |
-| 3. Vertical prototype | the 7 bundled village1 materials end-to-end: 3 profiles, loaded by a libktx harness AND by an M1 spike in the fork on a throwaway branch; side-by-side vs bundled PNGs | 4 of the 7 are already repo masters; the other 3 (`vil-wallplaster`, `vil1-jng-leafyground`, `vil-hut-roof-tile-01`) must first be imported from the owner's first-party set (decision #1 below) — proves stats/normal-XY/gamma on the real renderer |
+| 3. Vertical prototype | 7 representative repo masters end-to-end (the 4 village1 materials shared with the bundled set — `vil1-sages-stonewall-01`, `vil1-sages-strawroof-01`, `vil-beachrock`, `vil-beach-01` — plus 3 covering the remaining spec §19 cases: tileable-both-axes, clamp/UI-like, 2048×1024): 3 profiles, loaded by a libktx harness AND by an M1 spike in the fork on a throwaway branch; side-by-side vs the bundled PNGs for the 4 shared ones | proves stats/normal-XY/gamma on the real renderer |
 | 4. Metadata fill | derive_metadata + wrap modes + esrgan_dims + original dims/keys | placements already imported |
 | 5. Full pipeline + CI | incremental PR flow, release flow, `assets-v0.1.0` | |
 | 6. Engine M1 | PR onto a fresh branch off android-port | rebase discipline |
 | 7. M2 + M3 | asset manager + Android downloads | |
 | 8. M4 + migration | offline distributions; bundled set removed from APK | spec §1 satisfied |
 
-## 8. Open decisions for the owner
+## 8. Decisions (settled with the owner, 2026-08-06)
 
-1. **Reconcile the 7 bundled village1 materials with this repo's masters**
-   — 4 exist in both (repo masters = corrected chain; the APK set includes
-   the JPEG-in-png `vil-beach-01` defect), 3 exist only in the fork
-   (`vil-wallplaster`, `vil1-jng-leafyground`, `vil-hut-roof-tile-01`).
-   Import those 3 as repo masters? Which pixels are canonical for the 4
-   duplicates? Does the bundled APK tier stay at all after M3?
-2. **Precedence of the managed pack vs the user drop dir** — plan says
-   user > managed (modders override packs). Confirm.
-3. **Level-cluster granularity** for shards — decide with real size data at
-   step 3.
-4. **Menu surface** for the asset manager (download/preset UI in RECHARGED
-   SETTINGS vs first-launch flow only on Android).
+1. **Bundled village1 test materials are NOT imported.** The 3 fork-only
+   materials (`vil-wallplaster`, `vil1-jng-leafyground`,
+   `vil-hut-roof-tile-01`) were test material and are dropped; for the 4
+   names existing in both, **this repo's masters are canonical** (the APK
+   set includes the JPEG-in-png `vil-beach-01` defect). The bundled APK
+   tier goes away after M3 (offline distributions via M4 instead).
+2. **User drop dir always outranks the managed pack** — user custom assets
+   stay top priority; ours are the "recharged" tier below them
+   (user > managed/recharged > bundled-until-M3 > stock).
+3. **Shard level-clusters** (pipeline's call): a frozen table
+   `schemas/shard-clusters-v1.json` partitioning jak1 tpage prefixes into
+   **6 named clusters** grouped by game geography (village1+beach+training,
+   jungle+misty, village2+swamp+rolling+sunken, snow+firecanyon+ogre,
+   village3+cave+lavatube, citadel+finalboss+intro) **plus an `overflow`
+   cluster** for any future tpage. Assignment is by tpage prefix lookup,
+   deterministic, frozen per schema version (a new tpage lands in
+   `overflow`, never rebalances existing shards). Cluster sizes get
+   validated against the 50-250 MiB target with real encode data at step 3
+   and may be re-cut **once** before `assets-v1.0.0`; frozen afterwards.
+4. **Asset manager surface** (pipeline's call, phased): M2 ships a
+   CLI/dev trigger; M3 puts the initial mandatory download in the Android
+   first-launch (LoaderActivity) flow with size preview; the in-game
+   "RECHARGED SETTINGS" page gains a small row group last (installed
+   version/preset carousel/check-for-updates/re-verify), same rows on PC
+   and Android, greyed under the master toggle like every other row.
