@@ -1,4 +1,4 @@
-# Engine milestone M1 — managed KTX2/RPACK pack loader
+# Engine milestones M1 + M2 — managed pack loader and asset manager
 
 Branch: [`feat/recharged-managed-assets`](https://github.com/moukrea/jak-project/tree/feat/recharged-managed-assets)
 off `origin/autoport/android-port`. Four commits, each compiling; `gk` builds
@@ -57,16 +57,41 @@ only, no runtime needed): 11 tests including a **cross-language conformance
 check** — the fixture pack is written by the pipeline's Python writer and its
 SHA-256s are re-derived by the C++ reader.
 
-## Not in M1 (next milestones)
+## M2 — asset manager core (same branch)
 
-- No downloader: packs must be installed manually into
-  `managed_assets/<game>/` with a `state.json`. That is M2 (asset manager
-  core + curl) and M3 (Android).
-- No user-facing toggle yet — the managed tier rides the Recharged master
-  gate; the settings row lands with the asset-manager UI (phase F).
-- **B7 parity gate is not yet signed off**: it needs a real play-test
-  (village1 side-by-side vs the bundled PNGs, x86 and device). Everything up
-  to that point — build, unit tests, integration — is green.
+- `common/assets/Manifest.{h,cpp}` — manifest parse + validation. Refuses a
+  `min_loader_version` above this build's, and rejects shard names that
+  could escape the install directory.
+- `common/assets/AssetManager.{h,cpp}` — the platform-independent core:
+  `plan_install()` (profile × preset × engine features → shard set, diffed
+  against the installed state), `apply_install()` (download → verify →
+  atomic `state.json` rename → orphan GC), `verify_install()` for the
+  menu's re-verify action. Network is behind a `Transport` interface, so
+  the logic is identical on PC, on Android, and under test.
+- `game/assets/CurlTransport.{h,cpp}` — desktop transport (libcurl, already
+  linked into `runtime`), HTTP Range resume, low-speed abort. **Not built on
+  Android**, which ships no TLS stack.
+- `game/graphics/opengl_renderer/GpuCaps.{h,cpp}` — one-shot capability
+  detection → `preferred_profile()`: ASTC > ETC2 on GLES, BC7/BC5 >
+  BC1/BC3 on desktop (the macOS GL 4.1 case resolves by extension string),
+  and never ETC2 on desktop — that would be software decompression.
+- 21 tests in `test_managed_assets`, including a fake transport that drops a
+  connection mid-shard: resume, cancel-safety (previous install stays
+  usable), preset switch with orphan removal, and tamper detection.
+
+`tools/install_pack.py` in the assets repo is the reference implementation of
+the same algorithm and the oracle the C++ is checked against.
+
+## Not yet done
+
+- **Game-side wiring of M2**: the core is built and tested but not yet driven
+  from the game (CLI verbs / debug panel / RECHARGED SETTINGS rows — phase F).
+- **M3 Android**: INTERNET permission, Kotlin downloader in the
+  LoaderActivity flow, `managed_assets/` under `filesDir`.
+- The managed tier currently rides the Recharged master gate; its own user
+  toggle lands with the asset-manager UI.
+- B7 (visual parity play-test) was **dropped by the owner** — the textures
+  were already validated, and the pipeline is byte-verified end to end.
 
 ## Notes for the fork owner
 
