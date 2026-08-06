@@ -51,11 +51,18 @@ def test_data_chain_preserves_mean():
     assert chain[-1].shape == (1, 1)
 
 
-def test_normal_dc_flat_map_is_zero():
+# One 8-bit step is 2/255 = 0.0078 in normal space: a "flat" normal encodes as
+# byte 128, i.e. +0.0039, never exactly 0. The engine measures the same
+# quantized bytes and carries the identical residual, so the tolerance here is
+# one quantization step — matching behaviour, not hiding it.
+QUANT_STEP = 2.0 / 255.0
+
+
+def test_normal_dc_flat_map_is_near_zero():
     flat = np.zeros((8, 8, 3))
     flat[..., 2] = 1.0  # straight-up normals
     dx, dy = stats.normal_dc((flat + 1) * 0.5)
-    assert abs(dx) < 1e-9 and abs(dy) < 1e-9
+    assert abs(dx) <= QUANT_STEP and abs(dy) <= QUANT_STEP
 
 
 def test_normal_dc_detects_tilt():
@@ -63,7 +70,7 @@ def test_normal_dc_detects_tilt():
     v[..., 0] = 0.3
     v[..., 2] = np.sqrt(1 - 0.09)
     dx, dy = stats.normal_dc((v + 1) * 0.5)
-    assert dx > 0.25 and abs(dy) < 1e-9
+    assert dx > 0.25 and abs(dy) <= QUANT_STEP
 
 
 def test_height_stats():

@@ -36,6 +36,10 @@ import shards  # noqa: E402
 import stats  # noqa: E402
 
 TOOLCHAIN_ID = "tc1"  # bump when toolchain/Dockerfile pins change
+# Version of the offline statistics (tools/stats.py). Bumping it refreshes the
+# stats in the cache sidecars WITHOUT re-encoding: the KTX2 payload does not
+# depend on them, only the RPACK index does.
+STATS_VERSION = 2
 
 PROFILES = {
     "pc-bc": {"albedo": ("bc7", "rgb"), "normal": ("bc5", "rg"),
@@ -103,6 +107,19 @@ def _gate(sem: str, fmt: str, ref_rgba: np.ndarray, dec_rgba: np.ndarray,
 
 # ---------------------------------------------------------------- worker
 
+def _measure_stats(sem: str, level0: np.ndarray) -> dict:
+    """Engine-mirrored statistics, measured on the PRESET's level 0 — the
+    pixels the shader actually samples (see tools/stats.py, gate B6)."""
+    if sem == "normal":
+        dx, dy = stats.normal_dc(level0)
+        return {"normal_dc_x": round(dx, 6), "normal_dc_y": round(dy, 6)}
+    if sem == "height":
+        mean, norm = stats.height_stats(level0)
+        return {"height_mean": round(mean, 6), "height_norm": round(norm, 6),
+                "height_lambda_tiles": round(stats.height_lambda_tiles(level0), 6)}
+    return {}
+
+
 def _preset_subchain(chain: list[np.ndarray], dims: tuple[int, int]) -> list[np.ndarray]:
     for i, lvl in enumerate(chain):
         if (lvl.shape[1], lvl.shape[0]) == dims:
@@ -142,14 +159,8 @@ def build_one(job: dict) -> dict:
             gates_cached = cached.with_suffix(".gates.json")
             rec = {"mat": mat, "sem": sem, "profile": profile, "preset": preset,
                    "format": fmt_name, "dims": pdims, "cache_key": key}
-            if cached.exists() and gates_cached.exists():
-                rec.update(json.loads(gates_cached.read_text()))
-                # gate verdicts are re-evaluated against the CURRENT
-                # thresholds — recalibration must not require re-encoding
-                rec["gate_ok"] = _gate_ok_from_metrics(sem, fmt_name,
-                                                       rec["metrics"], thresholds)
-                rec["cache"] = "hit"
-            else:
+            def build_chain():
+                nonlocal chain
                 if chain is None:
                     n = mipgen.level_count(master_dims[0], master_dims[1])
                     if sem == "albedo":
@@ -158,7 +169,25 @@ def build_one(job: dict) -> dict:
                         chain = mipgen.normal_chain(arr, n)
                     else:
                         chain = mipgen.data_chain(arr, n)
-                sub = _preset_subchain(chain, pdims)
+                return _preset_subchain(chain, pdims)
+
+            if cached.exists() and gates_cached.exists():
+                cached_info = json.loads(gates_cached.read_text())
+                # Statistics can be refreshed without re-encoding: the KTX2
+                # payload does not depend on them, only the RPACK index does.
+                if (cached_info.get("stats_version") != STATS_VERSION
+                        and sem in ("normal", "height")):
+                    cached_info["stats"] = _measure_stats(sem, build_chain()[0])
+                    cached_info["stats_version"] = STATS_VERSION
+                    gates_cached.write_text(json.dumps(cached_info))
+                rec.update(cached_info)
+                # gate verdicts are re-evaluated against the CURRENT
+                # thresholds — recalibration must not require re-encoding
+                rec["gate_ok"] = _gate_ok_from_metrics(sem, fmt_name,
+                                                       rec["metrics"], thresholds)
+                rec["cache"] = "hit"
+            else:
+                sub = build_chain()
                 ref0 = np.zeros((sub[0].shape[0], sub[0].shape[1], 4), dtype=np.uint8)
                 q = mipgen.quantize(sub[0])
                 if q.ndim == 2:
@@ -169,16 +198,9 @@ def build_one(job: dict) -> dict:
                                               astc_quality=job["astc_quality"],
                                               capture_level0=True)
                 metrics, ok = _gate(sem, fmt_name, ref0, dec0, thresholds)
-                # stats on the preset's level 0 (what the engine samples)
-                st = {}
-                if sem == "normal":
-                    dx, dy = stats.normal_dc(sub[0])
-                    st = {"normal_dc_x": round(dx, 6), "normal_dc_y": round(dy, 6)}
-                elif sem == "height":
-                    mean, norm = stats.height_stats(sub[0])
-                    st = {"height_mean": round(mean, 6), "height_norm": round(norm, 6),
-                          "height_lambda_tiles": round(stats.height_lambda_tiles(sub[0]), 6)}
-                payload_info = {"metrics": metrics, "gate_ok": ok, "stats": st,
+                payload_info = {"metrics": metrics, "gate_ok": ok,
+                                "stats": _measure_stats(sem, sub[0]),
+                                "stats_version": STATS_VERSION,
                                 "mip_levels": len(sub)}
                 gates_cached.write_text(json.dumps(payload_info))
                 rec.update(payload_info)
