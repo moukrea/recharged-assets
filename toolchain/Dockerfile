@@ -19,8 +19,13 @@ ARG ETCPAK_COMMIT=9110365ba6916c9554c231c5cdcac77b2618cb89
 RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates curl unzip bzip2 xz-utils \
         python3 python3-pip python3-venv \
-        build-essential cmake ninja-build git git-lfs libpng-dev gh \
+        build-essential git git-lfs libpng-dev gh \
     && rm -rf /var/lib/apt/lists/*
+
+# cmake/ninja from pip: etcpak's cmake_minimum_required is newer than what
+# ubuntu 24.04 packages (validated locally with cmake 4.4.2)
+RUN pip3 install --break-system-packages --no-cache-dir \
+        cmake ninja pillow numpy jsonschema pytest zstandard
 
 # --- KTX-Software (ktx create/validate, libktx) -----------------------------
 RUN curl -sL "https://github.com/KhronosGroup/KTX-Software/releases/download/v${KTX_VERSION}/KTX-Software-${KTX_VERSION}-Linux-x86_64.tar.bz2" \
@@ -53,9 +58,5 @@ RUN git clone https://github.com/wolfpld/etcpak /tmp/etcpak \
     && ninja -C build \
     && install build/etcpak /usr/local/bin/ \
     && rm -rf /tmp/etcpak
-
-# --- Python pipeline dependencies --------------------------------------------
-RUN pip3 install --break-system-packages --no-cache-dir \
-        pillow numpy jsonschema pytest zstandard
 
 WORKDIR /work

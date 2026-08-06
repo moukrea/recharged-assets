@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install test dependencies
-        run: pip install pytest jsonschema
+        run: pip install pytest jsonschema numpy pillow
       - name: Run test suite
         run: pytest tests/ -q
       - name: Compute affected materials
