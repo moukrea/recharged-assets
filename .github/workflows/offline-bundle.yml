@@ -1,0 +1,96 @@
+name: Offline bundle
+
+# Produces a self-contained zip of one (profile, preset) install — shards +
+# manifest + a pre-written state.json — so a Recharged build can ship with the
+# textures already installed (spec §1: "conserver la possibilité de produire
+# séparément des distributions offline ou préchargées").
+#
+# The zip is attached to the SAME immutable release as the manifest it pins, so
+# an offline distribution and an online install are provably the same bytes.
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Asset release tag to bundle (e.g. assets-v0.1.1)"
+        required: true
+      profile:
+        description: "GPU profile"
+        required: true
+        default: pc-bc
+        type: choice
+        options: [pc-bc, pc-bc-legacy, android-etc2, android-astc]
+      preset:
+        description: "Resolution preset"
+        required: true
+        default: default
+        type: choice
+        options: [low, default, bonkers]
+      with_pbr:
+        description: "Include material-map shards (needs a PBR build)"
+        required: true
+        default: true
+        type: boolean
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download the pinned manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p out/bundle
+          gh release download "${{ inputs.tag }}" --pattern manifest.json --dir out
+          echo "manifest sha256: $(sha256sum out/manifest.json | cut -d' ' -f1)"
+
+      - name: Materialize the install
+        run: |
+          PBR=""
+          [ "${{ inputs.with_pbr }}" = "true" ] && PBR="--with-pbr"
+          python3 tools/install_pack.py \
+            --manifest out/manifest.json \
+            --profile "${{ inputs.profile }}" \
+            --preset "${{ inputs.preset }}" \
+            --target out/bundle $PBR
+          cp out/manifest.json out/bundle/manifest.json
+          du -sh out/bundle
+
+      - name: Zip (stored — the payloads are already GPU-compressed)
+        run: |
+          NAME="jak1-${{ inputs.profile }}-${{ inputs.preset }}-${{ inputs.tag }}-offline.zip"
+          echo "NAME=$NAME" >> "$GITHUB_ENV"
+          (cd out/bundle && zip -0 -r "../$NAME" . -x 'staging/*')
+          sha256sum "out/$NAME"
+
+      - name: Verify the bundle installs clean from scratch
+        run: |
+          mkdir -p out/check && (cd out/check && unzip -q "../$NAME")
+          python3 - <<'EOF'
+          import json, hashlib, pathlib, sys
+          d = pathlib.Path("out/check")
+          state = json.loads((d / "state.json").read_text())
+          manifest = {s["name"]: s for s in json.loads((d / "manifest.json").read_text())["shards"]}
+          assert state["verified"], "state.json not marked verified"
+          for name in state["shards"]:
+              p = d / name
+              want = manifest[name]
+              assert p.stat().st_size == want["size"], name
+              h = hashlib.sha256(p.read_bytes()).hexdigest()
+              assert h == want["sha256"], f"hash mismatch {name}"
+          print(f"offline bundle OK: {len(state['shards'])} shards, {state['asset_version']}")
+          EOF
+
+      - name: Attach to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ inputs.tag }}" "out/$NAME" --clobber
