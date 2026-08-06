@@ -50,5 +50,20 @@ Import tool: `tools/import_pack_complet.py` (idempotent).
 
 ## Status
 
-Bootstrap phase — see `docs/` for the implementation plan (contracts,
-compression profiles, mipmap policies, sharding, versioning, asset manager).
+The pipeline is live: **[assets-v0.1.1](https://github.com/moukrea/recharged-assets/releases/tag/assets-v0.1.1)**
+publishes 126 content-addressed shards (9.9 GiB) covering 3 GPU profiles ×
+3 resolution presets, and the Recharged engine downloads, verifies and loads
+them. See **[docs/STATUS.md](docs/STATUS.md)** for what is done, what has been
+verified, and what remains.
+
+Consuming a pack from a build:
+
+```bash
+gk --assets status     # what is installed vs what assets.lock.json pins
+gk --assets install    # download the missing shards, switch atomically
+gk --assets verify     # re-hash every installed shard
+```
+
+On Android the same install happens automatically on first launch
+(`AssetPackDownloader`), so the remastered textures no longer have to be
+embedded in the APK.
