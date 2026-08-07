@@ -63,22 +63,37 @@ jobs:
           subject-path: |
             out/manifest.json
             out/catalog/*.rpack
-      - name: Create release and upload
+      # Immutable releases are sealed the moment they are PUBLISHED, so assets
+      # must all be in place first: create a draft, upload into it, verify, and
+      # only then flip it to published. Creating-then-uploading fails with
+      # "Cannot upload assets to an immutable release".
+      - name: Create DRAFT release and upload every asset
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "${GITHUB_REF_NAME}" --title "${GITHUB_REF_NAME}" \
+          gh release create "${GITHUB_REF_NAME}" --draft --title "${GITHUB_REF_NAME}" \
             --notes "Immutable asset release. Manifest sha256: $(sha256sum out/manifest.json | cut -d' ' -f1)" \
             out/manifest.json out/SHA256SUMS
           while read -r name; do
             [ -n "$name" ] && gh release upload "${GITHUB_REF_NAME}" "out/catalog/$name"
           done < out/to-upload.txt
-      - name: Post-publish verification
+      - name: Verify the draft, then publish (sealing it)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p out/verify && cd out/verify
-          gh release download "${GITHUB_REF_NAME}"
-          sha256sum -c SHA256SUMS --ignore-missing
-          for f in *.rpack; do python3 ../../tools/rpack.py "$f" --verify > /dev/null; done
-          echo "post-publish verification OK"
+          mkdir -p out/verify && (cd out/verify && gh release download "${GITHUB_REF_NAME}")
+          (cd out/verify && sha256sum -c SHA256SUMS --ignore-missing)
+          for f in out/verify/*.rpack; do python3 tools/rpack.py "$f" --verify > /dev/null; done
+          # every shard the manifest expects from THIS release must be present
+          python3 - <<'EOF'
+          import json, os, sys
+          m = json.load(open("out/manifest.json"))
+          tag = os.environ["GITHUB_REF_NAME"]
+          missing = [s["name"] for s in m["shards"]
+                     if s["release_tag"] == tag and not os.path.exists("out/verify/" + s["name"])]
+          if missing:
+              sys.exit(f"{len(missing)} shard(s) missing from the draft: {missing[:5]}")
+          print(f"draft complete: {len(m['shards'])} shards referenced, all present or reused")
+          EOF
+          gh release edit "${GITHUB_REF_NAME}" --draft=false
+          echo "published and now immutable"
