@@ -1,6 +1,6 @@
 # Project status
 
-Last updated 2026-08-06. Companion documents: [AUDIT.md](AUDIT.md) (engine
+Last updated 2026-08-07. Companion documents: [AUDIT.md](AUDIT.md) (engine
 facts), [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) (design + decisions),
 [ROADMAP.md](ROADMAP.md) (the phase plan), [ENGINE_M1_M2.md](ENGINE_M1_M2.md)
 (engine work in detail), [ENCODER_BAKEOFF.md](ENCODER_BAKEOFF.md),
@@ -16,7 +16,7 @@ facts), [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) (design + decisions),
 | 3 — Prototype | 7 materials × 3 profiles end-to-end, verified |
 | 4 — Metadata | 172/172 materials with wrap mode + per-texture ESRGAN dims |
 | 5 — Pipeline & CI | full catalog build with a content-addressed cache, quality gates, incremental PR flow, release + offline-bundle workflows |
-| Releases | **assets-v0.1.1** — 126 shards, 9.9 GiB, 63 shards reused byte-identically from v0.1.0 |
+| Releases | **assets-v0.2.0** — 210 shards, 9.9 GiB, 84 reused byte-identically from earlier releases |
 | M1 — Loader | KTX2/RPACK/lock readers, managed source tier, compressed upload, X/Y normals, 6 audited defects fixed |
 | M2 — Asset manager | manifest client, resolver, resumable verified installer with atomic switch; `gk --assets status/install/verify` |
 | M3 — Android | INTERNET restored, `AssetPackDownloader` in the first-launch flow, packs land in a wipe-proof directory |
@@ -38,6 +38,43 @@ Engine work lives on
 - `gk` really downloaded ~860 MiB from the live release, verified every shard,
   switched atomically and garbage-collected the previous preset.
 
+## What actually gets downloaded
+
+The manifest is a **snapshot, not a history**: it lists exactly one shard per
+`(game, profile, preset, group, cluster, part)` family. A shard superseded by a
+later release is simply not referenced any more — it stays on its old immutable
+release so that *other* manifests can keep pointing at it, but no client ever
+fetches it. Verified on the real manifests: 210 shards, 210 distinct families,
+zero duplicates.
+
+So a fresh install pulls only the current set for one profile/preset:
+
+| Case (pc-bc) | Downloaded |
+|---|---|
+| fresh install, low | 0.22 GiB |
+| fresh install, default | 0.84 GiB |
+| fresh install, default, build without PBR | 0.28 GiB (material shards skipped) |
+| upgrade v0.1.0 → v0.1.1, default | 0.56 GiB — the 7 unchanged shards are kept |
+| whole published catalog | 9.91 GiB (nobody downloads this) |
+
+The one place amplification remains is **inside** a shard: shards are the unit
+of transfer, so a single changed texture costs its whole shard. That is why
+`assets-v0.2.0` splits the oversized families:
+
+| | v0.1.1 | v0.2.0 |
+|---|---|---|
+| largest shard | 315 MiB | 101 MiB |
+| shards over the 250 MiB target | 21 | 0 |
+| cost of one changed texture (bonkers) | 208-472 MiB | ~60-190 MiB |
+| shard count | 126 | 210 |
+
+The split is `sha256(material_id) % n`, so adding a texture lands it in exactly
+one part and never rebalances anything else (there is a test for that), and a
+material's albedo/normal/roughness/height always stay in the same part. Going
+finer still is possible — it trades request count for granularity — but 210
+shards already sits far under the 1000-asset GitHub release limit while keeping
+every shard in the target band.
+
 ## Acceptance criteria (spec §18)
 
 | # | Criterion | State |
@@ -53,7 +90,7 @@ Engine work lives on
 | 9 | Presets generated automatically from the masters | met |
 | 10 | The manifest describes each version precisely | met |
 | 11 | Every build locks an exact asset version | met (`assets.lock.json`, `/latest/` URLs refused) |
-| 12 | Changing one texture doesn't re-download the catalog | met — **proven**: v0.1.1 reused 63 of 126 shards |
+| 12 | Changing one texture doesn't re-download the catalog | met — **proven**: v0.1.1 reused 63/126, v0.2.0 reused 84/210 |
 | 13 | An interrupted download resumes | met (curl Range, Java Range, covered by tests) |
 | 14 | A bad install never replaces a working one | met (verify-before-promote, atomic rename, covered by tests) |
 | 15 | Every shard is hash-checked | met |
