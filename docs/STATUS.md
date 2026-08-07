@@ -16,7 +16,7 @@ facts), [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) (design + decisions),
 | 3 — Prototype | 7 materials × 3 profiles end-to-end, verified |
 | 4 — Metadata | 172/172 materials with wrap mode + per-texture ESRGAN dims |
 | 5 — Pipeline & CI | full catalog build with a content-addressed cache, quality gates, incremental PR flow, release + offline-bundle workflows |
-| Releases | **assets-v0.2.0** — 210 shards, 9.9 GiB, 84 reused byte-identically from earlier releases |
+| Releases | **assets-v0.2.1** — 210 shards, 9.9 GiB, 84 reused byte-identically from earlier releases |
 | M1 — Loader | KTX2/RPACK/lock readers, managed source tier, compressed upload, X/Y normals, 6 audited defects fixed |
 | M2 — Asset manager | manifest client, resolver, resumable verified installer with atomic switch; `gk --assets status/install/verify` |
 | M3 — Android | INTERNET restored, `AssetPackDownloader` in the first-launch flow, packs land in a wipe-proof directory |
@@ -59,7 +59,7 @@ So a fresh install pulls only the current set for one profile/preset:
 
 The one place amplification remains is **inside** a shard: shards are the unit
 of transfer, so a single changed texture costs its whole shard. That is why
-`assets-v0.2.0` splits the oversized families:
+`assets-v0.2.1` splits the oversized families:
 
 | | v0.1.1 | v0.2.0 |
 |---|---|---|
@@ -126,5 +126,11 @@ real Android device.
   "manifest still dirty after 100 tries".
 - The fork's **flagless build is broken independently of this work**
   (`Loader.cpp:426` reads `recharged_pbr_enable` outside `#ifdef OG_FEAT_PBR`).
+- **Immutable releases are sealed on PUBLISH, and a tag is burned for good.**
+  Create the release as a `--draft`, upload every asset into it, verify, and
+  only then `gh release edit --draft=false`. Deleting a published immutable
+  release does NOT free its tag: GitHub refuses a new release on it
+  ("tag_name was used by an immutable release"), so a failed publish costs a
+  version number. `.github/workflows/release.yml` does this correctly.
 - Never commit `out/cache/` — but never delete it either: it makes a full
   catalog rebuild take ~2 minutes instead of hours.
