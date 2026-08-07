@@ -283,10 +283,11 @@ def main() -> int:
         by_family: dict = {}
         for r in all_results:
             tpage = r["mat"].split("/")[0]
-            fam = shards.shard_family("jak1", r["profile"], r["preset"], r["sem"], tpage)
+            fam = shards.shard_family("jak1", r["profile"], r["preset"], r["sem"], tpage,
+                                      r["mat"])
             by_family.setdefault(fam, []).append(r)
         for fam, recs in sorted(by_family.items()):
-            game, prof, preset, group, cluster = fam
+            game, prof, preset, group, cluster, _part = fam
             entries = []
             for r in recs:
                 key = r["cache_key"]

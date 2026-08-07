@@ -43,7 +43,7 @@
         "required": ["name", "game", "profile", "preset", "group", "cluster", "sha256", "size", "url", "entry_count"],
         "additionalProperties": false,
         "properties": {
-          "name": { "type": "string", "pattern": "^jak[123]-[a-z0-9-]+-shard-[a-z0-9-]+-[0-9a-f]{12}\\.rpack$" },
+          "name": { "type": "string", "pattern": "^jak[123]-[a-z0-9-]+-shard-[a-z0-9-]+(-p[0-9]+)?-[0-9a-f]{12}\\.rpack$" },
           "game": { "enum": ["jak1", "jak2", "jak3"] },
           "profile": { "enum": ["pc-bc", "pc-bc-legacy", "android-etc2", "android-astc", "rgba8-fallback"] },
           "preset": { "enum": ["low", "default", "bonkers"] },

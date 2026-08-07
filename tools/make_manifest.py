@@ -41,7 +41,7 @@ def main() -> int:
     shards_out, reused, to_upload = [], [], []
     profiles, presets = set(), set()
     for s in sorted(report["shards"], key=lambda x: x["name"]):
-        game, profile, preset, group, cluster = s["family"]
+        game, profile, preset, group, cluster, _part = s["family"]
         profiles.add(profile)
         presets.add(preset)
         prev_s = prev_by_sha.get(s["sha256"])

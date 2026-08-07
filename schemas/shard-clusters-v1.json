@@ -14,5 +14,11 @@
       },
       "overflow": "overflow"
     }
+  },
+  "splits": {
+    "comment": "Number of sub-shards a (preset, group) family is split into, keyed preset -> group. A material goes to part sha256(id) % n, which is stable under insertion: adding a texture lands it in ONE part and never rebalances the catalog. Sizing rule: keep every shard inside the 50-250 MiB target. Measured on assets-v0.1.1, only bonkers exceeded it (material up to 315 MiB), so only bonkers is split; a family with n=1 keeps its unsuffixed name and therefore its bytes, so those shards are reused across releases untouched.",
+    "bonkers": { "albedo": 2, "material": 4 },
+    "default": { "albedo": 1, "material": 1 },
+    "low": { "albedo": 1, "material": 1 }
   }
 }

@@ -1,0 +1,3133 @@
+{
+ "schema_version": 1,
+ "asset_version": "assets-v0.2.0",
+ "games": [
+  "jak1"
+ ],
+ "engine_compat": {
+  "min_recharged_version": "0.1.0",
+  "max_recharged_version": null,
+  "min_loader_version": 1,
+  "required_features": []
+ },
+ "profiles": [
+  "android-astc",
+  "android-etc2",
+  "pc-bc"
+ ],
+ "presets": [
+  "bonkers",
+  "default",
+  "low"
+ ],
+ "shards": [
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c1-village1-beach-p0-dc072c4a5766.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "dc072c4a5766de43f3ec53aa876345e6b4af842644e4dfbbf128e96f7a902f66",
+   "size": 33732981,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c1-village1-beach-p0-dc072c4a5766.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c1-village1-beach-p1-45fdc9995dc3.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "45fdc9995dc3f6c69fe02c972b2734dda387bea0d612ce679c9d81de8f1ade76",
+   "size": 39977141,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c1-village1-beach-p1-45fdc9995dc3.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 16
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c2-jungle-misty-p0-f73ee025610a.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "f73ee025610a8db6d52dab303d1394ef67fbefa125eab0da703d1105c01deb26",
+   "size": 19988651,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c2-jungle-misty-p0-f73ee025610a.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 8
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c2-jungle-misty-p1-a690f5cd3ef3.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "a690f5cd3ef3bff6ddb5d77e8ea7fbef0235df7863115ac233bc0eb5f2f0d551",
+   "size": 12492966,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c2-jungle-misty-p1-a690f5cd3ef3.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 5
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c3-village2-swamp-p0-be79321502f5.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "be79321502f566c2717f4bbf907d0fb3da0e1816013a7f92c66ba5cfde52dba6",
+   "size": 27484340,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c3-village2-swamp-p0-be79321502f5.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 11
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c3-village2-swamp-p1-5192ef0e1250.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "5192ef0e1250f7dc4f3386b552695ded4fc1c3988c7e7dc4d2c7c38f15bfbd1c",
+   "size": 37478665,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c3-village2-swamp-p1-5192ef0e1250.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c4-snow-canyon-p0-379f41cf5fb6.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "379f41cf5fb6af67b50e441badb3541f9c129ab40dbc12589be2b6f31734e232",
+   "size": 37478582,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c4-snow-canyon-p0-379f41cf5fb6.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c4-snow-canyon-p1-1b8bbeff6fb2.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "1b8bbeff6fb260bf404902089cb2fca8b9157ec6db45a26c8482a01a6199a8a9",
+   "size": 22487217,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c4-snow-canyon-p1-1b8bbeff6fb2.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c5-village3-caves-p0-f8215d0739cf.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "f8215d0739cfb8d0c1d57b00cadfb5e5f146042e436606c85a9afe89a271157f",
+   "size": 37478690,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c5-village3-caves-p0-f8215d0739cf.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c5-village3-caves-p1-0d58390cec3a.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "0d58390cec3aa5b3de1e4e708709c5fdc3cef3dead90df04ef43da2f0d0ab31f",
+   "size": 34980058,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c5-village3-caves-p1-0d58390cec3a.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c6-citadel-finale-p0-0e4953fd0913.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "0e4953fd091369d30f6da6b2b7b9fab91dc3adbf36cfe24b7a92a58350a8b710",
+   "size": 32481573,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c6-citadel-finale-p0-0e4953fd0913.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c6-citadel-finale-p1-5a087214261c.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "5a087214261cae38181715862facffc7bdae6ee1e4d8ca7b82b8716db782e856",
+   "size": 29982990,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c6-citadel-finale-p1-5a087214261c.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c7-darkcave-p0-f23a4d114dd4.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "f23a4d114dd4131a417a5c42985bc4a1f2d44c5dd3734bccf375546a7fce6ee3",
+   "size": 34980155,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c7-darkcave-p0-f23a4d114dd4.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-android-astc-bonkers-albedo-shard-c7-darkcave-p1-6b88a20944d8.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "6b88a20944d817a67a0faa9c642de321578354f143de93b56fe3ebf415d7972f",
+   "size": 27484441,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-albedo-shard-c7-darkcave-p1-6b88a20944d8.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 11
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c1-village1-beach-p0-dff8232b55e2.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "dff8232b55e2cecc762edb36a2526edac735e1f8af1e25c637ada09ec1487bde",
+   "size": 106283257,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c1-village1-beach-p0-dff8232b55e2.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 30,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c1-village1-beach-p1-366250402eca.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "366250402eca0bfbd8fce26ae350fe434c8e09418984f4d1f877c92b2d04dbfc",
+   "size": 100688105,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c1-village1-beach-p1-366250402eca.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c1-village1-beach-p2-de3a87494296.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "de3a874942968eb8bc90d965bee1dabf60723fc764b8f2b53aa3d1233ded9707",
+   "size": 44750278,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c1-village1-beach-p2-de3a87494296.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c1-village1-beach-p3-e3f32f417f2e.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "e3f32f417f2e952f9588fcde8e2159de40c578c674d4ecc1ab24f4e9558fddfa",
+   "size": 78313002,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c1-village1-beach-p3-e3f32f417f2e.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c2-jungle-misty-p0-2aca26b66287.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "2aca26b6628782fe1d48a76c3f8a591f72ab538c3946079dc9ffb10d50a247fd",
+   "size": 67125485,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c2-jungle-misty-p0-2aca26b66287.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c2-jungle-misty-p1-77e9b33336a4.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "77e9b33336a454941cb83ccd95b9541687a11a6ff2947859af0b39a976b93c87",
+   "size": 22375207,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c2-jungle-misty-p1-77e9b33336a4.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 6,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c2-jungle-misty-p2-65f672835813.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "65f672835813ac19a0eca9105a79d9dc624665c91c568814a8567a04b79182c3",
+   "size": 22375221,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c2-jungle-misty-p2-65f672835813.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 6,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c2-jungle-misty-p3-9683b1954486.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "9683b19544869384efe41a708e076d17e4c21f5832c9056c317991655e577f2f",
+   "size": 33562845,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c2-jungle-misty-p3-9683b1954486.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c3-village2-swamp-p0-6b551b12f6f6.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "6b551b12f6f657d13433a3b8d9fad3f35581f2d9d079196a1cde70e6a8f6ecae",
+   "size": 44750431,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c3-village2-swamp-p0-6b551b12f6f6.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c3-village2-swamp-p1-0e5123e639ce.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "0e5123e639ce1f7c87887b22375cf20db4e23dfabff4b41d4b861c8e0d59792f",
+   "size": 100688224,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c3-village2-swamp-p1-0e5123e639ce.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c3-village2-swamp-p2-baaa458514bf.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "baaa458514bf0ef1fb92f90bef5591d8639702b532726375d3518cf3067dfad3",
+   "size": 78312938,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c3-village2-swamp-p2-baaa458514bf.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c3-village2-swamp-p3-4ab54483827b.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "4ab54483827b26a4d2d059ccaf2e08234fe1ad7f0cea3dfc7d751e0329ad7dc7",
+   "size": 67125586,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c3-village2-swamp-p3-4ab54483827b.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c4-snow-canyon-p0-dc3c15b042bd.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "dc3c15b042bd7da839bc8a2b852e24d92a91fd1cbcf04bc70d53eb2538936f01",
+   "size": 100688150,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c4-snow-canyon-p0-dc3c15b042bd.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c4-snow-canyon-p1-0ac72e75518a.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "0ac72e75518afcde970e1fc40d7cc1658beb5336746dd7a8cd8a4363bc0265a1",
+   "size": 44750348,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c4-snow-canyon-p1-0ac72e75518a.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c4-snow-canyon-p2-4de18c98d6a7.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "4de18c98d6a7fec0dc847cc1c282c324149e2971c53a11a569ab3a09e4e76ea6",
+   "size": 67125416,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c4-snow-canyon-p2-4de18c98d6a7.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c4-snow-canyon-p3-304e85a12b91.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "304e85a12b919181ba6bed1b212918c654c7a30b875af95ad7758c566fdeb312",
+   "size": 55937916,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c4-snow-canyon-p3-304e85a12b91.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c5-village3-caves-p0-e77002748b95.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "e77002748b9590dffedd9f66482fa8dab87c3ffa9996bb804a9967837f113943",
+   "size": 100688366,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c5-village3-caves-p0-e77002748b95.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c5-village3-caves-p1-6368d9f6715e.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "6368d9f6715ea8105c7184a6b1863ef70afd001bc092d76655ed174607ffe20e",
+   "size": 89500636,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c5-village3-caves-p1-6368d9f6715e.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c5-village3-caves-p2-28edb560fda2.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "28edb560fda20ec3452d13c04b09d3c8c71e6d27c6f1397a8aad6e4bd520e6a2",
+   "size": 67125517,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c5-village3-caves-p2-28edb560fda2.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c5-village3-caves-p3-ed12aeb18bac.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "ed12aeb18bace471e1869226ee12d89e7ce9ede1bdfc6958594740583a5b5d58",
+   "size": 67125485,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c5-village3-caves-p3-ed12aeb18bac.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c6-citadel-finale-p0-f0fd58efd71c.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "f0fd58efd71c545d9485af587a6119fdc09dc20409e874d180dde2d2b00c950d",
+   "size": 55938081,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c6-citadel-finale-p0-f0fd58efd71c.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c6-citadel-finale-p1-a2dc26a86da4.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "a2dc26a86da44fa3cb7e56ebc92270a01611a59feb27e24703b4ee93aede0800",
+   "size": 100688412,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c6-citadel-finale-p1-a2dc26a86da4.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c6-citadel-finale-p2-1349e559bcda.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "1349e559bcda028ba88523cffe14ccc94119e367d7190be3794ab9505abe7e07",
+   "size": 89500721,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c6-citadel-finale-p2-1349e559bcda.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c6-citadel-finale-p3-5e220bf99048.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "5e220bf99048a793a8948d1dbcacb61a3e3f9140709f3e07de09da163c63146d",
+   "size": 33562769,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c6-citadel-finale-p3-5e220bf99048.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c7-darkcave-p0-64724e26afe1.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "64724e26afe1c680090603f3244ba22fc2bbfc9c90f8efe85b80ea158cdb0529",
+   "size": 89500788,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c7-darkcave-p0-64724e26afe1.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c7-darkcave-p1-e65007c061c1.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "e65007c061c17bc928a53f9ef457b827c457e70bca30324f2ab2ca00fe67a676",
+   "size": 44750502,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c7-darkcave-p1-e65007c061c1.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c7-darkcave-p2-eddcadd7b4d0.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "eddcadd7b4d03ffe49c1ab6cf1fc10cdf6c2302752ef3c819ca33a6db1e217d2",
+   "size": 67125628,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c7-darkcave-p2-eddcadd7b4d0.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-bonkers-material-shard-c7-darkcave-p3-570d6cab3c4f.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "570d6cab3c4f2fb62595e21c55aa2452b131fcf8765d9d53b0e89a3458e062ee",
+   "size": 78313170,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-astc-bonkers-material-shard-c7-darkcave-p3-570d6cab3c4f.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-default-albedo-shard-c1-village1-beach-26b1d44a6185.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "26b1d44a6185c5ab0a0c6b98a04b5a08680ebd2b528f2486ee069329249926e1",
+   "size": 19437913,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-default-albedo-shard-c1-village1-beach-26b1d44a6185.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 30
+  },
+  {
+   "name": "jak1-android-astc-default-albedo-shard-c2-jungle-misty-d896c94b63c6.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "d896c94b63c644d1e5cbb908cd9ed1ea13bdbee52783f452c6243ada371b9c88",
+   "size": 10024151,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-default-albedo-shard-c2-jungle-misty-d896c94b63c6.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-android-astc-default-albedo-shard-c3-village2-swamp-e445fb27e197.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "e445fb27e197cd8490431ede577bb68c8f861231663deff6f92db00248561016",
+   "size": 23791130,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-default-albedo-shard-c3-village2-swamp-e445fb27e197.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 26
+  },
+  {
+   "name": "jak1-android-astc-default-albedo-shard-c4-snow-canyon-106e870ccb38.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "106e870ccb38476b4b995a4194932c7c64d935e0c308611db4f9940c22010f77",
+   "size": 20665365,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-default-albedo-shard-c4-snow-canyon-106e870ccb38.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 24
+  },
+  {
+   "name": "jak1-android-astc-default-albedo-shard-c5-village3-caves-a1ee7e07bb75.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "a1ee7e07bb751da5bfa040f6d1d22b08a42b88ef89e7ef63c71fdef043c6eecf",
+   "size": 23801106,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-default-albedo-shard-c5-village3-caves-a1ee7e07bb75.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 29
+  },
+  {
+   "name": "jak1-android-astc-default-albedo-shard-c6-citadel-finale-db70253f2565.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "db70253f25655963781eb3f42523261a1047d1fcf3329b7a90007efadfac4b1e",
+   "size": 21760454,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-default-albedo-shard-c6-citadel-finale-db70253f2565.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-android-astc-default-albedo-shard-c7-darkcave-2b849ffdc453.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "2b849ffdc453190db19c57f08997bc9eb92d260e21c0ca32ff23dd368163d2d7",
+   "size": 15678398,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-default-albedo-shard-c7-darkcave-2b849ffdc453.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-android-astc-default-material-shard-c1-village1-beach-42214a549bec.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "42214a549bec7e9b770a0a99e287150e0229dff728993c0b47b3697d2cbb035a",
+   "size": 86761716,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-default-material-shard-c1-village1-beach-42214a549bec.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 90,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-default-material-shard-c2-jungle-misty-82511b9b29bf.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "82511b9b29bf8d97a29615a852e28199d4d93e3d2d52fc69d59417e1d2e4c9aa",
+   "size": 44773997,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-default-material-shard-c2-jungle-misty-82511b9b29bf.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 39,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-default-material-shard-c3-village2-swamp-89bbdf1a0461.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "89bbdf1a046178c43d721c512d92dd1eeba7cce2d159f30e587251734c23f1cc",
+   "size": 106325502,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-default-material-shard-c3-village2-swamp-89bbdf1a0461.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 78,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-default-material-shard-c4-snow-canyon-046fb5641cd7.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "046fb5641cd7769d8af424123029103b979210243618a53332a158bc420f82e0",
+   "size": 92338859,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-default-material-shard-c4-snow-canyon-046fb5641cd7.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 72,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-default-material-shard-c5-village3-caves-1dd3e85d63b5.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "1dd3e85d63b509d8e233c35cd9c5fd6cf7fefa2aed313efd05c61a08dfd34dce",
+   "size": 106333555,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-default-material-shard-c5-village3-caves-1dd3e85d63b5.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 87,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-default-material-shard-c6-citadel-finale-0dc7c2c586d3.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "0dc7c2c586d34a74a9fbf128dbf49da7c82abb652ebe7a059175e0cc1960f96b",
+   "size": 97235319,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-default-material-shard-c6-citadel-finale-0dc7c2c586d3.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-default-material-shard-c7-darkcave-916c271be7e4.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "916c271be7e408bd489c2fc610fe432ea722d41b9408f64636adcda2f64f0da4",
+   "size": 69972369,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-default-material-shard-c7-darkcave-916c271be7e4.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-low-albedo-shard-c1-village1-beach-4d422693e322.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "4d422693e322117e75d1d1ec8a58052373d13847e2ffa33f32900d6aad2070fd",
+   "size": 5858264,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-low-albedo-shard-c1-village1-beach-4d422693e322.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 30
+  },
+  {
+   "name": "jak1-android-astc-low-albedo-shard-c2-jungle-misty-9b3b98ffdfa5.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "9b3b98ffdfa55e74cb72604ae9bb8d49baa2dc972b9bf00c49a88483c462a53c",
+   "size": 2538021,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-low-albedo-shard-c2-jungle-misty-9b3b98ffdfa5.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-android-astc-low-albedo-shard-c3-village2-swamp-4fe165c52952.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "4fe165c52952c7b865c4bb9d9579f407bc2545346f29846a3c894cbdb8dc6832",
+   "size": 6011765,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-low-albedo-shard-c3-village2-swamp-4fe165c52952.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 26
+  },
+  {
+   "name": "jak1-android-astc-low-albedo-shard-c4-snow-canyon-e7711648e69a.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "e7711648e69af0924a4cde2687631169ebce81fb32dfb1e7d4612ed1fac368cd",
+   "size": 5225332,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-low-albedo-shard-c4-snow-canyon-e7711648e69a.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 24
+  },
+  {
+   "name": "jak1-android-astc-low-albedo-shard-c5-village3-caves-c62c1991e5ec.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "c62c1991e5ec401229e8299f1ee075c00976c944a196da076202374fb45d62f5",
+   "size": 6021618,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-low-albedo-shard-c5-village3-caves-c62c1991e5ec.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 29
+  },
+  {
+   "name": "jak1-android-astc-low-albedo-shard-c6-citadel-finale-8def94dd158a.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "8def94dd158a1a845dfa512a2227066b42f2c65b465f8ca6363249074d3d7416",
+   "size": 5497588,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-low-albedo-shard-c6-citadel-finale-8def94dd158a.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-android-astc-low-albedo-shard-c7-darkcave-82c7327285c0.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "82c7327285c0486c1dadd47b4ee13bba64a44baf5a0122856ef2f0e3c06efdeb",
+   "size": 3981130,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-astc-low-albedo-shard-c7-darkcave-82c7327285c0.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-android-astc-low-material-shard-c1-village1-beach-1a4b651af3ac.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "1a4b651af3accda96fb98da28254ac220353aabccf5c1a51a486e8aa1b2994e4",
+   "size": 25942073,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-low-material-shard-c1-village1-beach-1a4b651af3ac.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 90,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-low-material-shard-c2-jungle-misty-3377bbc6531c.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "3377bbc6531c29aa10ba79c81a16eb0553c28ec1c208d778fbf5bb304a1c0dfb",
+   "size": 11218589,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-low-material-shard-c2-jungle-misty-3377bbc6531c.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 39,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-low-material-shard-c3-village2-swamp-d582eda164cf.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "d582eda164cfc60c3ad0d5481d4813abeea507d1f4c32b5da55b4aa6ce2f7cef",
+   "size": 26631810,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-low-material-shard-c3-village2-swamp-d582eda164cf.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 78,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-low-material-shard-c4-snow-canyon-09166b0bbe3e.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "09166b0bbe3e2545efb3a1412983b4d5e5438d124af130cfa81994b6c0f35a14",
+   "size": 23131064,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-low-material-shard-c4-snow-canyon-09166b0bbe3e.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 72,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-low-material-shard-c5-village3-caves-51cb8674f008.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "51cb8674f008b8d42751e7317c53fa423f4c74e5ca821d5ae1e554314f04b044",
+   "size": 26639672,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-low-material-shard-c5-village3-caves-51cb8674f008.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 87,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-low-material-shard-c6-citadel-finale-306562fc6711.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "306562fc67119fbafdd20abcfe01340e594302819b4c3da789794c47e43af0c1",
+   "size": 24357404,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-low-material-shard-c6-citadel-finale-306562fc6711.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-astc-low-material-shard-c7-darkcave-3d46c2a9be14.rpack",
+   "game": "jak1",
+   "profile": "android-astc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "3d46c2a9be143d75a93328c0d0a2ce232794dff749f6e14b88fe5e811cc9073d",
+   "size": 17541743,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-astc-low-material-shard-c7-darkcave-3d46c2a9be14.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c1-village1-beach-p0-df08892dbef0.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "df08892dbef090e3d7fc8495b85987a6d51186df0239d6aae6f0fbba88ffa686",
+   "size": 37761096,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c1-village1-beach-p0-df08892dbef0.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c1-village1-beach-p1-eef3986314b4.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "eef3986314b4c01fb1b1f298d9849022ce0e6803faba347bd8c8399bb64c18c5",
+   "size": 44753374,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c1-village1-beach-p1-eef3986314b4.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 16
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c2-jungle-misty-p0-731f3691434d.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "731f3691434d5a84c95ddd3d843251d414f87623d865952ac0bb94a39c998855",
+   "size": 22376764,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c2-jungle-misty-p0-731f3691434d.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 8
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c2-jungle-misty-p1-a5d0f5796342.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "a5d0f5796342f82ec101286a549bc14ef4da7d1b3481f9dcdf4fe17143c7fd9a",
+   "size": 13985534,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c2-jungle-misty-p1-a5d0f5796342.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 5
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c3-village2-swamp-p0-157aae231402.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "157aae231402d4611e666ab7a37c7ddabb73d7756d69781dd67d523da67090f4",
+   "size": 30767998,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c3-village2-swamp-p0-157aae231402.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 11
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c3-village2-swamp-p1-7d3361242119.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "7d33612421192b651abc9a1aeae17b938537cc1d390f6822fb7708b9cbb55203",
+   "size": 41956383,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c3-village2-swamp-p1-7d3361242119.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c4-snow-canyon-p0-8d74b61989d2.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "8d74b61989d2fdc71503b545a8d6831ce3e5bc50187ae3462eb3a8f321d3a935",
+   "size": 41956300,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c4-snow-canyon-p0-8d74b61989d2.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c4-snow-canyon-p1-cfd133249a74.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "cfd133249a74464629dcaacc58ab146b78b05ddfdde7bc6e3dc45773b651a652",
+   "size": 25173845,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c4-snow-canyon-p1-cfd133249a74.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c5-village3-caves-p0-4100c7c14215.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "4100c7c14215a2671f8f849fcf88183059b50d66e3affea1d0474ca655126b37",
+   "size": 41956408,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c5-village3-caves-p0-4100c7c14215.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c5-village3-caves-p1-7d519fda2e9d.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "7d519fda2e9d7fcafcc609ef61b18c88be7d948c193adbda94bd10d3b4d6e0f7",
+   "size": 39159261,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c5-village3-caves-p1-7d519fda2e9d.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c6-citadel-finale-p0-2bad8b15222e.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "2bad8b15222e564bffcfe5d6f6812ba64441349950e32d3d7c177d8dd6605d0b",
+   "size": 36362261,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c6-citadel-finale-p0-2bad8b15222e.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c6-citadel-finale-p1-ae3ca5f9d948.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "ae3ca5f9d94846dc557bbad499f1fbeee4e712afa93eca3b13373fea14fab37c",
+   "size": 33565163,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c6-citadel-finale-p1-ae3ca5f9d948.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c7-darkcave-p0-3a5916e258ef.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "3a5916e258efd2b228e2a1c6611d5652fd80abefcd1ea9e9b136d030df8d68c5",
+   "size": 39159358,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c7-darkcave-p0-3a5916e258ef.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-albedo-shard-c7-darkcave-p1-62c241a3cb45.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "62c241a3cb4571351b7fe30c286b6b2c0a302dc3b9486f9b7d59e5b9de0a2a66",
+   "size": 30768099,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-albedo-shard-c7-darkcave-p1-62c241a3cb45.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 11
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c1-village1-beach-p0-7c7d6c998e67.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "7c7d6c998e675557dd1661355de2375f85ce4a5a95b2859a10181189d4fe9e69",
+   "size": 106283437,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c1-village1-beach-p0-7c7d6c998e67.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 30,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c1-village1-beach-p1-539fb2c0c4cd.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "539fb2c0c4cd52b4af5525999df7cbc5dcfcbdcae4ac02f5e4fe958b396deaaf",
+   "size": 100688267,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c1-village1-beach-p1-539fb2c0c4cd.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c1-village1-beach-p2-9ebc405c5150.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "9ebc405c5150193ff82f5e109422718ef681ff44ede3836cca79b476f60b7719",
+   "size": 44750350,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c1-village1-beach-p2-9ebc405c5150.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c1-village1-beach-p3-73319411b2ee.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "73319411b2eec5ecd377bc655ca77743c9a40d14fecd726c4aef4aa5a48ea595",
+   "size": 78313128,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c1-village1-beach-p3-73319411b2ee.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c2-jungle-misty-p0-7e579a903f43.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "7e579a903f436077fd8293cc2cc3e06895be24833d89ebe6216187fffe566f7f",
+   "size": 67125593,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c2-jungle-misty-p0-7e579a903f43.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c2-jungle-misty-p1-342236d691b9.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "342236d691b9171bea03bac977dfa3968678ec44fa339ee9ee31b2e5e89eb2b9",
+   "size": 22375243,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c2-jungle-misty-p1-342236d691b9.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 6,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c2-jungle-misty-p2-c29cae632b1b.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "c29cae632b1b9905b42068160f93f888716e5ab8774c64ffb622c2ad9e06e8d4",
+   "size": 22375257,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c2-jungle-misty-p2-c29cae632b1b.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 6,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c2-jungle-misty-p3-171e3166bef1.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "171e3166bef1344b689dcec6c6eb1e7b0c7427e19132b7af10004ce6ea28e4cc",
+   "size": 33562899,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c2-jungle-misty-p3-171e3166bef1.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c3-village2-swamp-p0-0b9b15aff810.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "0b9b15aff810c6835d943f1e93d41147beb4952457bfbe96b56230be810fadb1",
+   "size": 44750503,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c3-village2-swamp-p0-0b9b15aff810.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c3-village2-swamp-p1-07122385e7fb.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "07122385e7fb5acac6c44746b56eef7c3a2a91e2fa229b91d72981ad3b64d3ad",
+   "size": 100688386,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c3-village2-swamp-p1-07122385e7fb.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c3-village2-swamp-p2-264f17ebed5c.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "264f17ebed5c98eafc30c8030b87a36a430a147420f0ba99b2c8f072b1f5f057",
+   "size": 78313064,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c3-village2-swamp-p2-264f17ebed5c.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c3-village2-swamp-p3-cd739e305ee7.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "cd739e305ee7b6abc07352cfa62dd7c92e466a88d4784e4bf973c2dab8cf26cc",
+   "size": 67125694,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c3-village2-swamp-p3-cd739e305ee7.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c4-snow-canyon-p0-a56242107887.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "a562421078875dd821f433b15216c8bd301d71e9fedffa0586c944b955ea1701",
+   "size": 100688312,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c4-snow-canyon-p0-a56242107887.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c4-snow-canyon-p1-e7f36ac7b686.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "e7f36ac7b6867e426336f4785205bd9b27a6ab67949c44c04da2f441bb28ab26",
+   "size": 44750420,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c4-snow-canyon-p1-e7f36ac7b686.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c4-snow-canyon-p2-b79a11b4f0d7.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "b79a11b4f0d77f1c5ee3a66ed209e1e9b40056f1fdbdebec9c6fec918525fd3d",
+   "size": 67125524,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c4-snow-canyon-p2-b79a11b4f0d7.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c4-snow-canyon-p3-0dbae11710e4.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "0dbae11710e4188a93ca1ae73029f90ae02699658ed313f8a29dd4319de9331f",
+   "size": 55938006,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c4-snow-canyon-p3-0dbae11710e4.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c5-village3-caves-p0-02d737770f83.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "02d737770f839103bc63c57e7802de92e837d029dc456ce5798a3562a385aad0",
+   "size": 100688528,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c5-village3-caves-p0-02d737770f83.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c5-village3-caves-p1-441b879c0a67.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "441b879c0a6770d4538e6a59d8b3fe78d9a5ef90be5b8cc11e35062b24fa491b",
+   "size": 89500780,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c5-village3-caves-p1-441b879c0a67.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c5-village3-caves-p2-786c5f30f1db.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "786c5f30f1db1b59c573aff6426a087cb61b62b8939540f038013ec7cc7b2d56",
+   "size": 67125625,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c5-village3-caves-p2-786c5f30f1db.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c5-village3-caves-p3-1e7bb7d22080.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "1e7bb7d22080201f4414733c5e3e5b925aebfefffa4f4000b59afe0cdfcb5472",
+   "size": 67125593,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c5-village3-caves-p3-1e7bb7d22080.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c6-citadel-finale-p0-f500223cda62.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "f500223cda629b1c4dc00b859263d2e36cc770c2253a5a1bf4bbd5244b09effa",
+   "size": 55938171,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c6-citadel-finale-p0-f500223cda62.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c6-citadel-finale-p1-b0a54e0bb797.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "b0a54e0bb797b53e986a4bf1b0f48de89f78aa266ffdf5712b7ba131c4244698",
+   "size": 100688574,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c6-citadel-finale-p1-b0a54e0bb797.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c6-citadel-finale-p2-5c6e4a6b07df.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "5c6e4a6b07dfed447946fa6750695effd092e7d60e78bd9ef97c0ac045354f3e",
+   "size": 89500865,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c6-citadel-finale-p2-5c6e4a6b07df.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c6-citadel-finale-p3-a7129cc89c48.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "a7129cc89c48bc51e9c967d28ddc341fd5dc00136ead10349b268a56e100f7d5",
+   "size": 33562823,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c6-citadel-finale-p3-a7129cc89c48.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c7-darkcave-p0-06e2b5661560.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "06e2b56615609c779be6a33daa92019a0cb57f7af540da22f800c730241e9501",
+   "size": 89500932,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c7-darkcave-p0-06e2b5661560.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c7-darkcave-p1-7e024bd6d3a3.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "7e024bd6d3a3614e740879cadb9916af0b43a2b7a204aaaeae38ce1b6c8003be",
+   "size": 44750574,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c7-darkcave-p1-7e024bd6d3a3.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c7-darkcave-p2-4688a72bcf43.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "4688a72bcf430dda39b4f9fba97d09f70ba7877bb8d26f1f7dfeee4a161e9c29",
+   "size": 67125736,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c7-darkcave-p2-4688a72bcf43.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-bonkers-material-shard-c7-darkcave-p3-51746b023e08.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "51746b023e08187e3a1c5f1af5165afda3792307f06fadbecafd22eeb690a999",
+   "size": 78313296,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-android-etc2-bonkers-material-shard-c7-darkcave-p3-51746b023e08.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-default-albedo-shard-c1-village1-beach-932b1e94270d.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "932b1e94270d8637e02ffb2b189b1364341c266ce20eba64b26c8c50b3ea1cf2",
+   "size": 21695861,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-default-albedo-shard-c1-village1-beach-932b1e94270d.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 30
+  },
+  {
+   "name": "jak1-android-etc2-default-albedo-shard-c2-jungle-misty-ec69d5a06cb6.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "ec69d5a06cb60e4560e24231a53df95dc5e27bd93a0c9285f2afebf6e8658602",
+   "size": 11195919,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-default-albedo-shard-c2-jungle-misty-ec69d5a06cb6.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-android-etc2-default-albedo-shard-c3-village2-swamp-0002ab35a590.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "0002ab35a59009e0df71ece89797e6d2e11c28fc74253b8996c262bda805ef92",
+   "size": 26586145,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-default-albedo-shard-c3-village2-swamp-0002ab35a590.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 26
+  },
+  {
+   "name": "jak1-android-etc2-default-albedo-shard-c4-snow-canyon-c97d86365dd3.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "c97d86365dd375af37aec832372e121308093ed5369e20960572e984f83df0ea",
+   "size": 23089102,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-default-albedo-shard-c4-snow-canyon-c97d86365dd3.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 24
+  },
+  {
+   "name": "jak1-android-etc2-default-albedo-shard-c5-village3-caves-f97e9d16661f.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "f97e9d16661ffe4ec4dfc8792b243df5f184ffbc643a79955020abc4a10394ef",
+   "size": 26588690,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-default-albedo-shard-c5-village3-caves-f97e9d16661f.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 29
+  },
+  {
+   "name": "jak1-android-etc2-default-albedo-shard-c6-citadel-finale-2e1b320e6eaf.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "2e1b320e6eafeef1b5f5fed0f9e127f5037bcc80bfcead1faa3f27d2239dabea",
+   "size": 24313451,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-default-albedo-shard-c6-citadel-finale-2e1b320e6eaf.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-android-etc2-default-albedo-shard-c7-darkcave-c2ee139442fa.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "c2ee139442faf285c776239cba73e66e0a13a6c60c698c616b05f42c57199b10",
+   "size": 17497674,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-default-albedo-shard-c7-darkcave-c2ee139442fa.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-android-etc2-default-material-shard-c1-village1-beach-fd5c1467a444.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "fd5c1467a444892a0bfd81bcd672ffbe4d85c8c6b1cb68d0371b7a59627e4533",
+   "size": 86762256,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-default-material-shard-c1-village1-beach-fd5c1467a444.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 90,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-default-material-shard-c2-jungle-misty-a47e38b07603.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "a47e38b076036b3398a454a6a2f4479247fd737c37c5ea249afdf3141eeea033",
+   "size": 44774231,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-default-material-shard-c2-jungle-misty-a47e38b07603.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 39,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-default-material-shard-c3-village2-swamp-59c8a94d19ed.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "59c8a94d19ed5134e4a93f4e94588b49eba29422e5d8a58b3cf09a37da7b850b",
+   "size": 106325970,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-default-material-shard-c3-village2-swamp-59c8a94d19ed.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 78,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-default-material-shard-c4-snow-canyon-4e37b700d789.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "4e37b700d789b0e32867f0692109e8acb5d59b1342f806d0dfe8be5f5f8490d7",
+   "size": 92339291,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-default-material-shard-c4-snow-canyon-4e37b700d789.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 72,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-default-material-shard-c5-village3-caves-f12e46edb8c8.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "f12e46edb8c8dc7be5035ee447d45dd88da203e3ad98afd03b8ce2e3a841a547",
+   "size": 106334077,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-default-material-shard-c5-village3-caves-f12e46edb8c8.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 87,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-default-material-shard-c6-citadel-finale-fa8996e640cd.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "fa8996e640cd55a793243527ea14b274dea6646f90f84cee1bc1adac30184758",
+   "size": 97235769,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-default-material-shard-c6-citadel-finale-fa8996e640cd.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-default-material-shard-c7-darkcave-7786623b8a23.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "7786623b8a2399aa5597fb144df9077c6aa3d64fb1663434c15ddd08797638e1",
+   "size": 69972819,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-default-material-shard-c7-darkcave-7786623b8a23.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-low-albedo-shard-c1-village1-beach-d293c8802fee.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "d293c8802fee346eed115f40d1544ca2184c5f734f0e2c69ddb16f6d87d4c392",
+   "size": 6490795,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-low-albedo-shard-c1-village1-beach-d293c8802fee.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 30
+  },
+  {
+   "name": "jak1-android-etc2-low-albedo-shard-c2-jungle-misty-e89bdbc974b3.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "e89bdbc974b3d98e69195f4337f81e9b7ce4afb57e1598d8bb7318fc645a4bc3",
+   "size": 2807045,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-low-albedo-shard-c2-jungle-misty-e89bdbc974b3.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-android-etc2-low-albedo-shard-c3-village2-swamp-7a826ddd76c2.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "7a826ddd76c2fb174000fe44c8ee5fd07d5f0d31f6004d5eeae815f625b41166",
+   "size": 6662659,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-low-albedo-shard-c3-village2-swamp-7a826ddd76c2.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 26
+  },
+  {
+   "name": "jak1-android-etc2-low-albedo-shard-c4-snow-canyon-4cc5cabfeb84.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "4cc5cabfeb84e779fe658257bb7544e60b867255a7b8038143818df33139a2f1",
+   "size": 5787093,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-low-albedo-shard-c4-snow-canyon-4cc5cabfeb84.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 24
+  },
+  {
+   "name": "jak1-android-etc2-low-albedo-shard-c5-village3-caves-6f00f2802892.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "6f00f2802892d87fb5663d84e3a1cfddd0fe64e0d6a67e86d229f509e1904ed1",
+   "size": 6665162,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-low-albedo-shard-c5-village3-caves-6f00f2802892.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 29
+  },
+  {
+   "name": "jak1-android-etc2-low-albedo-shard-c6-citadel-finale-14b4d8f659d8.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "14b4d8f659d85ebb797636522e0255a3c59711991037fbdf127e07ad0cade67d",
+   "size": 6093872,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-low-albedo-shard-c6-citadel-finale-14b4d8f659d8.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-android-etc2-low-albedo-shard-c7-darkcave-c8aeb2ada962.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "c8aeb2ada962fe04bd238ec596468f26d104090b92c40166caf6871a8ea1dbdf",
+   "size": 4389998,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-android-etc2-low-albedo-shard-c7-darkcave-c8aeb2ada962.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-android-etc2-low-material-shard-c1-village1-beach-54be53891207.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "54be5389120779ad43faa2ed54148abd7c65ecff7a764ae5338bbed5f542c238",
+   "size": 25942613,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-low-material-shard-c1-village1-beach-54be53891207.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 90,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-low-material-shard-c2-jungle-misty-bcba74d41dc1.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "bcba74d41dc1828a3fbe7757472c8715a99ef3d8bd0eeb827f0eb7093e7f6725",
+   "size": 11218823,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-low-material-shard-c2-jungle-misty-bcba74d41dc1.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 39,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-low-material-shard-c3-village2-swamp-3a042c4d92ee.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "3a042c4d92eea1296811340307befdaf6ad581505cb473bc8f01ea3285e7abaa",
+   "size": 26632278,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-low-material-shard-c3-village2-swamp-3a042c4d92ee.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 78,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-low-material-shard-c4-snow-canyon-ec2d06f98787.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "ec2d06f98787a7b5e887da96fd219678f115e0e6646e2625eb3b67ebfa11c84d",
+   "size": 23131496,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-low-material-shard-c4-snow-canyon-ec2d06f98787.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 72,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-low-material-shard-c5-village3-caves-92de0c4fb752.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "92de0c4fb7527ff5122e3bdd0561f63703533730c542c5941cff288f3d395b8f",
+   "size": 26640194,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-low-material-shard-c5-village3-caves-92de0c4fb752.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 87,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-low-material-shard-c6-citadel-finale-a80ef0c3cf28.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "a80ef0c3cf2883e4638c9c4efe9953a70edda12bfca17ae6d5a43249042fb756",
+   "size": 24357854,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-low-material-shard-c6-citadel-finale-a80ef0c3cf28.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-android-etc2-low-material-shard-c7-darkcave-e83ca2a2588d.rpack",
+   "game": "jak1",
+   "profile": "android-etc2",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "e83ca2a2588d36f1a8d6d7c2adc890e06fe6748de9db3073d6b52f676a49a1d5",
+   "size": 17542193,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-android-etc2-low-material-shard-c7-darkcave-e83ca2a2588d.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c1-village1-beach-p0-f400ebfccabe.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "f400ebfccabebfee40eb8605665df6c4427bc50f965393ad20dfb9cc32d31a37",
+   "size": 75509803,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c1-village1-beach-p0-f400ebfccabe.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c1-village1-beach-p1-728704b420a2.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "728704b420a2595af4968fd6875074e12da9a274598dab04869c4a623f33d0a3",
+   "size": 89492577,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c1-village1-beach-p1-728704b420a2.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 16
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c2-jungle-misty-p0-0a2649188af8.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "0a2649188af8dc7a8e6500a499196a26242e72c0b37df19d960e40e72a52ce04",
+   "size": 44746367,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c2-jungle-misty-p0-0a2649188af8.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 8
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c2-jungle-misty-p1-047660f6bbf7.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "047660f6bbf715b5d220a4718e2002c0033b7b321f359bdd13fa0bff2d279fe5",
+   "size": 27966537,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c2-jungle-misty-p1-047660f6bbf7.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 5
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c3-village2-swamp-p0-d1691804ac71.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "d1691804ac714675251ad4a713427430b5c3bad24df187107cc32c7f3d0db2ec",
+   "size": 61526201,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c3-village2-swamp-p0-d1691804ac71.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 11
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c3-village2-swamp-p1-4ed3b2514492.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "4ed3b2514492bbb8241ccd281117a74fef42c415c2815f74d05e966dc5db5375",
+   "size": 83899386,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c3-village2-swamp-p1-4ed3b2514492.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c4-snow-canyon-p0-06f2ba9f6885.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "06f2ba9f6885c95bbed0a058c2bad5ad62a46841b98a2322be4b7ad27411b51c",
+   "size": 83899303,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c4-snow-canyon-p0-06f2ba9f6885.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c4-snow-canyon-p1-94e5ab1a5659.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "94e5ab1a56591a5f7eeb290d5eb1594c17a25d7d1556a6857e8ea6c6e24fd6d8",
+   "size": 50339648,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c4-snow-canyon-p1-94e5ab1a5659.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c5-village3-caves-p0-c1e45891e7e6.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "c1e45891e7e651ec7b19ef288e390914a28ca10929ec5002755a31c88df0be7a",
+   "size": 83899411,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c5-village3-caves-p0-c1e45891e7e6.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c5-village3-caves-p1-fd437d5058b3.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "fd437d5058b3465513fdd8a0c4218777b7360d952c989d70a816c793a2fff3b1",
+   "size": 78306064,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c5-village3-caves-p1-fd437d5058b3.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c6-citadel-finale-p0-852cd9e0f33b.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "852cd9e0f33b46541d4fef04f4d916bee885d09c4c803b041388c135b6f672f9",
+   "size": 72712864,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c6-citadel-finale-p0-852cd9e0f33b.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c6-citadel-finale-p1-b56b7c4b78a3.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "b56b7c4b78a330bd52f5336df3c3fdd4a3a7833af459b6dc6538e02234ecbe75",
+   "size": 67119566,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c6-citadel-finale-p1-b56b7c4b78a3.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c7-darkcave-p0-9c891bed089b.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "9c891bed089bb2ae26b522805515c876354d0d3e689c88ef2bbb2476381f26de",
+   "size": 78306161,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c7-darkcave-p0-9c891bed089b.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 14
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-albedo-shard-c7-darkcave-p1-ae04900a35a5.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "ae04900a35a5b43d0969ed0f9b62800f878e2e9aefdff1a164eded6e1596e4e5",
+   "size": 61526302,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-albedo-shard-c7-darkcave-p1-ae04900a35a5.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 11
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c1-village1-beach-p0-929548403ceb.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "929548403cebbc1596437347f8db55a1e19cb8a50a9bcc536112328b5a0ac1b2",
+   "size": 106283280,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c1-village1-beach-p0-929548403ceb.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 30,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c1-village1-beach-p1-512f8b36b644.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "512f8b36b6444feb2b9f8a4832fe601034cb306e49d72ad8d61254ecf7493edc",
+   "size": 100688125,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c1-village1-beach-p1-512f8b36b644.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c1-village1-beach-p2-0dbb4b4109aa.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "0dbb4b4109aa3859d1b8bb886336498fe0a3a8ca3ef60bf3502909858efe28e7",
+   "size": 44750283,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c1-village1-beach-p2-0dbb4b4109aa.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c1-village1-beach-p3-2cc280b3ab01.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "2cc280b3ab01f4b2ecfe6c8577dd73a8374f57b54a3c37936dbdc6825f4c05d4",
+   "size": 78313016,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c1-village1-beach-p3-2cc280b3ab01.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c2-jungle-misty-p0-716510379a63.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "716510379a633a798d4dc6cce6c9cd4a5080323665c03ef5d4d579977485182b",
+   "size": 67125496,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c2-jungle-misty-p0-716510379a63.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c2-jungle-misty-p1-c86bdd8dba30.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "c86bdd8dba304fe0edb1c56976466d1ec24b935d67244157edbeb197451f6a0e",
+   "size": 22375206,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c2-jungle-misty-p1-c86bdd8dba30.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 6,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c2-jungle-misty-p2-f71437d4769e.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "f71437d4769e5c62f2cfa3428f6f2ea6793cf6653fecfcdbf529de20859a8922",
+   "size": 22375220,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c2-jungle-misty-p2-f71437d4769e.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 6,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c2-jungle-misty-p3-bdc828b946d8.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "bdc828b946d8867c580c556c3dd97cdf5a34a863e76ef70380a2248121552409",
+   "size": 33562847,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c2-jungle-misty-p3-bdc828b946d8.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c3-village2-swamp-p0-100c0a120af2.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "100c0a120af265201dd96ac78f12ed36d952ba63d3fd4de665d3cedbbf11c0df",
+   "size": 44750436,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c3-village2-swamp-p0-100c0a120af2.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c3-village2-swamp-p1-2a4c2c0cd3fb.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "2a4c2c0cd3fbbdaf7a233becfa2580344653b4ca993dda18f3690c332e98c116",
+   "size": 100688244,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c3-village2-swamp-p1-2a4c2c0cd3fb.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c3-village2-swamp-p2-070418d19e9d.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "070418d19e9d4113a9c3411b0c8e7a60eb2ae9c09192535c41dc921726735f80",
+   "size": 78312952,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c3-village2-swamp-p2-070418d19e9d.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c3-village2-swamp-p3-81ccf9ed61ae.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "81ccf9ed61ae6c30af0f6ab52471d635cc89552e418955f7153d3cb9f0b42420",
+   "size": 67125597,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c3-village2-swamp-p3-81ccf9ed61ae.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c4-snow-canyon-p0-7534b05e28be.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "7534b05e28bee189ae3d970b08f33ae967b477226f7773741b3aaccc84b2b607",
+   "size": 100688170,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c4-snow-canyon-p0-7534b05e28be.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c4-snow-canyon-p1-8bbcd30bc13c.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "8bbcd30bc13c90731ac800b87dcb7415756251d24339be2f8cc3e2f73078c53d",
+   "size": 44750353,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c4-snow-canyon-p1-8bbcd30bc13c.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c4-snow-canyon-p2-bc050f328b99.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "bc050f328b99a3d1682572dd26a89cba35aca0fc7389905bbf5618b35024f19f",
+   "size": 67125427,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c4-snow-canyon-p2-bc050f328b99.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c4-snow-canyon-p3-7a0de2b483cc.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "7a0de2b483cc2e31bc6b4162128bcaa8a65be6d1e99b7c8beca24ebadff2f04d",
+   "size": 55937924,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c4-snow-canyon-p3-7a0de2b483cc.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c5-village3-caves-p0-1f3ffdd13105.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "1f3ffdd131056cc387aec2af0ce5d21bb5eb065bb3da7bce008669c435603435",
+   "size": 100688386,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c5-village3-caves-p0-1f3ffdd13105.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c5-village3-caves-p1-95da36c9934d.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "95da36c9934d9752981e085dc984665b6d9ef64d3ec587b29bd720dbff25b06c",
+   "size": 89500653,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c5-village3-caves-p1-95da36c9934d.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c5-village3-caves-p2-6f24e73aab0f.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "6f24e73aab0f7becf7da153879c5779719cb877e60fb67251d7d7bccba938316",
+   "size": 67125528,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c5-village3-caves-p2-6f24e73aab0f.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c5-village3-caves-p3-82126380cd90.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "82126380cd9071efbd9b38c74bfd7fbd41e5401721694562850923da5120330f",
+   "size": 67125496,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c5-village3-caves-p3-82126380cd90.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c6-citadel-finale-p0-c10723726180.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "c10723726180df8de078d5a974fc1faa84c6e9e2639482cd278b6ffa260e3214",
+   "size": 55938089,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c6-citadel-finale-p0-c10723726180.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 15,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c6-citadel-finale-p1-aa8e6943bc3d.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "aa8e6943bc3d2ce33fc67dc179fccb2f3de943b993a927d281dda7dcb080e990",
+   "size": 100688432,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c6-citadel-finale-p1-aa8e6943bc3d.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 27,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c6-citadel-finale-p2-1100a9b0ddf4.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "1100a9b0ddf47d37d5ccbe5c690c221971b6bdc659f98ba53f30e1f09f53d930",
+   "size": 89500738,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c6-citadel-finale-p2-1100a9b0ddf4.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c6-citadel-finale-p3-f202ae62e030.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "f202ae62e030d657d5826ddf3c1237935f6ea86bfe88404e39db5ee547c34626",
+   "size": 33562771,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c6-citadel-finale-p3-f202ae62e030.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 9,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c7-darkcave-p0-aac80c4f160d.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "aac80c4f160d42af844bebf3db62e97664374ad89babaf3dda0e6cf48f4e5510",
+   "size": 89500805,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c7-darkcave-p0-aac80c4f160d.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 24,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c7-darkcave-p1-27756387c819.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "27756387c819252ae5c2bcd6722fe1fbaa08396e8b7ea3a558d83747b2a75b39",
+   "size": 44750507,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c7-darkcave-p1-27756387c819.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 12,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c7-darkcave-p2-cd1277a856bb.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "cd1277a856bb7a4f7a4ad40145d2dfe9a6c7a8680a46a444ece3d92332210911",
+   "size": 67125639,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c7-darkcave-p2-cd1277a856bb.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 18,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-bonkers-material-shard-c7-darkcave-p3-1312d2c14cd1.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "bonkers",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "1312d2c14cd1c9abd733d9f628facbca0adc39298745e06c4b0703f411f336aa",
+   "size": 78313184,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.2.0/jak1-pc-bc-bonkers-material-shard-c7-darkcave-p3-1312d2c14cd1.rpack",
+   "release_tag": "assets-v0.2.0",
+   "entry_count": 21,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-default-albedo-shard-c1-village1-beach-b5271f7080ac.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "b5271f7080ac34c418f0957191bbc6129e6ca67f96d4da85f4b3cecad307b059",
+   "size": 43366678,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-albedo-shard-c1-village1-beach-b5271f7080ac.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 30
+  },
+  {
+   "name": "jak1-pc-bc-default-albedo-shard-c2-jungle-misty-f1ec0e494ca6.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "f1ec0e494ca6732ca9eb7cb74d12b21fbe0f9db7f1723bca0436af258c327bb1",
+   "size": 22380897,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-albedo-shard-c2-jungle-misty-f1ec0e494ca6.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-pc-bc-default-albedo-shard-c3-village2-swamp-98d680f0b57e.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "98d680f0b57ef1e24d96181ccc0fbd823a02892d4e6e3ca221364a14dcef40cf",
+   "size": 53150383,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-albedo-shard-c3-village2-swamp-98d680f0b57e.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 26
+  },
+  {
+   "name": "jak1-pc-bc-default-albedo-shard-c4-snow-canyon-9ef712671c65.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "9ef712671c65329f02da292bfc6350ea41dd15e5ef08c20d500aa690aed6b28d",
+   "size": 46158065,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-albedo-shard-c4-snow-canyon-9ef712671c65.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 24
+  },
+  {
+   "name": "jak1-pc-bc-default-albedo-shard-c5-village3-caves-8a05a294f536.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "8a05a294f5365e55fec41d3183169778ae07f30623ee1a3278bf91dbb5f24a9f",
+   "size": 53152986,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-albedo-shard-c5-village3-caves-8a05a294f536.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 29
+  },
+  {
+   "name": "jak1-pc-bc-default-albedo-shard-c6-citadel-finale-15b6821a927b.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "15b6821a927b72b3963f7b334b06da7a7ac024d297052ede71da01eb9c7d2636",
+   "size": 48605707,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-albedo-shard-c6-citadel-finale-15b6821a927b.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-pc-bc-default-albedo-shard-c7-darkcave-33e8bda47125.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "33e8bda471250ab63172c5e28bd6091e924c7e20c2777ef4f9411fee71f79a7b",
+   "size": 34974300,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-default-albedo-shard-c7-darkcave-33e8bda47125.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-pc-bc-default-material-shard-c1-village1-beach-1dfb64f71c8e.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "1dfb64f71c8e2990a2ab3c17ef8efd2a8f3b40406f9bd589ece46848f8bb3ad5",
+   "size": 86761799,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-default-material-shard-c1-village1-beach-1dfb64f71c8e.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 90,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-default-material-shard-c2-jungle-misty-d39c388c4577.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "d39c388c45773af6b9a30906a89af4235004bbe6a014b025d2bec2470b7b60e5",
+   "size": 44774029,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-default-material-shard-c2-jungle-misty-d39c388c4577.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 39,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-default-material-shard-c3-village2-swamp-caf5b727ac1b.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "caf5b727ac1bd9b70aa803a89b2c5089d01c11c13ffcd04e1bda9a7ca0c21c4e",
+   "size": 106325573,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-default-material-shard-c3-village2-swamp-caf5b727ac1b.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 78,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-default-material-shard-c4-snow-canyon-af7315f4adb6.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "af7315f4adb695c2b361128156bf5a49cd5d9f370e0dc0d22c0d1ee3778777f8",
+   "size": 92338924,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-default-material-shard-c4-snow-canyon-af7315f4adb6.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 72,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-default-material-shard-c5-village3-caves-a4e30bf0d151.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "a4e30bf0d1511babbb432b559766c5677a808ad2ba2ffaa942a95dfe33fab3bb",
+   "size": 106333635,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-default-material-shard-c5-village3-caves-a4e30bf0d151.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 87,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-default-material-shard-c6-citadel-finale-ef1bb17dad1a.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "ef1bb17dad1a7d7447b7cb51e9d0f81d87e964546ea779c27b878732cf239050",
+   "size": 97235387,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-default-material-shard-c6-citadel-finale-ef1bb17dad1a.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-default-material-shard-c7-darkcave-8c3fe1d54a72.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "default",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "8c3fe1d54a727b48e7aaaab435a877acb04d9da3aefcf5405dc328742ad3669c",
+   "size": 69972437,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-default-material-shard-c7-darkcave-8c3fe1d54a72.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-low-albedo-shard-c1-village1-beach-d5c52fc3550d.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c1-village1-beach",
+   "sha256": "d5c52fc3550db011df0606cf2f51ecb9de43df8f2cfdae09351befaf3579a57c",
+   "size": 12957110,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-low-albedo-shard-c1-village1-beach-d5c52fc3550d.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 30
+  },
+  {
+   "name": "jak1-pc-bc-low-albedo-shard-c2-jungle-misty-e546ab145a40.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c2-jungle-misty",
+   "sha256": "e546ab145a40507824f69bea50c44ed9bff60a74393468e46f0036fac6deae4f",
+   "size": 5603234,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-low-albedo-shard-c2-jungle-misty-e546ab145a40.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 13
+  },
+  {
+   "name": "jak1-pc-bc-low-albedo-shard-c3-village2-swamp-78905dfe7182.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c3-village2-swamp",
+   "sha256": "78905dfe71828fd8400e9c97920435b5521ea4b4dc00ca8bb4a99f02cc304652",
+   "size": 13303639,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-low-albedo-shard-c3-village2-swamp-78905dfe7182.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 26
+  },
+  {
+   "name": "jak1-pc-bc-low-albedo-shard-c4-snow-canyon-38d7d5cd1683.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c4-snow-canyon",
+   "sha256": "38d7d5cd16839eb349945b30f001e37b73787422e6441ee1b02c8161d53a27e2",
+   "size": 11554254,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-low-albedo-shard-c4-snow-canyon-38d7d5cd1683.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 24
+  },
+  {
+   "name": "jak1-pc-bc-low-albedo-shard-c5-village3-caves-35f4ab14a0b8.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c5-village3-caves",
+   "sha256": "35f4ab14a0b89adcb51c281af2c737c77916bd9aaa9174b746cc11b122649055",
+   "size": 13306116,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-low-albedo-shard-c5-village3-caves-35f4ab14a0b8.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 29
+  },
+  {
+   "name": "jak1-pc-bc-low-albedo-shard-c6-citadel-finale-6cedd54ae7ad.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c6-citadel-finale",
+   "sha256": "6cedd54ae7adf487f6554882ff83a19dc1f55632da14cf9a74a344ad5ed0eaaa",
+   "size": 12166921,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-low-albedo-shard-c6-citadel-finale-6cedd54ae7ad.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-pc-bc-low-albedo-shard-c7-darkcave-f98a5178615e.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "albedo",
+   "cluster": "c7-darkcave",
+   "sha256": "f98a5178615e7767d67ee5fce611197e16285bbc9ba0a0d67b7ce8ae567e786f",
+   "size": 8759002,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.0/jak1-pc-bc-low-albedo-shard-c7-darkcave-f98a5178615e.rpack",
+   "release_tag": "assets-v0.1.0",
+   "entry_count": 25
+  },
+  {
+   "name": "jak1-pc-bc-low-material-shard-c1-village1-beach-c23997cbbe50.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c1-village1-beach",
+   "sha256": "c23997cbbe50b5de4ae89405c3574dde559d86166c516a1385a3cef29a3d9a8b",
+   "size": 25942156,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-low-material-shard-c1-village1-beach-c23997cbbe50.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 90,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-low-material-shard-c2-jungle-misty-366744c4eaf0.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c2-jungle-misty",
+   "sha256": "366744c4eaf04ff62fa564aa808555eb0c715156d6bd29400e449a13f34cb951",
+   "size": 11218621,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-low-material-shard-c2-jungle-misty-366744c4eaf0.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 39,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-low-material-shard-c3-village2-swamp-b68302facf14.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c3-village2-swamp",
+   "sha256": "b68302facf143dcdd2a59a136c6a3165da9dd1d62d0a7a55528b95c05e25c793",
+   "size": 26631881,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-low-material-shard-c3-village2-swamp-b68302facf14.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 78,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-low-material-shard-c4-snow-canyon-352c2bf57500.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c4-snow-canyon",
+   "sha256": "352c2bf575001e202977652fd36c7bdda29fac5ee6b7b8454014f6bf298e3b19",
+   "size": 23131129,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-low-material-shard-c4-snow-canyon-352c2bf57500.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 72,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-low-material-shard-c5-village3-caves-f36d4be3cc62.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c5-village3-caves",
+   "sha256": "f36d4be3cc62f835b96d99dc2d5e35bf1441e4924eaecd046270087517211269",
+   "size": 26639752,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-low-material-shard-c5-village3-caves-f36d4be3cc62.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 87,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-low-material-shard-c6-citadel-finale-e88c5f1e73d4.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c6-citadel-finale",
+   "sha256": "e88c5f1e73d426d34bd4acf68b007ae803bc9e421c3117af41b5cc13c8fc46ae",
+   "size": 24357472,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-low-material-shard-c6-citadel-finale-e88c5f1e73d4.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  },
+  {
+   "name": "jak1-pc-bc-low-material-shard-c7-darkcave-4d028739b5a6.rpack",
+   "game": "jak1",
+   "profile": "pc-bc",
+   "preset": "low",
+   "group": "material",
+   "cluster": "c7-darkcave",
+   "sha256": "4d028739b5a6c57cb976753aae1e411f2d6b45e4c7232f7b2b0ec315cf1e95aa",
+   "size": 17541811,
+   "url": "https://github.com/moukrea/recharged-assets/releases/download/assets-v0.1.1/jak1-pc-bc-low-material-shard-c7-darkcave-4d028739b5a6.rpack",
+   "release_tag": "assets-v0.1.1",
+   "entry_count": 75,
+   "requires_features": [
+    "pbr"
+   ]
+  }
+ ]
+}
